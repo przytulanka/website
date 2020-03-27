@@ -1,0 +1,58 @@
+{
+	"name": "przytulanka",
+	"version": "0.1.0",
+	"license": "MIT",
+	"author": "lasmedia <lasmedia2018@gmail.com>",
+	"scripts": {
+		"start": "gatsby develop",
+		"build": "gatsby build",
+		"clean": "gatsby clean",
+		"format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+		"eslint": "eslint \"**/*.{js,jsx}\" --fix",
+		"stylelint": "stylelint \"**/*.{js,css,scss}\" --fix",
+		"prelint": "npm run format",
+		"lint": "npm run stylelint",
+		"postlint": "npm run eslint"
+	},
+	"dependencies": {
+		"gatsby": "^2.20.12",
+		"prop-types": "^15.7.2",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	},
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb": "^18.1.0",
+		"eslint-plugin-import": "^2.20.2",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-react": "^7.19.0",
+		"eslint-plugin-react-hooks": "^3.0.0",
+		"gatsby-plugin-root-import": "^2.0.5",
+		"husky": "^4.2.3",
+		"lint-staged": "^10.1.2",
+		"prettier": "^2.0.3",
+		"stylelint": "^13.3.0",
+		"stylelint-config-rational-order": "^0.1.2",
+		"stylelint-config-standard": "^19.0.0",
+		"stylelint-order": "^4.0.0"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.js": [
+			"prettier --config .prettierrc --write",
+			"stylelint --fix",
+			"eslint --fix"
+		],
+		"*.{json,md}": [
+			"prettier --config .prettierrc --write"
+		],
+		"*.{css,scss}": [
+			"prettier --config .prettierrc --write",
+			"stylelint --fix"
+		]
+	}
+}
