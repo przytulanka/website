@@ -23,5 +23,12 @@ module.exports = {
 				views: path.join(__dirname, 'src/views'),
 			},
 		},
+		{
+			resolve: 'gatsby-source-filesystem',
+			options: {
+				name: 'icons',
+				path: `${__dirname}/src/assets/icons`,
+			},
+		},
 	],
 };
