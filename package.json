@@ -16,10 +16,12 @@
 	},
 	"dependencies": {
 		"gatsby": "^2.20.12",
+		"gatsby-plugin-react-helmet": "^3.2.1",
 		"gatsby-source-filesystem": "^2.2.2",
 		"prop-types": "^15.7.2",
 		"react": "^16.13.1",
-		"react-dom": "^16.13.1"
+		"react-dom": "^16.13.1",
+		"react-helmet": "^5.2.1"
 	},
 	"devDependencies": {
 		"eslint": "^6.8.0",

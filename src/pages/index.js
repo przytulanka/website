@@ -1,5 +1,11 @@
 import React from 'react';
+import SEO from 'components/SEO';
 
-const IndexPage = () => <h1>index page</h1>;
+const IndexPage = () => (
+	<>
+		<SEO />
+		<h1>index page</h1>
+	</>
+);
 
 export default IndexPage;

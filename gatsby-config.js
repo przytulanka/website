@@ -30,5 +30,13 @@ module.exports = {
 				path: `${__dirname}/src/assets/icons`,
 			},
 		},
+		{
+			resolve: 'gatsby-source-filesystem',
+			options: {
+				name: 'fonts',
+				path: `${__dirname}/src/assets/fonts`,
+			},
+		},
+		'gatsby-plugin-react-helmet',
 	],
 };
