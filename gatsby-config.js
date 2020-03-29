@@ -37,6 +37,7 @@ module.exports = {
 				path: `${__dirname}/src/assets/fonts`,
 			},
 		},
+		'gatsby-plugin-styled-components',
 		'gatsby-plugin-react-helmet',
 	],
 };
