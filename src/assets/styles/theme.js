@@ -7,6 +7,9 @@ export const theme = {
 		pink: '#EA76AC',
 		violet: '#6A1485',
 	},
+	background: {
+		transparentNavbar: '#FFFFFFE6',
+	},
 	font: ['Open Sans', 'Comfortaa'],
 	fontSize: {
 		smallest: '.7em',
