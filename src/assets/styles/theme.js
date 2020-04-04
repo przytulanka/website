@@ -9,6 +9,7 @@ export const theme = {
 	},
 	background: {
 		transparentNavbar: '#FFFFFFE6',
+		transparentDropdown: '#82B900E6',
 	},
 	font: ['Open Sans', 'Comfortaa'],
 	fontSize: {
