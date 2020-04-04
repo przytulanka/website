@@ -8,6 +8,10 @@ module.exports = {
 		url: 'https://www.przedszkoleprzytulanka.pl',
 		author: '@lasmedia',
 	},
+	mapping: {
+		'MarkdownRemark.frontmatter.socials.title':
+			'MarkdownRemark.frontmatter.title',
+	},
 	plugins: [
 		{
 			resolve: 'gatsby-plugin-root-import',
@@ -35,6 +39,13 @@ module.exports = {
 			options: {
 				name: 'fonts',
 				path: `${__dirname}/src/assets/fonts`,
+			},
+		},
+		{
+			resolve: 'gatsby-source-filesystem',
+			options: {
+				name: 'content',
+				path: `${__dirname}/content`,
 			},
 		},
 		'gatsby-plugin-styled-components',
