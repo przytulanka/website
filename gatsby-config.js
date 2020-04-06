@@ -13,6 +13,8 @@ module.exports = {
 	mapping: {
 		'MarkdownRemark.frontmatter.socials.title':
 			'MarkdownRemark.frontmatter.title',
+		'MarkdownRemark.frontmatter.users.title':
+			'MarkdownRemark.frontmatter.title',
 	},
 	plugins: [
 		{

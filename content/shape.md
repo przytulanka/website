@@ -8,5 +8,7 @@ to: ''
 images:
   - logo.svg
 socials:
+	- title: ''
+users:
   - title: ''
 ---
