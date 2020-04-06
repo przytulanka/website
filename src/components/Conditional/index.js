@@ -18,6 +18,22 @@ const ConditionalLink = ({ to, className, children, click }) => {
 		);
 	}
 
+	// Modal Link
+	if (firstChar === '$') {
+		return (
+			<Link
+				onClick={click}
+				to={to.slice(1)}
+				className={className}
+				state={{
+					modal: true,
+				}}
+			>
+				{children}
+			</Link>
+		);
+	}
+
 	// default outer link
 	return (
 		<a
