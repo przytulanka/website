@@ -6,6 +6,9 @@ import { getOffset, smoothScroll } from './src/utils/index';
 
 import './src/assets/styles/global.css';
 import './src/assets/styles/fonts.css';
+import './src/assets/styles/slick.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const shouldUpdateScroll = ({ routerProps: { location } }, opts = {}) => {
 	const { offsetElement = '#navbar', duration = 1000 } = opts;
