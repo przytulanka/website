@@ -3,6 +3,7 @@ type: ''
 title: ''
 color: ''
 cover: logo.svg
+author: ''
 to: ''
 images:
   - logo.svg
