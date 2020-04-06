@@ -4,11 +4,13 @@ import { ThemeProvider } from 'styled-components';
 import { theme } from 'assets/styles/theme';
 
 import Navbar from 'views/Navbar';
+import Footer from 'views/Footer';
 
 const Layout = ({ children }) => (
 	<ThemeProvider theme={theme}>
 		<Navbar />
 		{children}
+		<Footer />
 	</ThemeProvider>
 );
 
