@@ -6,6 +6,7 @@ export const theme = {
 		orange: '#F77E0B',
 		pink: '#EA76AC',
 		violet: '#6A1485',
+		footerActiveLink: '#ccc',
 	},
 	background: {
 		transparentNavbar: '#FFFFFFE6',
