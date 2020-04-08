@@ -1,3 +1,4 @@
+const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
@@ -16,4 +17,43 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 			value: slug,
 		});
 	}
+};
+
+exports.createPages = async ({ graphql, actions }) => {
+	const { createPage } = actions;
+
+	const result = await graphql(`
+		{
+			allMarkdownRemark {
+				edges {
+					node {
+						id
+						fields {
+							slug
+						}
+						frontmatter {
+							type
+						}
+					}
+				}
+			}
+		}
+	`);
+
+	if (result.errors) throw result.errors;
+
+	result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+		const { slug } = node.fields;
+		const { type } = node.frontmatter;
+
+		if (type === 'user') {
+			createPage({
+				path: slug,
+				component: path.resolve('src/templates/Bio/index.js'),
+				context: {
+					id: node.id,
+				},
+			});
+		}
+	});
 };
