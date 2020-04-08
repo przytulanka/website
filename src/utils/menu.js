@@ -5,7 +5,7 @@ module.exports = [
 		subMenu: [
 			{ title: 'oferta', to: '!' },
 			{ title: 'plan dnia', to: '!' },
-			{ title: 'kadra', to: '!' },
+			{ title: 'kadra', to: '/#crew' },
 			{ title: 'grupy', to: '!' },
 			{ title: 'statut', to: '!' },
 			{ title: 'regulamin', to: '!' },
