@@ -13,4 +13,6 @@ users:
   - title: ''
 prices:
   - title: ''
+offers:
+  - title: ''
 ---
