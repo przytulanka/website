@@ -3,7 +3,7 @@ module.exports = [
 		title: 'tak działamy',
 		to: '!',
 		subMenu: [
-			{ title: 'oferta', to: '!' },
+			{ title: 'oferta', to: '/oferta' },
 			{ title: 'plan dnia', to: '!' },
 			{ title: 'kadra', to: '/#crew' },
 			{ title: 'grupy', to: '!' },
