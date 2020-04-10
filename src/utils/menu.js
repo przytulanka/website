@@ -36,7 +36,7 @@ module.exports = [
 		to: '!',
 		subMenu: [
 			{ title: 'formularz kontaktowy', to: '!' },
-			{ title: 'dane przedszkola', to: '!' },
+			{ title: 'dane przedszkola', to: '/#contact' },
 		],
 	},
 ];
