@@ -21,6 +21,8 @@ module.exports = {
 			'MarkdownRemark.frontmatter.title',
 		'MarkdownRemark.frontmatter.groups.title':
 			'MarkdownRemark.frontmatter.title',
+		'MarkdownRemark.frontmatter.rules.title':
+			'MarkdownRemark.frontmatter.title',
 	},
 	plugins: [
 		{

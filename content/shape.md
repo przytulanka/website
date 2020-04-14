@@ -17,4 +17,6 @@ offers:
   - title: ''
 groups:
   - title: ''
+rules:
+  - title: ''
 ---
