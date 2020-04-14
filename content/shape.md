@@ -15,4 +15,6 @@ prices:
   - title: ''
 offers:
   - title: ''
+groups:
+  - title: ''
 ---
