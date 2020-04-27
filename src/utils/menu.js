@@ -8,7 +8,7 @@ module.exports = [
 			{ title: 'kadra', to: '/#crew' },
 			{ title: 'grupy', to: '/grupy_i_plan_dnia' },
 			{ title: 'statut', to: '/statut_przedszkola_przytulanka' },
-			{ title: 'regulamin', to: '!' },
+			{ title: 'regulamin', to: '/regulamin_przedszkola_przytulanka' },
 		],
 	},
 	{
