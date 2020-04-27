@@ -55,5 +55,15 @@ exports.createPages = async ({ graphql, actions }) => {
 				},
 			});
 		}
+
+		if (type === 'rules') {
+			createPage({
+				path: slug,
+				component: path.resolve('src/templates/Rules/index.js'),
+				context: {
+					id: node.id,
+				},
+			});
+		}
 	});
 };

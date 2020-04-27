@@ -7,7 +7,7 @@ module.exports = [
 			{ title: 'plan dnia', to: '/grupy_i_plan_dnia' },
 			{ title: 'kadra', to: '/#crew' },
 			{ title: 'grupy', to: '/grupy_i_plan_dnia' },
-			{ title: 'statut', to: '!' },
+			{ title: 'statut', to: '/statut_przedszkola_przytulanka' },
 			{ title: 'regulamin', to: '!' },
 		],
 	},
