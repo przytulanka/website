@@ -6,7 +6,6 @@ module.exports = [
 			{ title: 'oferta', to: '/oferta' },
 			{ title: 'plan dnia', to: '/grupy_i_plan_dnia' },
 			{ title: 'kadra', to: '/#crew' },
-			{ title: 'grupy', to: '/grupy_i_plan_dnia' },
 			{ title: 'statut', to: '/statut_przedszkola_przytulanka' },
 			{ title: 'regulamin', to: '/regulamin_przedszkola_przytulanka' },
 		],
