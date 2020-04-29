@@ -18,7 +18,7 @@ module.exports = [
 				title: 'opowiadanie o Przytulance',
 				to: '/o_nas/#story',
 			},
-			{ title: 'referencje', to: '!' },
+			{ title: 'referencje', to: '/o_nas/#reference' },
 		],
 	},
 	{
