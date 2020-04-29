@@ -12,11 +12,11 @@ module.exports = [
 	},
 	{
 		title: 'o nas',
-		to: '!',
+		to: '/o_nas',
 		subMenu: [
 			{
 				title: 'opowiadanie o Przytulance',
-				to: '!',
+				to: '/o_nas/#story',
 			},
 			{ title: 'referencje', to: '!' },
 		],
