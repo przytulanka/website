@@ -56,6 +56,16 @@ exports.createPages = async ({ graphql, actions }) => {
 			});
 		}
 
+		if (type === 'reference') {
+			createPage({
+				path: slug,
+				component: path.resolve('src/templates/Reference/index.js'),
+				context: {
+					id: node.id,
+				},
+			});
+		}
+
 		if (type === 'rules') {
 			createPage({
 				path: slug,
