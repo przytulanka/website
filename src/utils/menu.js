@@ -25,9 +25,9 @@ module.exports = [
 		title: 'galeria',
 		to: '!',
 		subMenu: [
-			{ title: 'budynek', to: '!' },
-			{ title: 'sale', to: '!' },
-			{ title: 'plac zabaw', to: '!' },
+			{ title: 'budynek', to: '/galeria/#budynek' },
+			{ title: 'sale', to: '/galeria/#sale' },
+			{ title: 'plac zabaw', to: '/galeria/#placzabaw' },
 		],
 	},
 	{
