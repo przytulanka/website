@@ -1,0 +1,143 @@
+backend:
+  name: git-gateway
+  branch: master
+local_backend: true
+media_folder: static/img
+public_folder: "/img"
+locale: pl
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: _
+collections:
+  - label: Sekcje i podstrony
+    name: sections
+    editor:
+      preview: false
+    files:
+      - label: O nas
+        name: about
+        file: content/pages/o_nas/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Zdjęcia
+            label_singular: zdjęcie
+            name: images
+            widget: list
+            required: false
+            field:
+              widget: image
+          - label: Treść
+            name: body
+            widget: markdown
+      - label: Kontakt
+        name: contact
+        file: content/pages/kontakt/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Treść
+            name: body
+            widget: markdown
+      - label: Opowiadanie o Przytulance
+        name: story
+        file: content/pages/opowiadanie_o_przytulance/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Treść
+            name: body
+            widget: markdown
+  - label: Galeria
+    name: gallery
+    editor:
+      preview: false
+    files:
+      - label: Budynek
+        name: building
+        file: content/pages/budynek/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Zdjęcia
+            label_singular: zdjęcie
+            name: images
+            widget: list
+            required: false
+            field:
+              widget: image
+      - label: Sale
+        name: rooms
+        file: content/pages/sale/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Zdjęcia
+            label_singular: zdjęcie
+            name: images
+            widget: list
+            required: false
+            field:
+              widget: image
+      - label: Plac zabaw
+        name: playground
+        file: content/pages/plac_zabaw/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Zdjęcia
+            label_singular: zdjęcie
+            name: images
+            widget: list
+            required: false
+            field:
+              widget: image

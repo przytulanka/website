@@ -3,11 +3,11 @@ type: pageGallery
 title: Budynek
 color: orange
 images:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-  - 4.jpg
-  - 8.jpg
-  - 10.jpg
-  - 11.jpg
+  - /img/1.jpg
+  - /img/2.jpg
+  - /img/3.jpg
+  - /img/4.jpg
+  - /img/8.jpg
+  - /img/10.jpg
+  - /img/11.jpg
 ---

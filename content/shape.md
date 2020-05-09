@@ -2,11 +2,11 @@
 type: ''
 title: ''
 color: ''
-cover: logo.svg
+cover: ./logo.svg
 author: ''
 to: ''
 images:
-  - logo.svg
+  - ./logo.svg
 socials:
   - title: ''
 users:

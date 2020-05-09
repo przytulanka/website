@@ -2,7 +2,7 @@
 type: user
 title: Ewelina Płochocka
 color: green
-cover: ewelina_plochocka.jpg
+cover: /img/ewelina_plochocka.jpg
 ---
 
 Jestem absolwentką Akademii Pedagogiki Specjalnej na kierunku pedagogika specjalna: specjalizacja pedagogika terapeutyczno-lecznicza na studiach licencjackich. Dyplom magistra otrzymałam po ukończeniu edukacji i rehabilitacji osób z niepełnosprawnością intelektualną. Ukończyłam również liczne kursy doszkalające, takie jak terapia ręki, metody aktywizujące w pracy z dziećmi, grafomotoryka dla smyka, logorytmika i inne. Obecnie studiuję podyplomowo zarządzanie w systemie oświaty.

@@ -44,6 +44,13 @@ module.exports = {
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {
+				path: `${__dirname}/static/img`,
+				name: 'img',
+			},
+		},
+		{
+			resolve: 'gatsby-source-filesystem',
+			options: {
 				name: 'icons',
 				path: `${__dirname}/src/assets/icons`,
 			},
@@ -82,10 +89,26 @@ module.exports = {
 		},
 		'gatsby-plugin-styled-components',
 		'gatsby-plugin-react-helmet',
-		'gatsby-transformer-remark',
 		'gatsby-transformer-sharp',
 		'gatsby-plugin-sharp',
+		{
+			resolve: 'gatsby-transformer-remark',
+			options: {
+				plugins: [
+					{
+						resolve: 'gatsby-remark-relative-images',
+					},
+				],
+			},
+		},
 		'gatsby-plugin-react-leaflet',
+		{
+			resolve: 'gatsby-plugin-netlify-cms',
+			options: {
+				htmlTitle: 'Panel zarządzania',
+				htmlFavicon: (__dirname, 'src/assets/images/logo.png'),
+			},
+		},
 		{
 			resolve: 'gatsby-plugin-manifest',
 			options: {

@@ -3,7 +3,7 @@ type: group
 title: Misie
 subtitle: (grupa młodsza przedszkolna)
 color: pink
-icon: mis.svg
+icon: ./mis.svg
 ---
 
 ### 7:30 - 8:20

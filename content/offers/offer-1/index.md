@@ -2,7 +2,7 @@
 type: offer
 title: Domowe warunki
 color: green
-icon: mis.svg
+icon: ./mis.svg
 ---
 
 Zapraszamy dzieci w wieku od 2,5 do 6 lat.\

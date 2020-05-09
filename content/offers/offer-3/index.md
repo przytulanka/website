@@ -2,7 +2,7 @@
 type: offer
 title: Podstawa edukacyjna
 color: violet
-icon: kaczka.svg
+icon: ./kaczka.svg
 ---
 
 Podstawa edukacyjna i materiały z jakich korzystamy:\

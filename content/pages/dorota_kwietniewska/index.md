@@ -2,7 +2,7 @@
 type: user
 title: Dorota Kwietniewska
 color: pink
-cover: dorota_kwietniewska.jpg
+cover: /img/dorota_kwietniewska.jpg
 ---
 
 Mam wyższe wykształcenie techniczne, ale życie napisało mi inny scenariusz niż inżynierska kariera.

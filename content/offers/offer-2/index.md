@@ -2,7 +2,7 @@
 type: offer
 title: Zajęcia
 color: pink
-icon: zajac.svg
+icon: ./zajac.svg
 ---
 
 Czas organizujemy tak, by zachować równowagę między swobodną zabawą, grami, zajęciami dydaktycznymi oraz przebywaniem na świeżym powietrzu.\

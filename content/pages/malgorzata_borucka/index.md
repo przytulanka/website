@@ -2,7 +2,7 @@
 type: user
 title: Małgorzata Borucka
 color: orange
-cover: malgorzata_borucka.jpg
+cover: /img/malgorzata_borucka.jpg
 ---
 
 Ukończyłam technikum chemiczne o profilu: Ochrona środowiska.

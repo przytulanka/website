@@ -2,7 +2,7 @@
 type: social
 title: mobile
 color: green
-cover: mobile.svg
+cover: ./mobile.svg
 to: +48 506121072
 ---
 
