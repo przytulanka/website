@@ -30,4 +30,6 @@ const shouldUpdateScroll = ({ routerProps: { location } }, opts = {}) => {
 
 const wrapPageElement = ({ element }) => <Layout>{element}</Layout>;
 
-export { wrapPageElement, shouldUpdateScroll };
+const onServiceWorkerUpdateReady = () => window.location.reload();
+
+export { wrapPageElement, shouldUpdateScroll, onServiceWorkerUpdateReady };
