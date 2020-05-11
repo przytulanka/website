@@ -1,5 +1,6 @@
 const path = require('path');
 const menu = require('./src/utils/menu');
+const menuMobile = require('./src/utils/menuMobile');
 
 module.exports = {
 	siteMetadata: {
@@ -9,6 +10,7 @@ module.exports = {
 		url: 'https://www.przedszkoleprzytulanka.pl',
 		author: '@lasmedia',
 		menu,
+		menuMobile,
 	},
 	mapping: {
 		'MarkdownRemark.frontmatter.socials.title':

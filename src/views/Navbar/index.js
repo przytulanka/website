@@ -15,9 +15,9 @@ import {
 } from './styles';
 
 const Navbar = () => {
-	const { menu, logo } = useStaticQuery(graphql`
+	const { menus, logo } = useStaticQuery(graphql`
 		{
-			menu: site {
+			menus: site {
 				siteMetadata {
 					menu {
 						title
@@ -27,6 +27,10 @@ const Navbar = () => {
 							to
 						}
 					}
+					menuMobile {
+						title
+						to
+					}
 				}
 			}
 			logo: file(relativePath: { eq: "logo.svg" }) {
@@ -35,6 +39,7 @@ const Navbar = () => {
 		}
 	`);
 
+	const { menu, menuMobile } = menus.siteMetadata;
 	const [isOpen, setIsOpen] = useState(false);
 
 	const disableBurger = () => {
@@ -56,10 +61,10 @@ const Navbar = () => {
 		<Wrapper id="navbar">
 			<Container>
 				<StyledLogo as={Logo} to="/" image={logo.publicURL} />
-				<StyledMenu as={Menu} items={menu.siteMetadata.menu} />
+				<StyledMenu as={Menu} items={menu} />
 				<StyledBurger as={Burger} click={toggleBurger} isOpen={isOpen} />
 				<BurgerMenu isOpen={isOpen}>
-					<MenuMobile items={menu.siteMetadata.menu} click={toggleBurger} />
+					<MenuMobile items={menuMobile} click={toggleBurger} />
 				</BurgerMenu>
 			</Container>
 		</Wrapper>
