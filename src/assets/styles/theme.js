@@ -13,6 +13,8 @@ export const theme = {
 		transparentDropdown: '#82B900E6',
 		transparentOrange: '#F77E0B0D',
 		transparentGreen: '#82B9000D',
+		transparentPink: '#EA76AC0D',
+		transparentViolet: '#6A14850D',
 		transparentWhite: '#FFFFFFB5',
 	},
 	font: ['Open Sans', 'Comfortaa'],
