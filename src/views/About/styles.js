@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.section`
-	background: ${({ theme }) => theme.background.transparentOrange};
+	background: ${({ theme, bg }) => theme.background[`transparent${bg}`]};
 `;
 
 export const StyledText = styled.p`

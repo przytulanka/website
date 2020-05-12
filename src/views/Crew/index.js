@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
 
-import { dataFilter } from 'utils';
+import { dataFilter, uppercaseFirstChar } from 'utils';
 import ConditionalLink from 'components/Conditional';
 import { SectionWrapper, SectionTitle } from 'components/Share';
 import BioCover from 'components/BioCover';
@@ -48,7 +48,11 @@ const Crew = ({ id }) => {
 	if (!users.length) return null;
 
 	return (
-		<Wrapper as={SectionWrapper} id={id}>
+		<Wrapper
+			as={SectionWrapper}
+			id={id}
+			bg={uppercaseFirstChar(members.frontmatter.color)}
+		>
 			<SectionTitle bg={members.frontmatter.color}>
 				{members.frontmatter.title}
 			</SectionTitle>

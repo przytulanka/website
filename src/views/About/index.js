@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql, useStaticQuery } from 'gatsby';
 
+import { uppercaseFirstChar } from 'utils';
 import Slider from 'components/Slider';
 import Quote from 'components/Quote';
 import { SectionWrapper, SectionTitle, SectionText } from 'components/Share';
@@ -33,16 +34,15 @@ const About = ({ id }) => {
 			}
 		}
 	`);
+	const { title, color, images } = info.frontmatter;
 
 	return (
 		<>
-			<Wrapper as={SectionWrapper} id={id}>
-				<SectionTitle bg={info.frontmatter.color}>
-					{info.frontmatter.title}
-				</SectionTitle>
+			<Wrapper as={SectionWrapper} id={id} bg={uppercaseFirstChar(color)}>
+				<SectionTitle bg={color}>{title}</SectionTitle>
 				<StyledText as={SectionText}>{info.rawMarkdownBody}</StyledText>
 				<SliderWrapper>
-					<Slider images={info.frontmatter.images} type="about" />
+					<Slider images={images} type="about" />
 				</SliderWrapper>
 			</Wrapper>
 			<Quote text={quote.rawMarkdownBody} author={quote.frontmatter.author} />

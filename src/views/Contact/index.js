@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql, useStaticQuery } from 'gatsby';
 
+import { uppercaseFirstChar } from 'utils';
 import ContactMap from 'components/Map';
 import { SectionWrapper, SectionTitle, SectionText } from 'components/Share';
 import { Wrapper, StyledText, StyledMap } from './styles';
@@ -21,13 +22,12 @@ const Contact = ({ id }) => {
 			}
 		}
 	`);
+	const { title, color } = contact.frontmatter;
 	const position = [52.240482531907524, 21.268575255830775];
 	return (
 		<>
-			<Wrapper as={SectionWrapper} id={id}>
-				<SectionTitle bg={contact.frontmatter.color}>
-					{contact.frontmatter.title}
-				</SectionTitle>
+			<Wrapper as={SectionWrapper} id={id} bg={uppercaseFirstChar(color)}>
+				<SectionTitle bg={color}>{title}</SectionTitle>
 				<StyledText
 					as={SectionText}
 					dangerouslySetInnerHTML={{ __html: contact.html }}
