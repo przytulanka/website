@@ -13,8 +13,6 @@ users:
   - title: ''
 prices:
   - title: ''
-offers:
-  - title: ''
 groups:
   - title: ''
 rules:

@@ -1,14 +1,17 @@
 import styled from 'styled-components';
 
-export const CardList = styled.div`
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	max-width: 1440px;
+export const Wrapper = styled.div`
+	max-width: 1000px;
 	margin: 0 auto;
+	padding: 2em;
+	line-height: 0;
+	border: 0.4em solid ${({ theme, bg }) => theme.color[bg]};
+	border-radius: 1em;
 `;
 
-export const StyledCard = styled.div`
-	flex: 1 20em;
-	margin: 4em 1em 0;
+export const Text = styled.div`
+	margin: 0;
+	padding: 0;
+	line-height: 1.8;
+	text-align: center;
 `;
