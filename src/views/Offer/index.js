@@ -6,7 +6,7 @@ import { SectionWrapper, SectionTitle } from 'components/Share';
 import { Wrapper, Text } from './styles';
 
 const Offer = ({ id }) => {
-	const { offer } = useStaticQuery(graphql`
+	const { offer, icon } = useStaticQuery(graphql`
 		{
 			offer: markdownRemark(frontmatter: { type: { eq: "pageOffer" } }) {
 				html
@@ -14,6 +14,9 @@ const Offer = ({ id }) => {
 					title
 					color
 				}
+			}
+			icon: file(relativePath: { eq: "mis.svg" }) {
+				publicURL
 			}
 		}
 	`);
@@ -24,7 +27,10 @@ const Offer = ({ id }) => {
 		<SectionWrapper id={id}>
 			<SectionTitle bg={color}>{title}</SectionTitle>
 			<Wrapper bg="orange">
-				<Text dangerouslySetInnerHTML={{ __html: offer.html }} />
+				<Text
+					dangerouslySetInnerHTML={{ __html: offer.html }}
+					icon={icon.publicURL}
+				/>
 			</Wrapper>
 		</SectionWrapper>
 	);
