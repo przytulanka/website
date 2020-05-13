@@ -8,8 +8,14 @@ const Socials = ({ socials, className }) => (
 	<Wrapper className={className}>
 		{socials.map(social => {
 			const { title, to, cover } = social.title.frontmatter;
+			const mailto = title === 'mail' ? `mailto:${to}` : null;
+			const phoneto = title === 'mobile' ? `tel:${to}` : null;
 			return (
-				<SocialItem key={title} as={ConditionalLink} to={to}>
+				<SocialItem
+					key={title}
+					as={ConditionalLink}
+					to={mailto || phoneto || to}
+				>
 					<Icon src={cover.publicURL} />
 					<Text>{social.title.rawMarkdownBody}</Text>
 				</SocialItem>
