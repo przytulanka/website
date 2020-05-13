@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
 	padding: 1.5em;
 	line-height: 0;
+	background: ${({ theme }) => theme.color.bright};
 	border: 0.4em solid ${({ theme, bg }) => theme.color[bg]};
 	border-radius: 1em;
 `;

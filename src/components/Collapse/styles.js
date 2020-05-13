@@ -4,6 +4,7 @@ export const Wrapper = styled.div`
 	margin: 2em 0;
 	padding: 0 1em;
 	font-size: 1em;
+	background: ${({ theme }) => theme.color.bright};
 	border: 0.25em solid;
 	border-color: ${({ theme, bg }) => theme.color[bg]};
 	border-radius: 1em;
