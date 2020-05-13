@@ -1,11 +1,11 @@
 ---
 type: pageContact
 color: green
-title: Przedszkole i Klub Maluszka “Przytulanka”
+title: Niepubliczne Przedszkole “Przytulanka”
 ---
 
 Godziny otwarcia:  
-7.00 - 17.30  
+7.30 - 17.00  
 \
 ul. Kolbego 10b  
 05-070 Sulejówek  
