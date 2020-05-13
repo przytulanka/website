@@ -10,7 +10,7 @@ export const Header = styled.header`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 2em 2em;
+	margin: 0 2em;
 `;
 
 export const Title = styled.h2`
@@ -20,9 +20,16 @@ export const Title = styled.h2`
 `;
 
 export const StyledCover = styled.div`
-	max-width: 13em;
-	max-height: 13em;
 	border: none;
+
+	::before,
+	::after {
+		display: none;
+	}
+
+	:hover {
+		transform: none;
+	}
 `;
 
 export const StyledText = styled.p`

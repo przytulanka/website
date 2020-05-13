@@ -29,8 +29,8 @@ const Crew = ({ id }) => {
 										fixed(
 											quality: 75
 											cropFocus: CENTER
-											width: 200
-											height: 200
+											width: 190
+											height: 190
 										) {
 											...GatsbyImageSharpFixed
 										}

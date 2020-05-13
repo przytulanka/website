@@ -64,7 +64,7 @@ export const query = graphql`
 				color
 				cover {
 					childImageSharp {
-						fixed(quality: 75, cropFocus: CENTER, width: 320, height: 320) {
+						fixed(quality: 75, cropFocus: CENTER, width: 300, height: 300) {
 							...GatsbyImageSharpFixed
 						}
 					}
