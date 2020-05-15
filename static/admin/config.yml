@@ -10,8 +10,8 @@ slug:
   clean_accents: true
   sanitize_replacement: _
 collections:
-  - label: Sekcje i podstrony
-    name: sections
+  - name: sections
+    label: Sekcje i podstrony
     editor:
       preview: false
     files:
@@ -73,8 +73,8 @@ collections:
           - label: Treść
             name: body
             widget: markdown
-  - label: Galeria
-    name: gallery
+  - name: gallery
+    label: Galeria
     editor:
       preview: false
     files:
@@ -141,3 +141,35 @@ collections:
             required: false
             field:
               widget: image
+  - name: users
+    label: Dodaj osobę
+    label_singular: osoba
+    description: Tutaj można dodawać nowe pozycje z notkami biograficznymi.
+    folder: content/pages
+    create: true
+    filter:
+      field: type
+      value: user
+    slug: '{{slug}}'
+    path: '{{slug}}/index'
+    editor:
+      preview: false
+    fields:
+      - label: Typ
+        name: type
+        widget: hidden
+        default: user
+      - label: Imię i nazwisko
+        name: title
+        widget: string
+      - label: Kolor
+        name: color
+        widget: "select"
+        options: ["green", "violet", "pink", "orange"]
+      - label: Zdjęcie
+        name: cover
+        widget: image
+        required: false
+      - label: Bio
+        name: body
+        widget: markdown
