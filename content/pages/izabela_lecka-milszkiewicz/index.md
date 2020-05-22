@@ -2,7 +2,7 @@
 type: user
 title: Izabela Łęcka- Milszkiewicz
 color: violet
-cover: /img/izabela_lecka-milszkiewicz.jpg
+cover: izabela_lecka-milszkiewicz.jpg
 ---
 
 Jestem absolwentką Akademii Wychowania Fizycznego w Warszawie. Ponadto ukończyłam Studia Podyplomowe na kierunku Pedagogika Przedszkolna i Wczesnoszkolna z Terapią Pedagogiczną na WSGE w Józefowe. Dodatkowo uzyskałam wiele certyfikatów, w tym: Certyfikat Warsztatów Metodycznych – Elementy metodyki logopedycznej dla nauczycieli, Praca nad uwagą dzieci w przedszkolu warunkiem sukcesu w szkole, Eksperymenty językowe, muzyczne, graficzne a rozwój społeczny i poznawczy dziecka w wieku przedszkolnym.

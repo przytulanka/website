@@ -91,16 +91,7 @@ module.exports = {
 		'gatsby-plugin-react-helmet',
 		'gatsby-transformer-sharp',
 		'gatsby-plugin-sharp',
-		{
-			resolve: 'gatsby-transformer-remark',
-			options: {
-				plugins: [
-					{
-						resolve: 'gatsby-remark-relative-images',
-					},
-				],
-			},
-		},
+		'gatsby-transformer-remark',
 		'gatsby-plugin-react-leaflet',
 		{
 			resolve: 'gatsby-plugin-netlify-cms',

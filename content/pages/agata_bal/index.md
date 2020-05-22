@@ -2,7 +2,7 @@
 type: user
 title: Agata Bal
 color: orange
-cover: /img/agata_bal.jpg
+cover: agata_bal.jpg
 ---
 
 Ukończyłam Studium Wychowania Przedszkolnego dyplomem, następnie Wyższą Szkołę Pedagogiczną ZNP w zakresie diagnozy i terapii psychologiczno - pedagogicznej oraz doradztwa i terapii pedagogicznej uzyskując tytuł magistra.  
