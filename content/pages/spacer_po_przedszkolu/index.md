@@ -1,6 +1,6 @@
 ---
 type: pageVideo
-title: Spacer po przedszkolu
-color: violet
+title: Zobacz nasze przedszkole
+color: green
 to: https://www.facebook.com/PrzedszkolePrzytulanka/videos/159370171987092/
 ---

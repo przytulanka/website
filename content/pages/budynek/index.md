@@ -1,7 +1,7 @@
 ---
 type: gallery
 title: Budynek
-color: orange
+color: green
 images:
   - 1.jpg
   - 2.jpg

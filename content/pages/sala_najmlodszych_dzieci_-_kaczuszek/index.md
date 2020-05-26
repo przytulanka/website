@@ -1,7 +1,7 @@
 ---
 type: gallery
 title: Sala najmłodszych dzieci - Kaczuszek
-color: violet
+color: orange
 images:
   - image00001.jpeg
   - image00005.jpeg
