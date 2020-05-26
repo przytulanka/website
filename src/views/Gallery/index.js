@@ -1,13 +1,23 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import ReactPlayer from 'react-player';
 
 import Gallery from 'components/Gallery';
+import { SectionWrapper, SectionTitle } from 'components/Share';
 import { dataFilter } from 'utils';
+import { VideoWrapper } from './styles';
 
 const GalleryView = () => {
-	const { markdownRemark } = useStaticQuery(graphql`
+	const { video, galleries } = useStaticQuery(graphql`
 		{
-			markdownRemark(frontmatter: { type: { eq: "pageGallery" } }) {
+			video: markdownRemark(frontmatter: { type: { eq: "pageVideo" } }) {
+				frontmatter {
+					title
+					color
+					to
+				}
+			}
+			galleries: markdownRemark(frontmatter: { type: { eq: "pageGallery" } }) {
 				frontmatter {
 					gallery {
 						title {
@@ -25,11 +35,24 @@ const GalleryView = () => {
 		}
 	`);
 
-	const gallery = dataFilter(markdownRemark, 'gallery');
+	const gallery = dataFilter(galleries, 'gallery');
 	if (!gallery.length) return null;
-
+	const { title: videoTitle, color, to } = video.frontmatter;
 	return (
 		<>
+			{!!to && (
+				<SectionWrapper id="spacer">
+					<SectionTitle bg={color}>{videoTitle}</SectionTitle>
+					<VideoWrapper
+						as={ReactPlayer}
+						url={to}
+						playing
+						controls
+						width="auto"
+						height="auto"
+					/>
+				</SectionWrapper>
+			)}
 			{gallery.map(
 				({ title }) => !!title.frontmatter.images.length && (
 					<Gallery
