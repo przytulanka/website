@@ -14,13 +14,12 @@ import {
 } from './styles';
 
 const Footer = () => {
-	const { menu, logo, socials } = useStaticQuery(graphql`
+	const { allMenu, logo, socials } = useStaticQuery(graphql`
 		{
-			menu: site {
-				siteMetadata {
-					menu {
+			allMenu {
+				edges {
+					node {
 						title
-						to
 						subMenu {
 							title
 							to
@@ -56,7 +55,7 @@ const Footer = () => {
 	return (
 		<Container>
 			<Wrapper>
-				<StyledMenu as={MenuFooter} items={menu.siteMetadata.menu} />
+				<StyledMenu as={MenuFooter} items={allMenu.edges} />
 				<StyledLogo as={Logo} to="/" image={logo.publicURL} />
 				<StyledSocials as={Socials} socials={socials.frontmatter.socials} />
 			</Wrapper>

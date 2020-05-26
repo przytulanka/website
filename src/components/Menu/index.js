@@ -7,7 +7,7 @@ import { Wrapper, MenuList, MenuItem, MenuHeader } from './styles';
 const Menu = ({ items, className }) => (
 	<Wrapper className={className}>
 		<MenuList>
-			{items.map(item => (
+			{items.map(({ node: item }) => (
 				<MenuItem key={item.title}>
 					<MenuHeader>{item.title}</MenuHeader>
 					{item.subMenu && <Dropdown submenu={item.subMenu} />}

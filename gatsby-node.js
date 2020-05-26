@@ -1,5 +1,35 @@
 const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
+const menu = require('./src/utils/menu');
+
+exports.sourceNodes = async ({
+	actions,
+	createNodeId,
+	createContentDigest,
+}) => {
+	const { createNode } = actions;
+
+	menu.forEach((el, index) => {
+		const data = {
+			title: el.title,
+			subMenu: el.subMenu,
+		};
+
+		const node = {
+			id: createNodeId(`menu-${index}`),
+			parent: null,
+			children: [],
+			internal: {
+				type: 'Menu',
+				mediaType: 'text/html',
+				contentDigest: createContentDigest(data),
+			},
+			...data,
+		};
+
+		createNode(node);
+	});
+};
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
 	const { createNodeField } = actions;

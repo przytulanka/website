@@ -1,5 +1,4 @@
 const path = require('path');
-const menu = require('./src/utils/menu');
 const menuMobile = require('./src/utils/menuMobile');
 
 module.exports = {
@@ -9,7 +8,6 @@ module.exports = {
 			'Małe grupy, ciepła i rodzinna atmosfera. Nie my tak twierdzimy, ale rodzice naszych dzieci :-) Przyjdź i sprawdź. Sulejówek, ul. Kolbego 10B. Zapraszamy!',
 		url: 'https://www.przedszkoleprzytulanka.pl',
 		author: '@lasmedia',
-		menu,
 		menuMobile,
 	},
 	mapping: {

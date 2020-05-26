@@ -7,7 +7,7 @@ import { List, ListItem } from './styles';
 const MenuFooter = ({ items, className }) => (
 	<nav className={className}>
 		<List>
-			{items.map(item => (
+			{items.map(({ node: item }) => (
 				<ListItem key={item.title}>
 					<MenuItem title={item.title} to={item.to} subItems={item.subMenu} />
 				</ListItem>

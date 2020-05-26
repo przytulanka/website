@@ -15,18 +15,21 @@ import {
 } from './styles';
 
 const Navbar = () => {
-	const { menus, logo } = useStaticQuery(graphql`
+	const { allMenu, site, logo } = useStaticQuery(graphql`
 		{
-			menus: site {
-				siteMetadata {
-					menu {
+			allMenu {
+				edges {
+					node {
 						title
-						to
 						subMenu {
 							title
 							to
 						}
 					}
+				}
+			}
+			site {
+				siteMetadata {
 					menuMobile {
 						title
 						to
@@ -39,7 +42,7 @@ const Navbar = () => {
 		}
 	`);
 
-	const { menu, menuMobile } = menus.siteMetadata;
+	const { menuMobile } = site.siteMetadata;
 	const [isOpen, setIsOpen] = useState(false);
 
 	const disableBurger = () => {
@@ -61,7 +64,7 @@ const Navbar = () => {
 		<Wrapper id="navbar">
 			<Container>
 				<StyledLogo as={Logo} to="/" image={logo.publicURL} />
-				<StyledMenu as={Menu} items={menu} />
+				<StyledMenu as={Menu} items={allMenu.edges} />
 				<StyledBurger as={Burger} click={toggleBurger} isOpen={isOpen} />
 				<BurgerMenu isOpen={isOpen}>
 					<MenuMobile items={menuMobile} click={toggleBurger} />
