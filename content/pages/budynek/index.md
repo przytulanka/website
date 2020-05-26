@@ -1,5 +1,5 @@
 ---
-type: pageGallery
+type: gallery
 title: Budynek
 color: orange
 images:

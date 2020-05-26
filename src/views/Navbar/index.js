@@ -21,6 +21,7 @@ const Navbar = () => {
 				edges {
 					node {
 						title
+						to
 						subMenu {
 							title
 							to

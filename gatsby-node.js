@@ -6,13 +6,37 @@ exports.sourceNodes = async ({
 	actions,
 	createNodeId,
 	createContentDigest,
+	getNodesByType,
 }) => {
 	const { createNode } = actions;
+	const allMarkdown = getNodesByType('MarkdownRemark');
+	const pageGallery = allMarkdown.filter(
+		el => el.frontmatter.type === 'pageGallery',
+	);
+	const galleryOrder = pageGallery[0].frontmatter.gallery.map(
+		({ title }) => title,
+	);
+	const allGallery = galleryOrder.map(el => allMarkdown.find(i => i.frontmatter.title === el));
+
+	const menuGallery = allGallery
+		.map(el => {
+			if (el.frontmatter.images.length) {
+				const link = {
+					title: el.frontmatter.title,
+					to: `/galeria/#${el.fields.slug.substr(1)}`,
+				};
+				return link;
+			}
+			return null;
+		})
+		.filter(el => !!el);
 
 	menu.forEach((el, index) => {
 		const data = {
 			title: el.title,
-			subMenu: el.subMenu,
+			to: el.to,
+			subMenu:
+				el.title === 'galeria' ? [...el.subMenu, ...menuGallery] : el.subMenu,
 		};
 
 		const node = {

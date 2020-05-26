@@ -1,5 +1,5 @@
 ---
-type: pageGallery
+type: gallery
 title: Sale
 color: violet
 images:

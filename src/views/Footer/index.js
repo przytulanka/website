@@ -20,6 +20,7 @@ const Footer = () => {
 				edges {
 					node {
 						title
+						to
 						subMenu {
 							title
 							to

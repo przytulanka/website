@@ -19,4 +19,6 @@ rules:
   - title: ''
 refs:
   - author: ''
+gallery:
+  - title: ''
 ---

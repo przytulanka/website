@@ -23,6 +23,8 @@ module.exports = {
 			'MarkdownRemark.frontmatter.title',
 		'MarkdownRemark.frontmatter.refs.author':
 			'MarkdownRemark.frontmatter.author',
+		'MarkdownRemark.frontmatter.gallery.title':
+			'MarkdownRemark.frontmatter.title',
 	},
 	plugins: [
 		{
