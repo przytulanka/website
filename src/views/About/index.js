@@ -19,7 +19,7 @@ const About = ({ id }) => {
 					images {
 						id
 						childImageSharp {
-							fluid(maxWidth: 1360) {
+							fluid(maxWidth: 1000, quality: 30) {
 								...GatsbyImageSharpFluid
 							}
 						}

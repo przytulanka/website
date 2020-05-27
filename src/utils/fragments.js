@@ -7,7 +7,7 @@ export const galleryFields = graphql`
 		images {
 			id
 			childImageSharp {
-				fluid(maxWidth: 1000, quality: 75) {
+				fluid(maxWidth: 1000, quality: 50) {
 					...GatsbyImageSharpFluid
 				}
 			}

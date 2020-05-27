@@ -9,7 +9,7 @@ const Hero = () => {
 		query {
 			heroImage: file(name: { eq: "hero" }) {
 				childImageSharp {
-					fluid(maxHeight: 800) {
+					fluid(maxHeight: 800, quality: 25) {
 						...GatsbyImageSharpFluid
 					}
 				}
