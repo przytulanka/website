@@ -1,5 +1,5 @@
 ---
-type: statuteItem
+type: regulationItem
 title: §4 Zasady przyprowadzania i odbierania dziecka z przedszkola
 color: violet
 ---

@@ -1,5 +1,5 @@
 ---
-type: statuteItem
+type: regulationItem
 title: §2 Ogólne zasady pobytu dziecka w przedszkolu
 color: violet
 ---

@@ -1,5 +1,5 @@
 ---
-type: statuteItem
+type: regulationItem
 title: §7 Postanowienia końcowe
 color: violet
 ---

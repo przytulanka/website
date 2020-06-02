@@ -2,6 +2,7 @@
 type: pageContact
 color: green
 title: Niepubliczne Przedszkole “Przytulanka”
+to: 52.240482531907524,21.268575255830775
 ---
 
 Godziny otwarcia:  

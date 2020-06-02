@@ -3,8 +3,8 @@ type: pageNewsfeed
 title: Nowości
 color: green
 images:
-  - nowa_rekrutacja.jpg
-  - orzeczenia.jpg
-  - zapraszamy.jpg
-  - nasze_przedszkole.jpg
+  - ../media/nowa_rekrutacja.jpg
+  - ../media/orzeczenia.jpg
+  - ../media/zapraszamy.jpg
+  - ../media/nasze_przedszkole.jpg
 ---

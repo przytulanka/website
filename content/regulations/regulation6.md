@@ -1,5 +1,5 @@
 ---
-type: statuteItem
+type: regulationItem
 title: §6 Zasady współpracy nauczycieli i rodziców
 color: violet
 ---

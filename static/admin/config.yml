@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: master
 local_backend: true
-media_folder: static/img
-public_folder: "/img"
+media_folder: content/pages/media
+public_folder: ../media/
 locale: pl
 slug:
   encoding: ascii
@@ -15,9 +15,9 @@ collections:
     editor:
       preview: false
     files:
-      - label: O nas
-        name: about
-        file: content/pages/o_nas/index.md
+      - label: Nowości
+        name: newsfeed
+        file: content/pages/nowosci/index.md
         fields:
           - label: Typ
             name: type
@@ -29,8 +29,30 @@ collections:
             name: color
             widget: "select"
             options: ["green", "violet", "pink", "orange"]
-          - label: Zdjęcia
-            label_singular: zdjęcie
+          - label: Dodaj zdjęcia
+            name: images
+            widget: list
+            required: false
+            field:
+              widget: image
+      - label: Kilka słów o Przytulance
+        name: about
+        file: content/pages/o_nas/index.md
+        filter:
+          field: type
+          value: pageAbout
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Dodaj zdjęcia
             name: images
             widget: list
             required: false
@@ -39,6 +61,32 @@ collections:
           - label: Treść
             name: body
             widget: markdown
+      - label: Kadra przytulanki
+        name: crew
+        file: content/pages/kadra_przytulanki/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Kolejność
+            label_singular: kolejny
+            name: users
+            widget: list
+            fields:
+              - label: Nazwa
+                name: title
+                widget: relation
+                collection: users
+                searchFields:
+                  - title
+                valueField: title
       - label: Kontakt
         name: contact
         file: content/pages/kontakt/index.md
@@ -53,9 +101,46 @@ collections:
             name: color
             widget: "select"
             options: ["green", "violet", "pink", "orange"]
+          - label: Koordynaty mapy
+            name: to
+            widget: string
           - label: Treść
             name: body
             widget: markdown
+      - label: Oferta
+        name: pageOffer
+        file: content/pages/oferta/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Treść
+            name: body
+            widget: markdown
+      - label: Film
+        name: pageVideo
+        file: content/pages/spacer_po_przedszkolu/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Link
+            name: to
+            widget: string
       - label: Opowiadanie o Przytulance
         name: story
         file: content/pages/opowiadanie_o_przytulance/index.md
@@ -73,76 +158,195 @@ collections:
           - label: Treść
             name: body
             widget: markdown
+      - label: Cennik - kolejność
+        name: pagePricing
+        file: content/pages/cennik/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Kolejność cennika
+            label_singular: kolejny cennik
+            name: prices
+            widget: list
+            fields:
+              - label: Nazwa cennika
+                name: title
+                widget: relation
+                collection: pricing
+                searchFields:
+                  - title
+                valueField: title
+      - label: Grupy i plan dnia - kolejność
+        name: pageGroups
+        file: content/pages/grupy_i_plan_dnia/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Kolejność grup
+            label_singular: kolejna grupa
+            name: groups
+            widget: list
+            fields:
+              - label: Nazwa grupy
+                name: title
+                widget: relation
+                collection: group
+                searchFields:
+                  - title
+                valueField: title
+      - label: Kolejność referencji
+        name: pageReference
+        file: content/pages/referencje/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Kolejność referencji
+            label_singular: kolejna referencja
+            name: refs
+            widget: list
+            fields:
+              - label: Autor referencji
+                name: title
+                widget: relation
+                collection: reference
+                searchFields:
+                  - title
+                valueField: title
+      - label: Kolejność galerii
+        name: pageGallery
+        file: content/pages/galeria/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Kolejność galerii
+            label_singular: kolejna galeria
+            name: gallery
+            widget: list
+            fields:
+              - label: Nazwa
+                name: title
+                widget: relation
+                collection: gallery
+                searchFields:
+                  - title
+                valueField: title
+      - label: Kolejność statutu
+        name: statute
+        file: content/pages/statut_przedszkola_przytulanka/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Kolejność statutu
+            label_singular: dodaj pozycję
+            name: rules
+            widget: list
+            fields:
+              - label: Nazwa
+                name: title
+                widget: relation
+                collection: statute
+                searchFields:
+                  - title
+                valueField: title
+      - label: Kolejność regulaminu
+        name: regulations
+        file: content/pages/regulamin_przedszkola_przytulanka/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Tytuł
+            name: title
+            widget: string
+          - label: Kolor
+            name: color
+            widget: "select"
+            options: ["green", "violet", "pink", "orange"]
+          - label: Kolejność regulaminu
+            label_singular: dodaj pozycję
+            name: rules
+            widget: list
+            fields:
+              - label: Nazwa
+                name: title
+                widget: relation
+                collection: regulations
+                searchFields:
+                  - title
+                valueField: title
   - name: gallery
-    label: Galeria
+    label: Zarządzaj galeriami
+    label_singular: galerię
+    description: Tutaj można dodawać i edytować Galerie.
+    folder: content/pages
+    create: true
+    filter:
+      field: type
+      value: gallery
+    slug: '{{slug}}'
+    path: '{{slug}}/index'
     editor:
       preview: false
-    files:
-      - label: Budynek
-        name: building
-        file: content/pages/budynek/index.md
-        fields:
-          - label: Typ
-            name: type
-            widget: hidden
-          - label: Tytuł
-            name: title
-            widget: string
-          - label: Kolor
-            name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
-          - label: Zdjęcia
-            label_singular: zdjęcie
-            name: images
-            widget: list
-            required: false
-            field:
-              widget: image
-      - label: Sale
-        name: rooms
-        file: content/pages/sale/index.md
-        fields:
-          - label: Typ
-            name: type
-            widget: hidden
-          - label: Tytuł
-            name: title
-            widget: string
-          - label: Kolor
-            name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
-          - label: Zdjęcia
-            label_singular: zdjęcie
-            name: images
-            widget: list
-            required: false
-            field:
-              widget: image
-      - label: Plac zabaw
-        name: playground
-        file: content/pages/plac_zabaw/index.md
-        fields:
-          - label: Typ
-            name: type
-            widget: hidden
-          - label: Tytuł
-            name: title
-            widget: string
-          - label: Kolor
-            name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
-          - label: Zdjęcia
-            label_singular: zdjęcie
-            name: images
-            widget: list
-            required: false
-            field:
-              widget: image
+    fields:
+      - label: Typ
+        name: type
+        widget: hidden
+        default: gallery
+      - label: Tytuł galerii
+        name: title
+        widget: string
+      - label: Kolor
+        name: color
+        widget: "select"
+        options: ["green", "violet", "pink", "orange"]
+      - label: Dodaj zdjęcia
+        name: images
+        widget: list
+        required: false
+        field:
+          widget: image
   - name: users
-    label: Dodaj osobę
+    label: Zarządzaj osobami
     label_singular: osoba
     description: Tutaj można dodawać nowe pozycje z notkami biograficznymi.
     folder: content/pages
@@ -171,5 +375,134 @@ collections:
         widget: image
         required: false
       - label: Bio
+        name: body
+        widget: markdown
+  - name: reference
+    label: Zarządzaj referencjami
+    label_singular: referencja
+    description: Tutaj można dodawać nowe pozycje z referencjami.
+    folder: content/pages
+    create: true
+    filter:
+      field: type
+      value: reference
+    slug: '{{slug}}'
+    path: '{{slug}}/index'
+    editor:
+      preview: false
+    fields:
+      - label: Typ
+        name: type
+        widget: hidden
+        default: reference
+      - label: Imię i nazwisko
+        name: title
+        widget: string
+      - label: Bio
+        name: body
+        widget: markdown
+  - name: pricing
+    label: Zarządzaj cennikiem
+    label_singular: cennik
+    description: Tutaj można dodawać lub edytować cennik.
+    folder: content/pricing
+    create: true
+    filter:
+      field: type
+      value: pricing
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: Typ
+        name: type
+        widget: hidden
+        default: pricing
+      - label: Nazwa cennika
+        name: title
+        widget: string
+      - label: Treść
+        name: body
+        widget: markdown
+  - name: group
+    label: Zarządzaj grupami i planem dnia
+    label_singular: plan dnia
+    description: Tutaj można dodawać lub edytować plan dnia i grupy.
+    folder: content/groups
+    create: true
+    filter:
+      field: type
+      value: group
+    slug: '{{slug}}'
+    path: '{{slug}}/index'
+    editor:
+      preview: false
+    fields:
+      - label: Typ
+        name: type
+        widget: hidden
+        default: group
+      - label: Nazwa grupy
+        name: title
+        widget: string
+      - label: Podtytuł
+        name: subtitle
+        widget: string
+      - label: Kolor
+        name: color
+        widget: "select"
+        options: ["green", "violet", "pink", "orange"]
+      - label: Ikona
+        name: icon
+        widget: image
+      - label: Treść
+        name: body
+        widget: markdown
+  - name: statute
+    label: Zarządzaj statutem
+    label_singular: pozycja statutu
+    description: Tutaj można dodawać lub edytować statut.
+    folder: content/statute
+    create: true
+    slug: 'statute'
+    editor:
+      preview: false
+    fields:
+      - label: Typ
+        name: type
+        widget: hidden
+        default: statuteItem
+      - label: Tytuł rozdziału
+        name: title
+        widget: string
+      - label: Kolor
+        name: color
+        widget: "select"
+        options: ["green", "violet", "pink", "orange"]
+      - label: Treść
+        name: body
+        widget: markdown
+  - name: regulations
+    label: Zarządzaj regulaminem
+    label_singular: pozycja regulaminu
+    description: Tutaj można dodawać lub edytować regulamin.
+    folder: content/regulations
+    create: true
+    slug: 'regulation'
+    editor:
+      preview: false
+    fields:
+      - label: Typ
+        name: type
+        widget: hidden
+        default: regulationItem
+      - label: Tytuł rozdziału
+        name: title
+        widget: string
+      - label: Kolor
+        name: color
+        widget: "select"
+        options: ["green", "violet", "pink", "orange"]
+      - label: Treść
         name: body
         widget: markdown

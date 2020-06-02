@@ -1,5 +1,5 @@
 ---
-type: statuteItem
+type: regulationItem
 title: §5 Opłaty
 color: violet
 ---

@@ -1,5 +1,5 @@
 ---
-type: statuteItem
+type: regulationItem
 title: §3 Przedszkole a zdrowie dziecka
 color: violet
 ---

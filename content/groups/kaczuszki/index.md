@@ -3,7 +3,7 @@ type: group
 title: Kaczuszki
 subtitle: (grupa najmłodsza)
 color: orange
-icon: ./kaczka.svg
+icon: kaczka.svg
 ---
 
 ### 7:30 - 8:20

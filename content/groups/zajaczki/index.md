@@ -3,7 +3,7 @@ type: group
 title: Zajączki
 subtitle: (grupa starsza przedszkolna)
 color: violet
-icon: ./zajac.svg
+icon: zajac.svg
 ---
 
 ### 7:30 - 8:20

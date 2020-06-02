@@ -1,5 +1,5 @@
 ---
-type: statuteItem
+type: regulationItem
 title: §1 Organizacja przedszkola
 color: violet
 ---
