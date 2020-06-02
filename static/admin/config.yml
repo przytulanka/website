@@ -314,6 +314,25 @@ collections:
                 searchFields:
                   - title
                 valueField: title
+      - label: Kolejność medii społecznościowych
+        name: socials
+        file: content/socials/index.md
+        fields:
+          - label: Typ
+            name: type
+            widget: hidden
+          - label: Kolejność medii społecznościowych
+            label_singular: dodaj pozycję
+            name: socials
+            widget: list
+            fields:
+              - label: Nazwa
+                name: title
+                widget: relation
+                collection: socials
+                searchFields:
+                  - title
+                valueField: title
   - name: gallery
     label: Zarządzaj galeriami
     label_singular: galerię
@@ -503,6 +522,40 @@ collections:
         name: color
         widget: "select"
         options: ["green", "violet", "pink", "orange"]
+      - label: Treść
+        name: body
+        widget: markdown
+  - name: socials
+    label: Zarządzaj mediami społecznościowymi
+    label_singular: social
+    description: Tutaj można dodawać lub edytować media społecznościowe.
+    folder: content/socials
+    create: true
+    filter:
+      field: type
+      value: social
+    slug: '{{slug}}'
+    path: '{{slug}}/index'
+    editor:
+      preview: false
+    fields:
+      - label: Typ
+        name: type
+        widget: hidden
+        default: social
+      - label: Nazwa grupy
+        name: title
+        widget: string
+      - label: Kolor
+        name: color
+        widget: "select"
+        options: ["green", "violet", "pink", "orange"]
+      - label: Ikona
+        name: cover
+        widget: image
+      - label: Link
+        name: to
+        widget: string
       - label: Treść
         name: body
         widget: markdown

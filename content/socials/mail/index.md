@@ -2,7 +2,7 @@
 type: social
 title: mail
 color: pink
-cover: ./mail.svg
+cover: mail.svg
 to: przedszkole@przedszkoleprzytulanka.pl
 ---
 
