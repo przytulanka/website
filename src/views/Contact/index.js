@@ -15,6 +15,7 @@ const Contact = ({ id }) => {
 				frontmatter {
 					title
 					color
+					to
 				}
 			}
 			mapMarker: file(name: { eq: "map_marker" }) {
@@ -22,8 +23,8 @@ const Contact = ({ id }) => {
 			}
 		}
 	`);
-	const { title, color } = contact.frontmatter;
-	const position = [52.240482531907524, 21.268575255830775];
+	const { title, color, to } = contact.frontmatter;
+	const position = to.split(',');
 	return (
 		<>
 			<Wrapper as={SectionWrapper} id={id} bg={uppercaseFirstChar(color)}>
