@@ -25,19 +25,14 @@ export const theme = {
 		large: '1.15em',
 		largest: '1.3em',
 	},
+	mq: {
+		mobileMid: '@media (min-width: 23.5rem)',
+		tablet: '@media (min-width: 37.5rem)',
+		tabletMid: '@media (min-width: 42rem)',
+		tabletBig: '@media (min-width: 56.25rem)',
+		desktop: '@media (min-width: 75rem)',
+		desktopBig: '@media (min-width: 112.5rem)',
+	},
 };
-
-const bp = {
-	mobileMid: 23.5,
-	tablet: 37.5,
-	tabletMid: 42,
-	tabletBig: 56.25,
-	desktop: 75,
-	desktopBig: 112.5,
-};
-
-theme.mq = Object.fromEntries(
-	Object.entries(bp).map(key => [key[0], `@media (min-width: ${key[1]}rem)`]),
-);
 
 export default theme;
