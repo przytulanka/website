@@ -18,6 +18,23 @@ export const VideoWrapper = styled.div`
 	${({ theme }) => theme.mq.tabletBig} {
 		min-height: 560px;
 	}
+
+	iframe {
+		min-height: 197px;
+
+		${({ theme }) => theme.mq.mobileMid} {
+			min-height: 323px;
+		}
+		${({ theme }) => theme.mq.tablet} {
+			min-height: 363px;
+		}
+		${({ theme }) => theme.mq.tabletMid} {
+			min-height: 479px;
+		}
+		${({ theme }) => theme.mq.tabletBig} {
+			min-height: 560px;
+		}
+	}
 `;
 
 export default VideoWrapper;
