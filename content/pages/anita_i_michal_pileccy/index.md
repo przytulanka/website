@@ -1,6 +1,6 @@
 ---
 type: reference
-author: Anita i Michał Pileccy
+title: Anita i Michał Pileccy
 ---
 
 Przedszkole „Przytulanka”, ul. M. Kolbego 10 B.

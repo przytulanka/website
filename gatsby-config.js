@@ -21,8 +21,7 @@ module.exports = {
 			'MarkdownRemark.frontmatter.title',
 		'MarkdownRemark.frontmatter.rules.title':
 			'MarkdownRemark.frontmatter.title',
-		'MarkdownRemark.frontmatter.refs.author':
-			'MarkdownRemark.frontmatter.author',
+		'MarkdownRemark.frontmatter.refs.title': 'MarkdownRemark.frontmatter.title',
 		'MarkdownRemark.frontmatter.gallery.title':
 			'MarkdownRemark.frontmatter.title',
 	},

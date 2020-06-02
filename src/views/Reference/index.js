@@ -15,14 +15,14 @@ const Reference = ({ id }) => {
 					title
 					color
 					refs {
-						author {
+						title {
 							excerpt
 							id
 							fields {
 								slug
 							}
 							frontmatter {
-								author
+								title
 							}
 						}
 					}
@@ -31,7 +31,7 @@ const Reference = ({ id }) => {
 		}
 	`);
 
-	const refs = dataFilter(markdownRemark, 'refs', 'author');
+	const refs = dataFilter(markdownRemark, 'refs', 'title');
 	if (!refs.length) return null;
 
 	const { title, color } = markdownRemark.frontmatter;
@@ -40,13 +40,13 @@ const Reference = ({ id }) => {
 			<SectionTitle bg={color}>{title}</SectionTitle>
 
 			<Tiles>
-				{refs.map(({ author }) => (
+				{refs.map(({ title: author }) => (
 					<TileItem key={author.id}>
 						<Tile
 							to={`$${author.fields.slug}`}
 							bg="green"
 							text={author.excerpt}
-							signature={author.frontmatter.author}
+							signature={author.frontmatter.title}
 						/>
 					</TileItem>
 				))}
