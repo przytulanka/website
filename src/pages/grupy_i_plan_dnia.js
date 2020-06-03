@@ -5,7 +5,7 @@ import Groups from 'views/Groups';
 
 const OfferPage = () => (
 	<>
-		<SEO title="Oferta" />
+		<SEO title="Grupy i plan dnia" />
 		<Groups id="#groups" />
 	</>
 );
