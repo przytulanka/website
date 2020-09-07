@@ -4,25 +4,25 @@ import L from 'leaflet';
 import { Map, TileLayer, Marker } from 'react-leaflet';
 
 const LeafletMap = ({ position, zoom, iconImg, className }) => {
-	if (typeof window !== 'undefined') {
-		const icon = new L.Icon({
-			iconUrl: iconImg,
-			iconSize: new L.Point(150, 150),
-		});
+	if (typeof window === 'undefined') return null;
 
-		return (
-			<Map
-				center={position}
-				zoom={zoom}
-				className={className}
-				dragging={!L.Browser.mobile}
-			>
-				<TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-				<Marker position={position} icon={iconImg ? icon : null} />
-			</Map>
-		);
-	}
-	return null;
+	const icon = new L.Icon({
+		iconUrl: iconImg,
+		iconSize: new L.Point(150, 150),
+	});
+
+	return (
+		<Map
+			center={position}
+			zoom={zoom}
+			className={className}
+			dragging={!L.Browser.mobile}
+			scrollWheelZoom={false}
+		>
+			<TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+			<Marker position={position} icon={iconImg ? icon : null} />
+		</Map>
+	);
 };
 
 LeafletMap.propTypes = {

@@ -10,11 +10,14 @@ export const StyledText = styled.p`
 	text-align: center;
 `;
 
+export const MapWrapper = styled.div`
+	position: relative;
+	height: 400px;
+	max-height: 40vh;
+`;
+
 export const StyledMap = styled.div`
+	z-index: 1;
 	width: 100%;
-	height: 200px;
-	background: black;
-	${({ theme }) => theme.mq.tabletMid} {
-		height: 400px;
-	}
+	height: 100%;
 `;

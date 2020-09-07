@@ -5,7 +5,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 import { uppercaseFirstChar } from 'utils';
 import ContactMap from 'components/Map';
 import { SectionWrapper, SectionTitle, SectionText } from 'components/Share';
-import { Wrapper, StyledText, StyledMap } from './styles';
+import { Wrapper, MapWrapper, StyledText, StyledMap } from './styles';
 
 const Contact = ({ id }) => {
 	const { contact, mapMarker } = useStaticQuery(graphql`
@@ -34,11 +34,13 @@ const Contact = ({ id }) => {
 					dangerouslySetInnerHTML={{ __html: contact.html }}
 				/>
 			</Wrapper>
-			<StyledMap
-				as={ContactMap}
-				position={position}
-				iconImg={mapMarker.publicURL}
-			/>
+			<MapWrapper>
+				<StyledMap
+					as={ContactMap}
+					position={position}
+					iconImg={mapMarker.publicURL}
+				/>
+			</MapWrapper>
 		</>
 	);
 };
