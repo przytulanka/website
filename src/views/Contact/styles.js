@@ -4,7 +4,7 @@ export const Wrapper = styled.section`
 	background: ${({ theme, bg }) => theme.background[`transparent${bg}`]};
 `;
 
-export const StyledText = styled.p`
+export const StyledText = styled.div`
 	max-width: 900px;
 	margin: 2em auto;
 	text-align: center;

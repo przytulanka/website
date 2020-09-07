@@ -29,7 +29,7 @@ export const SectionTitle = styled.h2`
 	border-radius: 1em;
 `;
 
-export const SectionText = styled.p`
+export const SectionText = styled.div`
 	margin: 0 auto;
 	padding: 0;
 	font-weight: 400;
