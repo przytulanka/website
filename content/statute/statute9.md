@@ -14,3 +14,8 @@ Przedszkole prowadzi dokumentację bieżącą i archiwalną zgodnie z obowiązuj
 3. Organ prowadzący zobowiązany jest do udostępnienia statutu pracownikom przedszkola, rodzicom i osobie nadzorującej pracę przedszkola.
 4. Zmiany w niniejszym statucie mogą być dokonywane przez dyrektora.
 5. Każda nowelizacja statutu skutkuje tekstem jednolitym statutu.
+
+<span style="text-align: center; display: block;">§ 36</span>
+
+1. Z dniem wejścia w życie niniejszego statutu traci moc Statut Przedszkola Niepublicznego „Przytulanka” w Sulejówku z dnia 1 marca 2019 r.
+2. Statut Przedszkola Niepublicznego „Przytulanka” w Sulejówku w powyższym brzmieniu wchodzi w życie z dniem 1 września 2020 r.

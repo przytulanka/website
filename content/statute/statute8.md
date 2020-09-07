@@ -28,11 +28,11 @@ color: violet
    10. ze względów bezpieczeństwa zgłaszania wychowawcy zmiany adresu zamieszkania i telefonu kontaktowego w celu zapewnienia możliwości skutecznego kontaktu,
    11. terminowego uiszczania opłat za pobyt dziecka w przedszkolu,
    12. pisemnego poinformowania z miesięcznym wyprzedzeniem o zamiarze rezygnacji z przedszkola.
-   13. współdziałania z nauczycielami w celu skutecznego oddziaływania wychowawczego na dziecko i określania drogi jego indywidualnego rozwoju
+   13. współdziałania z nauczycielami w celu skutecznego oddziaływania wychowawczego na dziecko i określania drogi jego indywidualnego rozwoju 14. zapewnienia dziecku możliwości udziału w ewentualnych zdalnych zajęciach organizowanych przez przedszkole w trybie wskazanym w § 18 ust. 6 Statutu.
 4. Rodzice (opiekunowie prawni) dziecka podlegającego obowiązkowi rocznego przygotowania przedszkolnego są zobowiązani:
    1. zapewnić regularne uczęszczanie dziecka na zajęcia,
    2. zaopatrzyć dziecko w niezbędne przedmioty, przybory i pomoce,
-   3. wspierać nauczycieli w celu osiągnięcia gotowości szkolnej dziecka.
+   3. wspierać nauczycieli w celu osiągnięcia gotowości szkolnej dziecka. 4. zapewnić dziecku możliwość udziału w ewentualnych zdalnych zajęciach organizowanych przez przedszkole w trybie wskazanym w § 18 ust. 6 Statutu.
 
 <span style="text-align: center; display: block;">§ 34</span>
 

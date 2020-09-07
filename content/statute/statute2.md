@@ -30,7 +30,7 @@ color: violet
    16. organizowanie zajęć – zgodnie z potrzebami – umożliwiających dziecku poznawanie kultury i języka mniejszości narodowej lub etnicznej lub języka regionalnego,
    17. tworzenie sytuacji edukacyjnych sprzyjających budowaniu zainteresowania dziecka językiem obcym nowożytnym, chęci poznawania innych kultur.
    18. rozwijanie poczucia przynależności narodowej i poszanowania tradycji w oparciu o chrześcijańskie wartości
-   19. realizowanie zadań z zakresu doradztwa zawodowego.
+   19. realizowanie zadań z zakresu doradztwa zawodowego. 20. udzielanie pomocy psychologiczno-pedagogicznej, organizowanie opieki nad dziećmi niepełnosprawnymi, umożliwianie dzieciom podtrzymania poczucia tożsamości narodowej, etnicznej, językowej i religijnej, z uwzględnieniem zasad bezpieczeństwa.
 
 <span style="text-align: center; display: block;">§ 5</span>
 

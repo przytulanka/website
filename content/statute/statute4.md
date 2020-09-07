@@ -6,7 +6,8 @@ color: violet
 
 <span style="text-align: center; display: block;">§ 14</span>
 
-1. Przedszkole jest placówką niepubliczną przeznaczoną dla dzieci w wieku od trzech do siedmiu lat, objętych w świetle ustaw oświatowych wychowaniem przedszkolnym, realizującą programy wychowania przedszkolnego uwzględniające podstawę programową wychowania przedszkolnego, zatrudniającą nauczycieli mających kwalifikacje określone dla nauczycieli przedszkoli publicznych. W szczególnie uzasadnionych przypadkach Dyrektor może przyjąć do Przedszkola dziecko, które ukończyło 2,5 roku.
+1. Przedszkole jest placówką niepubliczną przeznaczoną dla dzieci w wieku od trzech do siedmiu lat, objętych w świetle ustaw oświatowych wychowaniem przedszkolnym, realizującą programy wychowania przedszkolnego uwzględniające podstawę programową wychowania przedszkolnego, zatrudniającą nauczycieli mających kwalifikacje określone dla nauczycieli
+   przedszkoli publicznych. W szczególnie uzasadnionych przypadkach Dyrektor może przyjąć do Przedszkola dziecko, które ukończyło 2,5 roku.
 
 <span style="text-align: center; display: block;">§ 15</span>
 
@@ -36,6 +37,7 @@ color: violet
 3. Realizacja podstawy programowej wychowania przedszkolnego odbywa się nie krócej niż 5 godzin dziennie.
 4. Organizację pracy w ciągu dnia określa ramowy rozkład dnia opracowany przez dyrektora z uwzględnieniem określonych w podstawie warunków i sposobów realizacji.
 5. W szczególnych przypadkach dyrektor może zmienić organizację dnia (np. organizacja wyjścia poza teren przedszkola, wycieczki, uroczystości).
+6. W uzasadnionych okolicznościach, w szczególności w sytuacji ogłoszenia stanu zagrożenia epidemicznego, epidemii, stanu wyjątkowego, przedszkole będzie świadczyć usługi edukacyjne za pośrednictwem środków komunikacji elektronicznej. W takiej sytuacji dyrektor określi szczegółowe zasady świadczenia usług edukacyjnych przez przedszkole i udziału w tych zajęciach przez dzieci, mając na względzie w szczególności dostęp wśród dzieci do sprzętu umożliwiającego odbiór treści edukacyjnych oferowanych przez przedszkole.
 
 <span style="text-align: center; display: block;">§ 19</span>
 

@@ -24,10 +24,10 @@ color: violet
 <span style="text-align: center; display: block;">§ 32</span>
 
 1. W przedszkolu dzieci mają obowiązek:
-   2. kulturalnego i z szacunkiem odnoszenia się do rówieśników i osób dorosłych (szanowania praw innych ludzi),
-   3. zachowywania się zgodnie z przyjętymi normami i zasadami akceptowanymi przez grupę i społeczność przedszkolną,
-   4. służenia pomocą młodszym i słabszym,
-   5. przestrzegania ustalonych zasad bezpieczeństwa w przedszkolu i poza nim,
-   6. dbania o estetykę i higienę własnego wyglądu i otoczenia na miarę swoich możliwości,
-   7. respektowania poleceń nauczyciela i innych osób uczestniczących w procesie edukacji,
-   8. szanowania zabawek, gier i książek i odkładania je na wyznaczone miejsca,
+   1. kulturalnego i z szacunkiem odnoszenia się do rówieśników i osób dorosłych (szanowania praw innych ludzi),
+   2. zachowywania się zgodnie z przyjętymi normami i zasadami akceptowanymi przez grupę i społeczność przedszkolną,
+   3. służenia pomocą młodszym i słabszym,
+   4. przestrzegania ustalonych zasad bezpieczeństwa w przedszkolu i poza nim,
+   5. dbania o estetykę i higienę własnego wyglądu i otoczenia na miarę swoich możliwości,
+   6. respektowania poleceń nauczyciela i innych osób uczestniczących w procesie edukacji,
+   7. szanowania zabawek, gier i książek i odkładania je na wyznaczone miejsca,

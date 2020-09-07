@@ -25,6 +25,6 @@ color: violet
    3. niniejszy statut,
    4. wpis do ewidencji placówek niepublicznych miasta Sulejówka.
 2. Środki finansowe na działalność przedszkola pochodzą z:
-3. opłat rodziców i opiekunów (czesne, wpisowe),
-4. dotacji z budżetu gminy,
-5. środków przeznaczonych na działalność przedszkola przez organ prowadzący.
+   1. opłat rodziców i opiekunów (czesne, wpisowe),
+   2. dotacji z budżetu gminy,
+   3. środków przeznaczonych na działalność przedszkola przez organ prowadzący.

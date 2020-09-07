@@ -24,3 +24,4 @@ color: violet
    4. stwarzania przez dziecko sytuacji zagrażających zdrowiu i bezpieczeństwu własnemu i innych dzieci oraz braku współpracy z rodzicami zmierzającej do rozwiązania problemu, mimo zastosowania przyjętego w przedszkolu trybu postępowania (np. podjęcia terapii lub, gdy wykorzystane zostały wszelkie możliwości zmiany tej sytuacji)
    5. powtarzających się, agresywnych zachowań rodziców (opiekunów prawnych) dziecka w przedszkolu, łamiących normy współżycia społecznego i zasady zachowania w instytucji publicznej.
 3. Rodzice mogą w terminie 14 dni od doręczenia decyzji odwołać się do Kuratora Oświaty nadzorującego placówkę.
+4. W przypadku dziecka objętego obowiązkiem rocznego przygotowania przedszkolnego, dyrektor informuje pisemnie dyrektora szkoły, w obwodzie której mieszka dziecko o skreśleniu dziecka z listy wychowanków.
