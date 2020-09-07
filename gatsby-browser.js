@@ -11,14 +11,15 @@ import './src/assets/styles/slick.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const shouldUpdateScroll = ({ routerProps: { location } }, opts = {}) => {
+const shouldUpdateScroll = (
+	{ routerProps: { location }, prevRouterProps },
+	opts = {},
+) => {
 	const { offsetElement = '#navbar', duration = 1000 } = opts;
 
-	if (location.hash.includes('#')) {
-		const destinationElement = location.hash
-			? document.querySelector(location.hash)
-			: null;
-		if (!destinationElement) return true;
+	if (!!location.hash && !!prevRouterProps) {
+		const destinationElement = document.querySelector(location.hash);
+		if (!destinationElement) return false;
 
 		const destination = destinationElement.getBoundingClientRect().top;
 		const offset = getOffset(offsetElement);
