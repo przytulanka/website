@@ -112,6 +112,5 @@ module.exports = {
 				icon: 'src/assets/images/logo.png',
 			},
 		},
-		'gatsby-plugin-offline',
 	],
 };
