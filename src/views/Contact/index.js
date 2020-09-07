@@ -24,7 +24,7 @@ const Contact = ({ id }) => {
 		}
 	`);
 	const { title, color, to } = contact.frontmatter;
-	const position = to.split(',');
+	const [first, second] = to.split(',');
 	return (
 		<>
 			<Wrapper as={SectionWrapper} id={id} bg={uppercaseFirstChar(color)}>
@@ -37,7 +37,7 @@ const Contact = ({ id }) => {
 			<MapWrapper>
 				<StyledMap
 					as={ContactMap}
-					position={position}
+					position={[Number(first), Number(second)]}
 					iconImg={mapMarker.publicURL}
 				/>
 			</MapWrapper>
