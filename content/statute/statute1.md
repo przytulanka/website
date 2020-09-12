@@ -20,10 +20,11 @@ color: violet
 <span style="text-align: center; display: block;">§ 2</span>
 
 1. Podstawami prawnymi działania przedszkola są w szczególności:
-   1. Ustawa z dnia 7 września 1994 r. o systemie oświaty (t. j. Dz. U. z 2016 r.poz.1943 ze zm.)
-   2. Ustawa z dnia 14 grudnia 2016 r. Prawo oświatowe (Dz. U. z 2017 r. poz. 59 ze zm.) 3. rozporządzenia wykonawczych do ustaw,
-   3. niniejszy statut,
-   4. wpis do ewidencji placówek niepublicznych miasta Sulejówka.
+   1. Ustawa z dnia 7 września 1994 r. o systemie oświaty (t. j. Dz. U. z 2020 r.poz.1327)
+   2. Ustawa z dnia 14 grudnia 2016 r. Prawo oświatowe (Dz. U. z 2020 r. poz. 910)
+   3. rozporządzenia wykonawczych do ustaw,
+   4. niniejszy statut,
+   5. wpis do ewidencji placówek niepublicznych miasta Sulejówka.
 2. Środki finansowe na działalność przedszkola pochodzą z:
    1. opłat rodziców i opiekunów (czesne, wpisowe),
    2. dotacji z budżetu gminy,
