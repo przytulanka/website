@@ -1,5 +1,4 @@
 backend:
-  name: git-gateway
   branch: master
 media_folder: content/pages/media
 public_folder: ../media/
@@ -26,14 +25,14 @@ collections:
             widget: string
           - label: Kolor
             name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
+            widget: 'select'
+            options: ['green', 'violet', 'pink', 'orange']
           - label: Dodaj zdjęcia
             name: images
             widget: list
             required: false
-            field:
-              widget: image
+            # field:
+            #   widget: image
       - label: Kilka słów o Przytulance
         name: about
         file: content/pages/o_nas/index.md
@@ -49,14 +48,14 @@ collections:
             widget: string
           - label: Kolor
             name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
+            widget: 'select'
+            options: ['green', 'violet', 'pink', 'orange']
           - label: Dodaj zdjęcia
             name: images
             widget: list
             required: false
-            field:
-              widget: image
+            # field:
+            #   widget: image
           - label: Treść
             name: body
             widget: markdown
@@ -72,8 +71,8 @@ collections:
             widget: string
           - label: Kolor
             name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
+            widget: 'select'
+            options: ['green', 'violet', 'pink', 'orange']
           - label: Kolejność
             label_singular: kolejny
             name: users
@@ -98,8 +97,8 @@ collections:
             widget: string
           - label: Kolor
             name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
+            widget: 'select'
+            options: ['green', 'violet', 'pink', 'orange']
           - label: Koordynaty mapy
             name: to
             widget: string
@@ -118,8 +117,8 @@ collections:
             widget: string
           - label: Kolor
             name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
+            widget: 'select'
+            options: ['green', 'violet', 'pink', 'orange']
           - label: Treść
             name: body
             widget: markdown
@@ -135,8 +134,8 @@ collections:
             widget: string
           - label: Kolor
             name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
+            widget: 'select'
+            options: ['green', 'violet', 'pink', 'orange']
           - label: Link
             name: to
             widget: string
@@ -152,8 +151,8 @@ collections:
             widget: string
           - label: Kolor
             name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
+            widget: 'select'
+            options: ['green', 'violet', 'pink', 'orange']
           - label: Treść
             name: body
             widget: markdown
@@ -169,8 +168,8 @@ collections:
             widget: string
           - label: Kolor
             name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
+            widget: 'select'
+            options: ['green', 'violet', 'pink', 'orange']
           - label: Kolejność cennika
             label_singular: kolejny cennik
             name: prices
@@ -195,8 +194,8 @@ collections:
             widget: string
           - label: Kolor
             name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
+            widget: 'select'
+            options: ['green', 'violet', 'pink', 'orange']
           - label: Kolejność grup
             label_singular: kolejna grupa
             name: groups
@@ -221,8 +220,8 @@ collections:
             widget: string
           - label: Kolor
             name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
+            widget: 'select'
+            options: ['green', 'violet', 'pink', 'orange']
           - label: Kolejność referencji
             label_singular: kolejna referencja
             name: refs
@@ -247,8 +246,8 @@ collections:
             widget: string
           - label: Kolor
             name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
+            widget: 'select'
+            options: ['green', 'violet', 'pink', 'orange']
           - label: Kolejność galerii
             label_singular: kolejna galeria
             name: gallery
@@ -273,8 +272,8 @@ collections:
             widget: string
           - label: Kolor
             name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
+            widget: 'select'
+            options: ['green', 'violet', 'pink', 'orange']
           - label: Kolejność statutu
             label_singular: dodaj pozycję
             name: rules
@@ -299,8 +298,8 @@ collections:
             widget: string
           - label: Kolor
             name: color
-            widget: "select"
-            options: ["green", "violet", "pink", "orange"]
+            widget: 'select'
+            options: ['green', 'violet', 'pink', 'orange']
           - label: Kolejność regulaminu
             label_singular: dodaj pozycję
             name: rules
@@ -355,14 +354,14 @@ collections:
         widget: string
       - label: Kolor
         name: color
-        widget: "select"
-        options: ["green", "violet", "pink", "orange"]
+        widget: 'select'
+        options: ['green', 'violet', 'pink', 'orange']
       - label: Dodaj zdjęcia
         name: images
         widget: list
         required: false
-        field:
-          widget: image
+        # field:
+        #   widget: image
   - name: users
     label: Zarządzaj osobami
     label_singular: osoba
@@ -386,8 +385,8 @@ collections:
         widget: string
       - label: Kolor
         name: color
-        widget: "select"
-        options: ["green", "violet", "pink", "orange"]
+        widget: 'select'
+        options: ['green', 'violet', 'pink', 'orange']
       - label: Zdjęcie
         name: cover
         widget: image
@@ -468,8 +467,8 @@ collections:
         widget: string
       - label: Kolor
         name: color
-        widget: "select"
-        options: ["green", "violet", "pink", "orange"]
+        widget: 'select'
+        options: ['green', 'violet', 'pink', 'orange']
       - label: Ikona
         name: icon
         widget: image
@@ -495,8 +494,8 @@ collections:
         widget: string
       - label: Kolor
         name: color
-        widget: "select"
-        options: ["green", "violet", "pink", "orange"]
+        widget: 'select'
+        options: ['green', 'violet', 'pink', 'orange']
       - label: Treść
         name: body
         widget: markdown
@@ -519,8 +518,8 @@ collections:
         widget: string
       - label: Kolor
         name: color
-        widget: "select"
-        options: ["green", "violet", "pink", "orange"]
+        widget: 'select'
+        options: ['green', 'violet', 'pink', 'orange']
       - label: Treść
         name: body
         widget: markdown
@@ -547,8 +546,8 @@ collections:
         widget: string
       - label: Kolor
         name: color
-        widget: "select"
-        options: ["green", "violet", "pink", "orange"]
+        widget: 'select'
+        options: ['green', 'violet', 'pink', 'orange']
       - label: Ikona
         name: cover
         widget: image
