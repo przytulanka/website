@@ -8,7 +8,6 @@ const OfferPage = () => (
 	<>
 		<SEO title="Oferta" />
 		<Offer id="#offer" />
-		<Pricing id="#pricing" />
 	</>
 );
 
