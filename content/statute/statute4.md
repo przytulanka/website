@@ -11,7 +11,8 @@ color: violet
 
 <span style="text-align: center; display: block;">§ 15</span>
 
-1. Przedszkole świadczy usługi w oparciu o zasadę powszechnej dostępności.
+1. Przedszkole przewidziane jest dla 40 dzieci zgrupowanych w 3 oddziałach.
+2. Podstawową jednostką organizacyjną przedszkola jest grupa złożona z dzieci o zbliżonym wieku, z uwzględnieniem ich potrzeb, zainteresowań, uzdolnień. Nie wiek kalendarzowy, lecz możliwości psychofizyczne stanowią o przypisaniu dziecka do grupy. Decyzję o tym podejmuje Dyrektor po konsultacji z wychowawcą grupy oraz specjalistami pracującymi w przedszkolu.
 
 <span style="text-align: center; display: block;">§ 16</span>
 
