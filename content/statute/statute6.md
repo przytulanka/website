@@ -27,7 +27,7 @@ color: violet
    3. tworzenie warunków wspomagających rozwój dzieci i ich zdolności, zainteresowania, dążenie do pobudzania procesów rozwojowych – odpowiednia aranżacja przestrzeni edukacyjnej,
    4. prowadzenie dokumentacji pedagogicznej zgodnie z obowiązującymi przepisami,
    5. prowadzenie i dokumentowanie obserwacji pedagogicznych mających na celu poznanie i zabezpieczenie potrzeb rozwojowych dzieci,
-   6. w roku poprzedzającym rozpoczęcie edukacji w szkole podstawowej dokonywanie analizy gotowości (diagnoza przedszkolna. i informowanie o jej wynikach rodziców dziecka zgodnie z obowiązującymi przepisami,
+   6. w roku poprzedzającym rozpoczęcie edukacji w szkole podstawowej dokonywanie analizy gotowości (diagnoza przedszkolna) i informowanie o jej wynikach rodziców dziecka zgodnie z obowiązującymi przepisami,
    7. wspieranie samodzielnych działań dziecka i pomaganie w dostrzeganiu problemów i rozwiązywaniu ich, uczenie zasad postępowania, umożliwianie dokonywania wyborów, wspieranie działań twórczych w różnych dziedzinach aktywności,
    8. pomaganie dzieciom w rozwijaniu odpowiedzialności poprzez samodzielne wywiązywanie się z podejmowanych zadań oraz uczenie szacunku do pracy swojej i innych,
    9. wspieranie dziecka w budowaniu systemu wartości – dobro, prawda, miłość, piękno, przyjaźń,

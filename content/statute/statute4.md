@@ -47,7 +47,7 @@ color: violet
 9. Rodzice, w uzgodnionych terminach, krótko informują nauczyciela o efektach prowadzonych zajęć z wykorzystaniem metod i technik kształcenia na odległość za pomocą poczty elektronicznej lub SMS-ów. Mogą też przesłać zdjęcia wykonanych kart zadaniowych czy prac plastycznych. Jest to sposób potwierdzania uczestnictwa dzieci w wymienionych zajęciach.
 10. W okresie organizacji dla dzieci zajęć z wykorzystaniem metod i technik kształcenia na odległość Dyrektor przedszkola odpowiada za organizację realizacji zadań tej jednostki, w tym wymienionych wyżej zajęć lub innego sposobu realizacji tych zajęć:
    1. na czas pracy zdalnej dyrektor w porozumieniu z nauczycielami ustala tygodniowy zakres treści nauczania do zrealizowania w poszczególnych grupach przedszkolnych, uwzględniając w szczególności:
-      <ol type="a">
+   <ol type="a">
    	<li>równomierne obciążenie dzieci w poszczególnych dniach tygodnia,</li>
    	<li>zróżnicowanie zajęć w każdym dniu,</li>
    	<li>możliwości psychofizyczne dzieci.</li>
