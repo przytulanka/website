@@ -4,7 +4,7 @@ title: V Zasady rekrutacji oraz skreślenia z listy wychowanków przedszkola
 color: violet
 ---
 
-<span style="text-align: center; display: block;">§ 26</span>
+<span style="text-align: center; display: block;">§ 25</span>
 
 1. O przyjęciu dziecka do przedszkola decyduje dyrektor.
 2. Dzieci mogą być przyjmowane do przedszkola w ciągu całego roku szkolnego, jeżeli przedszkole dysponuje wolnymi miejscami.
@@ -13,10 +13,9 @@ color: violet
    1. zapoznania się ze statutem i regulaminem przedszkola,
    2. zawarcia umowy z przedszkolem, która określa zobowiązania stron.
 
-<span style="text-align: center; display: block;">§ 27</span>
+<span style="text-align: center; display: block;">§ 26</span>
 
-1. Skreślenie z listy wychowanków przedszkola następuje w razie rozwiązania umowy dotyczącej opieki dydaktyczno-wychowawczej w związku z wypowiedzeniem dokonanym
-   przez rodziców (prawnych opiekunów) dziecka, przy czym okres wypowiedzenia wynosi miesiąc.
+1. Skreślenie z listy wychowanków przedszkola następuje w razie rozwiązania umowy dotyczącej opieki dydaktyczno-wychowawczej w związku z wypowiedzeniem dokonanym przez rodziców (prawnych opiekunów) dziecka, przy czym okres wypowiedzenia wynosi miesiąc.
 2. Dyrektor może podjąć decyzję o skreśleniu dziecka z listy dzieci uczęszczających do przedszkola w następujących przypadkach:
    1. zalegania z odpłatnością za przedszkole powyżej jednego okresu płatniczego,
    2. nieobecności dziecka dłuższej niż 30 dni i braku usprawiedliwienia tej nieobecności,

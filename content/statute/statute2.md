@@ -12,7 +12,7 @@ color: violet
 <span style="text-align: center; display: block;">§ 4</span>
 
 1. W ramach działalności edukacyjnej przedszkole realizuje następujące zadania:
-   1. wspieranie wielokierunkowej aktywności dziecka poprzez organizację warunków sprzyjających nabywaniu doświadczeń w fizycznym, emocjonalnym,społecznym i poznawczym obszarze jego rozwoju,
+   1. wspieranie wielokierunkowej aktywności dziecka poprzez organizację warunków sprzyjających nabywaniu doświadczeń w fizycznym, emocjonalnym, społecznym i poznawczym obszarze jego rozwoju,
    2. tworzenie warunków umożliwiających dzieciom swobodny rozwój, zabawę i odpoczynek w poczuciu bezpieczeństwa,
    3. wspieranie aktywności dziecka podnoszącej poziom integracji sensorycznej i umiejętności korzystania z rozwijających się procesów poznawczych,
    4. zapewnienie prawidłowej organizacji warunków sprzyjających nabywaniu przez dzieci doświadczeń, które umożliwią im ciągłość procesów adaptacji oraz pomoc dzieciom rozwijającym się w sposób nieharmonijny, wolniejszy lub przyspieszony,
@@ -30,7 +30,8 @@ color: violet
    16. organizowanie zajęć – zgodnie z potrzebami – umożliwiających dziecku poznawanie kultury i języka mniejszości narodowej lub etnicznej lub języka regionalnego,
    17. tworzenie sytuacji edukacyjnych sprzyjających budowaniu zainteresowania dziecka językiem obcym nowożytnym, chęci poznawania innych kultur.
    18. rozwijanie poczucia przynależności narodowej i poszanowania tradycji w oparciu o chrześcijańskie wartości
-   19. realizowanie zadań z zakresu doradztwa zawodowego. 20. udzielanie pomocy psychologiczno-pedagogicznej, organizowanie opieki nad dziećmi niepełnosprawnymi, umożliwianie dzieciom podtrzymania poczucia tożsamości narodowej, etnicznej, językowej i religijnej, z uwzględnieniem zasad bezpieczeństwa.
+   19. realizowanie zadań z zakresu doradztwa zawodowego.
+   20. udzielanie pomocy psychologiczno-pedagogicznej, organizowanie opieki nad dziećmi niepełnosprawnymi, umożliwianie dzieciom podtrzymania poczucia tożsamości narodowej, etnicznej, językowej i religijnej, z uwzględnieniem zasad bezpieczeństwa.
 
 <span style="text-align: center; display: block;">§ 5</span>
 
@@ -41,7 +42,7 @@ color: violet
    	<li>odmienną aktywność poznawczą dziecka,</li>
    	<li>twórczą aktywność dziecka (muzyczną, plastyczną, werbalną i ruchową) integrującą różne obszary jego rozwoju,</li>
    	<li>stopniowe przygotowanie do nauki czytania, pisania oraz matematycznego myślenia,</li>
-   	<li>podmiotowe relacje dziecka z otoczeniem, bazujące na  jego możliwościach i wspomagające jego rozwój poprzez oferty wspólnych działań dzieci i nauczyciela.</li>
+   	<li>podmiotowe relacje dziecka z otoczeniem, bazujące na jego możliwościach i wspomagające jego rozwój poprzez oferty wspólnych działań dzieci i nauczyciela.</li>
    </ol>
    3. dbałość o prawidłowy rozwój mowy, rozwijanie kompetencji komunikacyjnych dzieci i logicznego myślenia,
    4. dostosowanie metod i form pracy do możliwości indywidualnych dziecka oraz wszystkich obszarów edukacyjnych zawartych w podstawie programowej wychowania przedszkolnego, z uwzględnieniem istniejących warunków lokalowych,
@@ -84,26 +85,28 @@ color: violet
 
 <span style="text-align: center; display: block;">§ 8</span>
 
-1. W ramach posiadanych możliwości przedszkole organizuje i udziela pomocy psychologiczno – pedagogicznej zgodnie z przepisami rozporządzenia ministra właściwego do spraw edukacji i wychowania regulującego te kwestie.
-2. Pomoc psychologiczno-pedagogiczna udzielana w przedszkolu polega na:
-   1. rozpoznawaniu i zaspakajaniu indywidualnych potrzeb rozwojowych i edukacyjnych dziecka oraz rozpoznawaniu jego indywidualnych możliwości psychofizycznych i czynników środowiskowych wpływających na jego funkcjonowanie w przedszkolu w celu wspierania potencjału rozwojowego wychowanka i stwarzania warunków do jego aktywnego i pełnego uczestnictwa w życiu przedszkola,
-   2. wspieraniu nauczycieli i rodziców w działaniach wyrównujących szanse edukacyjne wychowanków,
-   3. udzielaniu nauczycielom pomocy w dostosowaniu wymagań edukacyjnych wynikających z realizowanych przez nich programów nauczania do indywidualnych potrzeb psychofizycznych i edukacyjnych wychowanków,
-   4. rozwijaniu umiejętności wychowawczych nauczycieli oraz rodziców.
-3. Pomocy psychologiczno-pedagogicznej udzielają dzieciom nauczyciele oraz specjaliści.
-4. Pomoc psychologiczno-pedagogiczna jest udzielana w trakcie bieżącej pracy z dzieckiem oraz w formie:
-   1. zajęć specjalistycznych: korekcyjno-kompensacyjnych, logopedycznych oraz innych zajęć o charakterze terapeutycznym,
-   2. porad i konsultacji,
-   3. zajęć rozwijających uzdolnienia.
-5. Pomoc psychologiczno-pedagogiczna jest udzielana rodzicom dzieci i nauczycielom w formie porad, konsultacji, warsztatów i szkoleń.
+1. Przedszkole organizuje i udziela pomocy psychologiczno – pedagogicznej zgodnie z przepisami prawa regulującego te kwestie.
+2. Pomoc udzielana rodzicom dzieci i nauczycielom polega na wspieraniu ich w rozwiązywaniu problemów wychowawczych i dydaktycznych oraz rozwijaniu umiejętności wychowawczych w celu zwiększania efektywności pomocy psychologiczno-pedagogicznej.
+3. W odniesieniu do dzieci pomoc udzielana w przedszkolu polega na:
+   1. rozpoznawaniu i zaspakajaniu idywidualnych potrzeb rozwojowych i edukacyjnych dziecka
+   2. rozpoznawaniu jego indywidualnych możliwości psychofizycznych i czynników środowiskowych wpływających na jego funkcjonowanie w przedszkolu w celu wspierania potencjału rozwojowego wychowanka i stwarzania warunków do jego aktywnego i pełnego uczestnictwa w życiu przedszkola oraz w środowisku społecznym,
+4. Pomocy psychologiczno-pedagogicznej udzielają dzieciom nauczyciele oraz specjaliści, w szczególności psycholodzy, pedagodzy, logopedzi.
+5. Pomoc psychologiczno-pedagogiczna jest udzielana w trakcie bieżącej pracy z dzieckiem oraz w formie zajęć:
+   1. rozwijających uzdolnienia,
+   2. korekcyjno-kompensacyjnych,
+   3. logopedycznych,
+   4. rozwijających kompetencje społeczne,
+   5. innych zajęć o charakterze terapeutycznycm,
+6. Pomoc psychologiczno-pedagogiczna jest udzielana rodzicom dzieci i nauczycielom w formie porad, konsultacji, warsztatów i szkoleń.
+7. Korzystanie z pomocy psychologiczno-pedagogicznej jest dobrowolne i nieodpłatne.
+8. Dla wychowanków posiadających orzeczenie o potrzebie kształcenia specjalnego dyrektor organizuje zajęcia specjalistyczne, zajęcia rewalidacyjne odpowiadające ich indywidualnym potrzebom rozwojowym i edukacyjnym określonym w wydanym przez publiczną poradnię psychologiczno-pedagogiczną orzeczeniu o potrzebie kształcenia specjalnego
 
 <span style="text-align: center; display: block;">§ 9</span>
 
-1. W ramach posiadanych możliwości przedszkole może organizować wczesne wspomaganie rozwoju dzieci, zgodnie z przepisami rozporządzenia ministra właściwego do spraw edukacji i wychowania regulującego te kwestie.
-2. Wczesne wspomaganie rozwoju ma na celu pobudzenie psychoruchowego, społecznego rozwoju dziecka od chwili wykrycia niepełnosprawności do momentu podjęcia nauki w szkole.
+1. W ramach posiadanych możliwości przedszkole może organizować wczesne wpomaganie rozwoju dzieci, które ma na celu pobudzenie psychoruchowego, społecznego rozwoju dziecka od chwili wykrycia niepełnosprawności do momentu podjęcia nauki w szkole.
 
 <span style="text-align: center; display: block;">§ 10</span>
 
-1. W przedszkolu zatrudniony jest logopeda i psycholog.
+1. W przedszkolu zatrudniony jest logopeda, psycholog i inni specjaliści w miarę potrzeb.
 2. Objęcie dziecka opieką psychologa i logopedy wymaga zgody rodziców.
 3. Dzieci mogą dodatkowo uczestniczyć w indywidualnych zajęciach logopedycznych, które są opłacane przez rodziców.
