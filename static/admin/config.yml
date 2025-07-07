@@ -1,4 +1,5 @@
 backend:
+  name: git-gateway
   branch: master
 media_folder: content/pages/media
 public_folder: ../media/

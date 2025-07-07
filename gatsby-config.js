@@ -75,17 +75,6 @@ module.exports = {
 				path: `${__dirname}/content`,
 			},
 		},
-		{
-			resolve: 'gatsby-plugin-modal-routing',
-			options: {
-				modalProps: {
-					bodyOpenClassName: 'ReactModal__Body--open',
-					htmlOpenClassName: 'ReactModal__Html--open',
-					overlayClassName: 'ReactModal__Overlay',
-					className: 'ReactModal__Content',
-				},
-			},
-		},
 		'gatsby-plugin-styled-components',
 		'gatsby-plugin-react-helmet',
 		'gatsby-transformer-sharp',

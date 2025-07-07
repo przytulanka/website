@@ -9,7 +9,7 @@ export const SectionWrapper = styled.section`
 		padding: 6em 1.5rem;
 	}
 
-	:first-of-type {
+	&:first-of-type {
 		padding: 8em 0.75rem 6em;
 		${({ theme }) => theme.mq.tabletMid} {
 			padding: 10em 1.5rem 8em;

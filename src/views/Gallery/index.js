@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import ReactPlayer from 'react-player';
 
 import Gallery from 'components/Gallery';
 import { SectionWrapper, SectionTitle } from 'components/Share';
@@ -8,6 +7,15 @@ import { dataFilter } from 'utils';
 import { VideoWrapper } from './styles';
 
 const GalleryView = () => {
+	const [ReactPlayer, setReactPlayer] = useState(null);
+
+	useEffect(() => {
+		if (typeof window !== 'undefined') {
+			import('react-player').then(module => {
+				setReactPlayer(() => module.default);
+			});
+		}
+	}, []);
 	const { video, galleries } = useStaticQuery(graphql`
 		{
 			video: markdownRemark(frontmatter: { type: { eq: "pageVideo" } }) {
@@ -40,7 +48,7 @@ const GalleryView = () => {
 	const { title: videoTitle, color, to } = video.frontmatter;
 	return (
 		<>
-			{!!to && (
+			{!!to && ReactPlayer && (
 				<SectionWrapper id="spacer">
 					<SectionTitle bg={color}>{videoTitle}</SectionTitle>
 					<VideoWrapper

@@ -1,27 +1,72 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import L from 'leaflet';
-import { Map, TileLayer, Marker } from 'react-leaflet';
 
 const LeafletMap = ({ position, zoom, iconImg, className }) => {
-	if (typeof window === 'undefined') return null;
+	const [isClient, setIsClient] = useState(false);
+	const [mapComponents, setMapComponents] = useState(null);
+	const [L, setL] = useState(null);
 
-	const icon = new L.Icon({
-		iconUrl: iconImg,
-		iconSize: new L.Point(150, 150),
-	});
+	useEffect(() => {
+		setIsClient(true);
+
+		if (typeof window !== 'undefined') {
+			const loadComponents = async () => {
+				try {
+					const [leaflet, reactLeaflet] = await Promise.all([
+						import('leaflet'),
+						import('react-leaflet'),
+					]);
+					setL(leaflet.default);
+					setMapComponents(reactLeaflet);
+				} catch (error) {
+					console.error('Error loading map components:', error);
+				}
+			};
+			loadComponents();
+		}
+	}, []);
+
+	if (!isClient || !mapComponents || !L) {
+		return (
+			<div
+				style={{
+					height: '400px',
+					background: '#f0f0f0',
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+				}}
+			>
+				Loading map...
+			</div>
+		);
+	}
+
+	const { MapContainer, TileLayer, Marker } = mapComponents;
+
+	let icon = null;
+	if (iconImg) {
+		try {
+			icon = new L.Icon({
+				iconUrl: iconImg,
+				iconSize: new L.Point(150, 150),
+			});
+		} catch (error) {
+			console.error('Error creating icon:', error);
+		}
+	}
 
 	return (
-		<Map
+		<MapContainer
 			center={position}
 			zoom={zoom}
 			className={className}
-			dragging={!L.Browser.mobile}
+			style={{ height: '400px', width: '100%' }}
 			scrollWheelZoom={false}
 		>
 			<TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-			<Marker position={position} icon={iconImg ? icon : null} />
-		</Map>
+			<Marker position={position} icon={icon} />
+		</MapContainer>
 	);
 };
 
