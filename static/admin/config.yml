@@ -83,9 +83,9 @@ collections:
                 name: title
                 widget: relation
                 collection: users
-                searchFields:
+                search_fields:
                   - title
-                valueField: title
+                value_field: title
       - label: Kontakt
         name: contact
         file: content/pages/kontakt/index.md
@@ -123,7 +123,7 @@ collections:
           - label: Treść
             name: body
             widget: markdown
-      - label: Film
+      - label: Galeria- Film
         name: pageVideo
         file: content/pages/spacer_po_przedszkolu/index.md
         fields:
@@ -180,9 +180,9 @@ collections:
                 name: title
                 widget: relation
                 collection: pricing
-                searchFields:
+                search_fields:
                   - title
-                valueField: title
+                value_field: title
       - label: Grupy i plan dnia - kolejność
         name: pageGroups
         file: content/pages/grupy_i_plan_dnia/index.md
@@ -206,9 +206,9 @@ collections:
                 name: title
                 widget: relation
                 collection: group
-                searchFields:
+                search_fields:
                   - title
-                valueField: title
+                value_field: title
       - label: Kolejność referencji
         name: pageReference
         file: content/pages/referencje/index.md
@@ -232,9 +232,9 @@ collections:
                 name: title
                 widget: relation
                 collection: reference
-                searchFields:
+                search_fields:
                   - title
-                valueField: title
+                value_field: title
       - label: Kolejność galerii
         name: pageGallery
         file: content/pages/galeria/index.md
@@ -258,9 +258,9 @@ collections:
                 name: title
                 widget: relation
                 collection: gallery
-                searchFields:
+                search_fields:
                   - title
-                valueField: title
+                value_field: title
       - label: Kolejność statutu
         name: statute
         file: content/pages/statut_przedszkola_przytulanka/index.md
@@ -284,9 +284,9 @@ collections:
                 name: title
                 widget: relation
                 collection: statute
-                searchFields:
+                search_fields:
                   - title
-                valueField: title
+                value_field: title
       - label: Kolejność regulaminu
         name: regulations
         file: content/pages/regulamin_przedszkola_przytulanka/index.md
@@ -310,9 +310,9 @@ collections:
                 name: title
                 widget: relation
                 collection: regulations
-                searchFields:
+                search_fields:
                   - title
-                valueField: title
+                value_field: title
       - label: Kolejność medii społecznościowych
         name: socials
         file: content/socials/index.md
@@ -329,9 +329,9 @@ collections:
                 name: title
                 widget: relation
                 collection: socials
-                searchFields:
+                search_fields:
                   - title
-                valueField: title
+                value_field: title
   - name: gallery
     label: Zarządzaj galeriami
     label_singular: galerię

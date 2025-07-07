@@ -12,7 +12,8 @@
 		"stylelint": "stylelint \"**/*.{js,css,scss}\" --fix",
 		"prelint": "npm run format",
 		"lint": "npm run stylelint",
-		"postlint": "npm run eslint"
+		"postlint": "npm run eslint",
+		"proxy": "npx netlify-cms-proxy-server"
 	},
 	"dependencies": {
 		"babel-plugin-styled-components": "^2.1.4",
