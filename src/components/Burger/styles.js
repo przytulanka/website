@@ -24,8 +24,8 @@ export const BurgerLines = styled.span`
 	cursor: pointer;
 	transition: ${transition};
 
-	::after,
-	::before {
+	&::after,
+	&::before {
 		position: absolute;
 		display: block;
 		width: 100%;
@@ -35,11 +35,11 @@ export const BurgerLines = styled.span`
 		content: '';
 	}
 
-	::before {
+	&::before {
 		transform: ${({ isOpen }) => !isOpen ? `translatey(-${lineGap}) ` : 'rotate(90deg)'};
 	}
 
-	::after {
+	&::after {
 		transform: ${({ isOpen }) => !isOpen ? `translatey(${lineGap}) ` : 'translateY(0)'};
 	}
 `;

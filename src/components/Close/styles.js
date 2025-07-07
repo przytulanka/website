@@ -17,7 +17,7 @@ export const Wrapper = styled.button`
 	cursor: pointer;
 	transition: transform 0.2s ease-in;
 
-	:hover {
+	&:hover {
 		transform: scale(1.2);
 	}
 `;
@@ -31,11 +31,11 @@ export const Cross = styled.span`
 	cursor: pointer;
 	transition: transform 0.4s ease-in;
 
-	:active {
+	&:active {
 		transform: rotate(360deg) scale(0);
 	}
 
-	::before {
+	&::before {
 		position: absolute;
 		display: block;
 		width: 100%;

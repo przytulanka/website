@@ -22,12 +22,12 @@ export const Title = styled.h2`
 export const StyledCover = styled.div`
 	border: none;
 
-	::before,
-	::after {
+	&::before,
+	&::after {
 		display: none;
 	}
 
-	:hover {
+	&:hover {
 		transform: none;
 	}
 `;

@@ -25,7 +25,7 @@ export const Title = styled.h3`
 	cursor: pointer;
 	${({ theme, isOpen }) => isOpen
 		&& `
-		::after {
+		&::after {
 		content: '';
 		position: absolute;
 		background-color: ${theme.color.green};

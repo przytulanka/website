@@ -7,8 +7,8 @@ export const Background = styled.div`
 	max-width: 900px;
 	margin: 0 auto;
 
-	::before,
-	::after {
+	&::before,
+	&::after {
 		position: absolute;
 		top: 0;
 		z-index: -1;
@@ -20,13 +20,13 @@ export const Background = styled.div`
 		content: '';
 	}
 
-	::before {
+	&::before {
 		left: 0;
 		background-image: url(${dance});
 		transform: rotate(-12.5deg) translateX(-25%);
 	}
 
-	::after {
+	&::after {
 		right: 0;
 		display: none;
 		background-image: url(${children});
@@ -34,7 +34,7 @@ export const Background = styled.div`
 	}
 
 	${({ theme }) => theme.mq.tabletMid} {
-		::after {
+		&::after {
 			display: block;
 		}
 	}

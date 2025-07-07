@@ -9,14 +9,14 @@ export const Wrapper = styled.div`
 	background: ${({ theme }) => theme.color.bright};
 	border: 5px solid ${({ theme, bg }) => theme.color[bg]};
 
-	::before,
-	::after {
+	&::before,
+	&::after {
 		position: absolute;
 		border: 5px solid;
 		content: '';
 	}
 
-	::before {
+	&::before {
 		top: 0;
 		right: 0;
 		bottom: 0;
@@ -24,7 +24,7 @@ export const Wrapper = styled.div`
 		border-color: ${({ theme }) => theme.color.green};
 	}
 
-	::after {
+	&::after {
 		top: -10px;
 		right: -10px;
 		bottom: -10px;
@@ -56,7 +56,7 @@ export const Text = styled.div`
 			align-items: center;
 			margin: 0 0 1.5em;
 
-			::before {
+			&::before {
 				min-width: 50px;
 				height: 50px;
 				background: url(${({ icon }) => icon}) no-repeat left top;

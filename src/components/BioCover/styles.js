@@ -12,12 +12,12 @@ export const Cover = styled.div`
 	transition: transform 0.2s ease-in;
 	will-change: transform;
 
-	:hover {
+	&:hover {
 		transform: scale(1.1);
 	}
 
-	::before,
-	::after {
+	&::before,
+	&::after {
 		position: absolute;
 		top: -5px;
 		right: -5px;
@@ -31,21 +31,21 @@ export const Cover = styled.div`
 		will-change: opacity, transform;
 	}
 
-	::before {
+	&::before {
 		box-shadow: 0 3px 10px -4px ${({ theme }) => theme.color.dark};
 		opacity: 1;
 	}
 
-	::after {
+	&::after {
 		box-shadow: 0 20px 30px -20px ${({ theme }) => theme.color.dark};
 		opacity: 0;
 	}
 
-	:hover::after {
+	&:hover::after {
 		opacity: 1;
 	}
 
-	:hover::before {
+	&:hover::before {
 		opacity: 0;
 	}
 `;

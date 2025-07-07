@@ -32,8 +32,8 @@ export const StyledLink = styled.a`
 	text-transform: lowercase;
 	text-decoration: none;
 
-	:hover,
-	:active {
+	&:hover,
+	&:active {
 		color: ${({ theme }) => theme.color.footerActiveLink};
 	}
 `;

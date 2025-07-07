@@ -19,8 +19,8 @@ export const Tiles = styled.ul`
 	padding: 0;
 	list-style: none;
 
-	::before,
-	::after {
+	&::before,
+	&::after {
 		position: absolute;
 		z-index: -1;
 		display: block;
@@ -31,14 +31,14 @@ export const Tiles = styled.ul`
 		content: '';
 	}
 
-	::before {
+	&::before {
 		top: 0;
 		left: 0;
 		background-image: url(${flowers});
 		transform: rotate(22.5deg) translate(0, 0);
 	}
 
-	::after {
+	&::after {
 		right: 0;
 		bottom: 0;
 		display: none;
@@ -47,7 +47,7 @@ export const Tiles = styled.ul`
 	}
 
 	${({ theme }) => theme.mq.tabletMid} {
-		::after {
+		&::after {
 			display: block;
 		}
 	}
