@@ -3,12 +3,38 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import SEO from 'components/SEO';
 import Bio from 'components/Bio';
-import { PageBio } from './styles';
+import ModalClose from 'components/ModalClose';
+import { PageBio, ModalBio } from './styles';
 
-const BioTemplate = ({ data }) => {
-	const { title, cover } = data.markdownRemark.frontmatter;
+const BioTemplate = ({ data, location }) => {
+	const { title, color, cover } = data.markdownRemark.frontmatter;
 	const text = data.markdownRemark.html;
 	const { slug } = data.markdownRemark.fields;
+	const isModal = location?.state?.modal;
+
+	const handleModalClose = () => {
+		window.history.back();
+	};
+
+	const handleBackdropClick = e => {
+		if (e.target === e.currentTarget) {
+			handleModalClose();
+		}
+	};
+
+	if (isModal) {
+		return (
+			<>
+				<SEO title={title} />
+				<ModalBio onClick={handleBackdropClick}>
+					<div>
+						<ModalClose color={color} onClick={handleModalClose} />
+						<Bio title={title} cover={cover} text={text} />
+					</div>
+				</ModalBio>
+			</>
+		);
+	}
 
 	return (
 		<>
@@ -20,6 +46,11 @@ const BioTemplate = ({ data }) => {
 
 BioTemplate.propTypes = {
 	data: PropTypes.objectOf(PropTypes.shape()).isRequired,
+	location: PropTypes.shape({
+		state: PropTypes.shape({
+			modal: PropTypes.bool,
+		}),
+	}).isRequired,
 };
 
 export default BioTemplate;
