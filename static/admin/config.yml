@@ -32,8 +32,9 @@ collections:
             name: images
             widget: list
             required: false
-            # field:
-            #   widget: image
+            field:
+              name: image
+              widget: image
       - label: Kilka słów o Przytulance
         name: about
         file: content/pages/o_nas/index.md
@@ -55,8 +56,9 @@ collections:
             name: images
             widget: list
             required: false
-            # field:
-            #   widget: image
+            field:
+              name: image
+              widget: image
           - label: Treść
             name: body
             widget: markdown
@@ -361,8 +363,9 @@ collections:
         name: images
         widget: list
         required: false
-        # field:
-        #   widget: image
+        field:
+          name: image
+          widget: image
   - name: users
     label: Zarządzaj osobami
     label_singular: osoba
