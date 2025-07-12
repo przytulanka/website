@@ -7,16 +7,16 @@ import { Background, Content } from './styles';
 
 const Story = ({ id }) => {
 	const { info } = useStaticQuery(graphql`
-		{
-			info: markdownRemark(frontmatter: { type: { eq: "pageStory" } }) {
-				html
-				frontmatter {
-					title
-					color
-				}
-			}
-		}
-	`);
+    {
+      info: markdownRemark(frontmatter: { type: { eq: "pageStory" } }) {
+        html
+        frontmatter {
+          title
+          color
+        }
+      }
+    }
+  `);
 	return (
 		<SectionWrapper id={id}>
 			<SectionTitle bg={info.frontmatter.color}>

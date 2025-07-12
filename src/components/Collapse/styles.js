@@ -8,7 +8,9 @@ export const Wrapper = styled.div`
 	border: 0.25em solid;
 	border-color: ${({ theme, bg }) => theme.color[bg]};
 	border-radius: 1em;
-	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	transition:
+		background-color 0.2s ease-in-out,
+		color 0.2s ease-in-out;
 
 	&:hover {
 		color: ${({ theme, isOpen }) => !isOpen && theme.color.bright};
@@ -24,7 +26,7 @@ export const Title = styled.h3`
 	position: relative;
 	cursor: pointer;
 	${({ theme, isOpen }) => isOpen
-		&& `
+    && `
 		&::after {
 		content: '';
 		position: absolute;

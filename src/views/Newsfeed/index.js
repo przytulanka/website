@@ -9,22 +9,22 @@ import { Wrapper, SliderWrapper } from './styles';
 
 const Newsfeed = ({ id }) => {
 	const { newsfeed } = useStaticQuery(graphql`
-		{
-			newsfeed: markdownRemark(frontmatter: { type: { eq: "pageNewsfeed" } }) {
-				frontmatter {
-					color
-					images {
-						id
-						childImageSharp {
-							fluid(maxWidth: 860, quality: 50) {
-								...GatsbyImageSharpFluid
-							}
-						}
-					}
-				}
-			}
-		}
-	`);
+    {
+      newsfeed: markdownRemark(frontmatter: { type: { eq: "pageNewsfeed" } }) {
+        frontmatter {
+          color
+          images {
+            id
+            childImageSharp {
+              fluid(maxWidth: 860, quality: 50) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
 
 	const { color, images } = newsfeed.frontmatter;
 	if (!images.length) return null;

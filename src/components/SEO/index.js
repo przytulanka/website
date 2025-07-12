@@ -5,24 +5,24 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 const SEO = ({ title, description, pathname, article }) => {
 	const { site, image, comfortaa } = useStaticQuery(graphql`
-		{
-			site {
-				siteMetadata {
-					defaultTitle: title
-					defaultDescription: description
-					siteUrl: url
-				}
-			}
-			image: file(relativePath: { eq: "logo.svg" }) {
-				publicURL
-			}
-			comfortaa: file(
-				relativePath: { eq: "comfortaa-v28-latin-ext_latin-regular.woff2" }
-			) {
-				publicURL
-			}
-		}
-	`);
+    {
+      site {
+        siteMetadata {
+          defaultTitle: title
+          defaultDescription: description
+          siteUrl: url
+        }
+      }
+      image: file(relativePath: { eq: "logo.svg" }) {
+        publicURL
+      }
+      comfortaa: file(
+        relativePath: { eq: "comfortaa-v28-latin-ext_latin-regular.woff2" }
+      ) {
+        publicURL
+      }
+    }
+  `);
 
 	const { defaultTitle, defaultDescription, siteUrl } = site.siteMetadata;
 

@@ -9,20 +9,20 @@ import { Wrapper, MapWrapper, StyledText, StyledMap } from './styles';
 
 const Contact = ({ id }) => {
 	const { contact, mapMarker } = useStaticQuery(graphql`
-		{
-			contact: markdownRemark(frontmatter: { type: { eq: "pageContact" } }) {
-				html
-				frontmatter {
-					title
-					color
-					to
-				}
-			}
-			mapMarker: file(name: { eq: "map_marker" }) {
-				publicURL
-			}
-		}
-	`);
+    {
+      contact: markdownRemark(frontmatter: { type: { eq: "pageContact" } }) {
+        html
+        frontmatter {
+          title
+          color
+          to
+        }
+      }
+      mapMarker: file(name: { eq: "map_marker" }) {
+        publicURL
+      }
+    }
+  `);
 	const { title, color, to } = contact.frontmatter;
 	const [first, second] = to.split(',');
 	return (

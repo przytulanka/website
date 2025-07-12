@@ -9,29 +9,29 @@ import { CardList, StyledCard } from './styles';
 
 const Groups = ({ id }) => {
 	const { group } = useStaticQuery(graphql`
-		{
-			group: markdownRemark(frontmatter: { type: { eq: "pageGroups" } }) {
-				frontmatter {
-					title
-					color
-					groups {
-						title {
-							html
-							frontmatter {
-								title
-								subtitle
-								color
-								icon {
-									id
-									publicURL
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	`);
+    {
+      group: markdownRemark(frontmatter: { type: { eq: "pageGroups" } }) {
+        frontmatter {
+          title
+          color
+          groups {
+            title {
+              html
+              frontmatter {
+                title
+                subtitle
+                color
+                icon {
+                  id
+                  publicURL
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
 
 	const groups = dataFilter(group, 'groups');
 	if (!groups.length) return null;

@@ -6,16 +6,16 @@ import { Wrapper, Image } from './styles';
 
 const Hero = () => {
 	const { heroImage } = useStaticQuery(graphql`
-		query {
-			heroImage: file(name: { eq: "hero" }) {
-				childImageSharp {
-					fluid(maxHeight: 800, quality: 25) {
-						...GatsbyImageSharpFluid
-					}
-				}
-			}
-		}
-	`);
+    query {
+      heroImage: file(name: { eq: "hero" }) {
+        childImageSharp {
+          fluid(maxHeight: 800, quality: 25) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `);
 
 	return (
 		<Wrapper>

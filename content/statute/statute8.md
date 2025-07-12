@@ -30,8 +30,7 @@ color: violet
    12. pisemnego poinformowania z miesięcznym wyprzedzeniem o zamiarze rezygnacji z przedszkola.
    13. współdziałania z nauczycielami w celu skutecznego oddziaływania wychowawczego na dziecko i określania drogi jego indywidualnego rozwoju.
    14. zapewnienia dziecku możliwości udziału w ewentualnych zdalnych zajęciach organizowanych przez przedszkole w trybie wskazanym w § 17 niniejszego Statutu.
-4. Rodzice (opiekunowie prawni) dziecka podlegającego obowiązkowi rocznego przygotowania
-przedszkolnego są zobowiązani:
+4. Rodzice (opiekunowie prawni) dziecka podlegającego obowiązkowi rocznego przygotowania przedszkolnego są zobowiązani:
    1. zapewnić regularne uczęszczanie dziecka na zajęcia,
    2. zaopatrzyć dziecko w niezbędne przedmioty, przybory i pomoce,
    3. wspierać nauczycieli w celu osiągnięcia gotowości szkolnej dziecka.
@@ -39,14 +38,12 @@ przedszkolnego są zobowiązani:
 
 <span style="text-align: center; display: block;">§ 33</span>
 
-1. Współpraca przedszkola z rodzicami oparta jest na wzajemnych uzgodnieniach i obejmuje
-następujące formy:
+1. Współpraca przedszkola z rodzicami oparta jest na wzajemnych uzgodnieniach i obejmuje następujące formy:
    1. konsultacje indywidualne z inicjatywy nauczyciela lub rodziców (prawnych opiekunów) z dyrektorem, nauczycielami, specjalistami,
    2. zebrania grupowe,
    3. warsztaty dla rodziców,
    4. imprezy środowiskowe,
-   5. udział rodziców (prawnych opiekunów) w uroczystościach przedszkolnych i imprezach
-   integrujących przedszkole z domem rodzinnym i środowiskiem,
+   5. udział rodziców (prawnych opiekunów) w uroczystościach przedszkolnych i imprezach integrujących przedszkole z domem rodzinnym i środowiskiem,
    6. kąciki dla rodziców, kąciki plastyczne, informacje grupowe,
    7. strona www i facebook,
    8. inne wzajemnie ustalone.

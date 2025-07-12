@@ -55,7 +55,9 @@ export const BurgerMenu = styled.nav`
 	height: 100vh;
 	visibility: ${({ isOpen }) => (isOpen ? 'visible' : 'hidden')};
 	opacity: ${({ isOpen }) => (isOpen ? '1' : '0')};
-	transition: opacity 0.35s ease-out, visibility 0.35s;
+	transition:
+		opacity 0.35s ease-out,
+		visibility 0.35s;
 	will-change: opacity;
 `;
 

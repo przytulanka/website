@@ -17,31 +17,31 @@ const GalleryView = () => {
 		}
 	}, []);
 	const { video, galleries } = useStaticQuery(graphql`
-		{
-			video: markdownRemark(frontmatter: { type: { eq: "pageVideo" } }) {
-				frontmatter {
-					title
-					color
-					to
-				}
-			}
-			galleries: markdownRemark(frontmatter: { type: { eq: "pageGallery" } }) {
-				frontmatter {
-					gallery {
-						title {
-							id
-							fields {
-								slug
-							}
-							frontmatter {
-								...galleryFields
-							}
-						}
-					}
-				}
-			}
-		}
-	`);
+    {
+      video: markdownRemark(frontmatter: { type: { eq: "pageVideo" } }) {
+        frontmatter {
+          title
+          color
+          to
+        }
+      }
+      galleries: markdownRemark(frontmatter: { type: { eq: "pageGallery" } }) {
+        frontmatter {
+          gallery {
+            title {
+              id
+              fields {
+                slug
+              }
+              frontmatter {
+                ...galleryFields
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
 
 	const gallery = dataFilter(galleries, 'gallery');
 	if (!gallery.length) return null;

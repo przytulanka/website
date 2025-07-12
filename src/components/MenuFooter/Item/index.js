@@ -24,6 +24,7 @@ const NavItem = ({ title, to, subItems }) => (
 NavItem.propTypes = {
 	title: PropTypes.string.isRequired,
 	to: PropTypes.string.isRequired,
+	// eslint-disable-next-line react/forbid-prop-types
 	subItems: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 

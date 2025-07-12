@@ -5,25 +5,25 @@ module.exports = {
 	siteMetadata: {
 		title: 'Przytulanka - Przedszkole i Klub maluszka',
 		description:
-			'Małe grupy, ciepła i rodzinna atmosfera. Nie my tak twierdzimy, ale rodzice naszych dzieci :-) Przyjdź i sprawdź. Sulejówek, ul. Kolbego 10B. Zapraszamy!',
+      'Małe grupy, ciepła i rodzinna atmosfera. Nie my tak twierdzimy, ale rodzice naszych dzieci :-) Przyjdź i sprawdź. Sulejówek, ul. Kolbego 10B. Zapraszamy!',
 		url: 'https://www.przedszkoleprzytulanka.pl',
 		author: '@lasmedia',
 		menuMobile,
 	},
 	mapping: {
 		'MarkdownRemark.frontmatter.socials.title':
-			'MarkdownRemark.frontmatter.title',
+      'MarkdownRemark.frontmatter.title',
 		'MarkdownRemark.frontmatter.users.title':
-			'MarkdownRemark.frontmatter.title',
+      'MarkdownRemark.frontmatter.title',
 		'MarkdownRemark.frontmatter.prices.title':
-			'MarkdownRemark.frontmatter.title',
+      'MarkdownRemark.frontmatter.title',
 		'MarkdownRemark.frontmatter.groups.title':
-			'MarkdownRemark.frontmatter.title',
+      'MarkdownRemark.frontmatter.title',
 		'MarkdownRemark.frontmatter.rules.title':
-			'MarkdownRemark.frontmatter.title',
+      'MarkdownRemark.frontmatter.title',
 		'MarkdownRemark.frontmatter.refs.title': 'MarkdownRemark.frontmatter.title',
 		'MarkdownRemark.frontmatter.gallery.title':
-			'MarkdownRemark.frontmatter.title',
+      'MarkdownRemark.frontmatter.title',
 	},
 	plugins: [
 		{

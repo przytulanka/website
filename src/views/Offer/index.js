@@ -7,19 +7,19 @@ import { Wrapper, Text } from './styles';
 
 const Offer = ({ id }) => {
 	const { offer, icon } = useStaticQuery(graphql`
-		{
-			offer: markdownRemark(frontmatter: { type: { eq: "pageOffer" } }) {
-				html
-				frontmatter {
-					title
-					color
-				}
-			}
-			icon: file(relativePath: { eq: "mis.svg" }) {
-				publicURL
-			}
-		}
-	`);
+    {
+      offer: markdownRemark(frontmatter: { type: { eq: "pageOffer" } }) {
+        html
+        frontmatter {
+          title
+          color
+        }
+      }
+      icon: file(relativePath: { eq: "mis.svg" }) {
+        publicURL
+      }
+    }
+  `);
 
 	const { title, color } = offer.frontmatter;
 

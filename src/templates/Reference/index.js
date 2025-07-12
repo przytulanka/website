@@ -63,15 +63,15 @@ ReferenceTemplate.propTypes = {
 export default ReferenceTemplate;
 
 export const query = graphql`
-	query ReferenceTemplate($id: String!) {
-		markdownRemark(id: { eq: $id }) {
-			html
-			fields {
-				slug
-			}
-			frontmatter {
-				author
-			}
-		}
-	}
+  query ReferenceTemplate($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      html
+      fields {
+        slug
+      }
+      frontmatter {
+        author
+      }
+    }
+  }
 `;

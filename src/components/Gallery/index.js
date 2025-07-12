@@ -19,6 +19,7 @@ Gallery.propTypes = {
 	id: PropTypes.string.isRequired,
 	title: PropTypes.string.isRequired,
 	color: PropTypes.string.isRequired,
+	// eslint-disable-next-line react/forbid-prop-types
 	images: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 

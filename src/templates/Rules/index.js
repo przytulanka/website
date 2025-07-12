@@ -57,21 +57,21 @@ RulesTemplate.propTypes = {
 export default RulesTemplate;
 
 export const query = graphql`
-	query RulesTemplate($id: String!) {
-		markdownRemark(id: { eq: $id }) {
-			frontmatter {
-				title
-				color
-				rules {
-					title {
-						html
-						frontmatter {
-							title
-							color
-						}
-					}
-				}
-			}
-		}
-	}
+  query RulesTemplate($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      frontmatter {
+        title
+        color
+        rules {
+          title {
+            html
+            frontmatter {
+              title
+              color
+            }
+          }
+        }
+      }
+    }
+  }
 `;

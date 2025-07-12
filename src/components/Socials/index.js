@@ -25,6 +25,7 @@ const Socials = ({ socials, className }) => (
 );
 
 Socials.propTypes = {
+	// eslint-disable-next-line react/forbid-prop-types
 	socials: PropTypes.arrayOf(PropTypes.object).isRequired,
 	className: PropTypes.string,
 };

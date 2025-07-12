@@ -7,12 +7,12 @@ import { Cover, Image, NoImage } from './styles';
 
 const BioCover = ({ cover, color, className }) => {
 	const { userIcon } = useStaticQuery(graphql`
-		{
-			userIcon: file(name: { eq: "user" }) {
-				publicURL
-			}
-		}
-	`);
+    {
+      userIcon: file(name: { eq: "user" }) {
+        publicURL
+      }
+    }
+  `);
 
 	return (
 		<Cover className={className} bg={color}>

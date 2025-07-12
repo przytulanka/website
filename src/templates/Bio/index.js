@@ -56,23 +56,23 @@ BioTemplate.propTypes = {
 export default BioTemplate;
 
 export const query = graphql`
-	query BioTemplate($id: String!) {
-		markdownRemark(id: { eq: $id }) {
-			html
-			fields {
-				slug
-			}
-			frontmatter {
-				title
-				color
-				cover {
-					childImageSharp {
-						fixed(quality: 30, cropFocus: CENTER, width: 300, height: 300) {
-							...GatsbyImageSharpFixed
-						}
-					}
-				}
-			}
-		}
-	}
+  query BioTemplate($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      html
+      fields {
+        slug
+      }
+      frontmatter {
+        title
+        color
+        cover {
+          childImageSharp {
+            fixed(quality: 30, cropFocus: CENTER, width: 300, height: 300) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+      }
+    }
+  }
 `;

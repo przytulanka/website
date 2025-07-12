@@ -10,39 +10,39 @@ import { Wrapper, CrewList, CrewItem, StyledLink } from './styles';
 
 const Crew = ({ id }) => {
 	const { members } = useStaticQuery(graphql`
-		{
-			members: markdownRemark(frontmatter: { type: { eq: "crew" } }) {
-				frontmatter {
-					title
-					color
-					users {
-						title {
-							html
-							fields {
-								slug
-							}
-							frontmatter {
-								title
-								color
-								cover {
-									childImageSharp {
-										fixed(
-											quality: 75
-											cropFocus: CENTER
-											width: 190
-											height: 190
-										) {
-											...GatsbyImageSharpFixed
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	`);
+    {
+      members: markdownRemark(frontmatter: { type: { eq: "crew" } }) {
+        frontmatter {
+          title
+          color
+          users {
+            title {
+              html
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                color
+                cover {
+                  childImageSharp {
+                    fixed(
+                      quality: 75
+                      cropFocus: CENTER
+                      width: 190
+                      height: 190
+                    ) {
+                      ...GatsbyImageSharpFixed
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
 
 	const users = dataFilter(members, 'users');
 	if (!users.length) return null;

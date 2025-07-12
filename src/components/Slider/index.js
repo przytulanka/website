@@ -20,6 +20,7 @@ const Slick = ({ images, className, type }) => (
 );
 
 Slick.propTypes = {
+	// eslint-disable-next-line react/forbid-prop-types
 	images: PropTypes.arrayOf(PropTypes.object).isRequired,
 	type: PropTypes.string.isRequired,
 	className: PropTypes.string,

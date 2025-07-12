@@ -10,30 +10,30 @@ import { Wrapper, StyledText, SliderWrapper } from './styles';
 
 const About = ({ id }) => {
 	const { info, quote } = useStaticQuery(graphql`
-		{
-			info: markdownRemark(frontmatter: { type: { eq: "pageAbout" } }) {
-				rawMarkdownBody
-				frontmatter {
-					title
-					color
-					images {
-						id
-						childImageSharp {
-							fluid(maxWidth: 1000, quality: 30) {
-								...GatsbyImageSharpFluid
-							}
-						}
-					}
-				}
-			}
-			quote: markdownRemark(frontmatter: { type: { eq: "quote" } }) {
-				rawMarkdownBody
-				frontmatter {
-					author
-				}
-			}
-		}
-	`);
+    {
+      info: markdownRemark(frontmatter: { type: { eq: "pageAbout" } }) {
+        rawMarkdownBody
+        frontmatter {
+          title
+          color
+          images {
+            id
+            childImageSharp {
+              fluid(maxWidth: 1000, quality: 30) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+      quote: markdownRemark(frontmatter: { type: { eq: "quote" } }) {
+        rawMarkdownBody
+        frontmatter {
+          author
+        }
+      }
+    }
+  `);
 	const { title, color, images } = info.frontmatter;
 
 	return (

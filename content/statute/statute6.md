@@ -50,8 +50,7 @@ color: violet
 <span style="text-align: center; display: block;">§ 29</span>
 
 1. W przedszkolu zatrudnione są pomoce nauczyciela i pracownik obsługi.
-2. Ich zadaniem jest zapewnienie sprawnego działania przedszkola, utrzymanie obiektu i jego
-otoczenia w ładzie i czystości.
+2. Ich zadaniem jest zapewnienie sprawnego działania przedszkola, utrzymanie obiektu i jego otoczenia w ładzie i czystości.
 3. Pomoce nauczyciela współpracują z nauczycielami w zakresie opieki i wychowania dzieci.
 4. Szczegółowy zakres obowiązków tych pracowników ustala organ prowadzący przedszkola.
 5. Do obowiązków pomocy nauczyciela należy w szczególności:

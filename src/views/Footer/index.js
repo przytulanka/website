@@ -15,41 +15,41 @@ import {
 
 const Footer = () => {
 	const { allMenu, logo, socials } = useStaticQuery(graphql`
-		{
-			allMenu {
-				edges {
-					node {
-						title
-						to
-						subMenu {
-							title
-							to
-						}
-					}
-				}
-			}
-			logo: file(relativePath: { eq: "logo.svg" }) {
-				publicURL
-			}
-			socials: markdownRemark(frontmatter: { type: { eq: "socials" } }) {
-				frontmatter {
-					socials {
-						title {
-							rawMarkdownBody
-							frontmatter {
-								title
-								color
-								to
-								cover {
-									publicURL
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	`);
+    {
+      allMenu {
+        edges {
+          node {
+            title
+            to
+            subMenu {
+              title
+              to
+            }
+          }
+        }
+      }
+      logo: file(relativePath: { eq: "logo.svg" }) {
+        publicURL
+      }
+      socials: markdownRemark(frontmatter: { type: { eq: "socials" } }) {
+        frontmatter {
+          socials {
+            title {
+              rawMarkdownBody
+              frontmatter {
+                title
+                color
+                to
+                cover {
+                  publicURL
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
 
 	const actualDate = new Date();
 

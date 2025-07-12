@@ -9,27 +9,27 @@ import { Wrapper, Tiles, TileItem } from './styles';
 
 const Reference = ({ id }) => {
 	const { markdownRemark } = useStaticQuery(graphql`
-		{
-			markdownRemark(frontmatter: { type: { eq: "pageReference" } }) {
-				frontmatter {
-					title
-					color
-					refs {
-						title {
-							excerpt
-							id
-							fields {
-								slug
-							}
-							frontmatter {
-								title
-							}
-						}
-					}
-				}
-			}
-		}
-	`);
+    {
+      markdownRemark(frontmatter: { type: { eq: "pageReference" } }) {
+        frontmatter {
+          title
+          color
+          refs {
+            title {
+              excerpt
+              id
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
 
 	const refs = dataFilter(markdownRemark, 'refs', 'title');
 	if (!refs.length) return null;

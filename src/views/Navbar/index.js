@@ -16,32 +16,32 @@ import {
 
 const Navbar = () => {
 	const { allMenu, site, logo } = useStaticQuery(graphql`
-		{
-			allMenu {
-				edges {
-					node {
-						title
-						to
-						subMenu {
-							title
-							to
-						}
-					}
-				}
-			}
-			site {
-				siteMetadata {
-					menuMobile {
-						title
-						to
-					}
-				}
-			}
-			logo: file(relativePath: { eq: "logo.svg" }) {
-				publicURL
-			}
-		}
-	`);
+    {
+      allMenu {
+        edges {
+          node {
+            title
+            to
+            subMenu {
+              title
+              to
+            }
+          }
+        }
+      }
+      site {
+        siteMetadata {
+          menuMobile {
+            title
+            to
+          }
+        }
+      }
+      logo: file(relativePath: { eq: "logo.svg" }) {
+        publicURL
+      }
+    }
+  `);
 
 	const { menuMobile } = site.siteMetadata;
 	const [isOpen, setIsOpen] = useState(false);

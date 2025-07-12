@@ -16,6 +16,7 @@ const Dropdown = ({ submenu }) => (
 );
 
 Dropdown.propTypes = {
+	// eslint-disable-next-line react/forbid-prop-types
 	submenu: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 

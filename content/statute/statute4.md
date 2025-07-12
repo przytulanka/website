@@ -46,17 +46,17 @@ color: violet
    4. materiały prezentowane w programach publicznej telewizji i radiofonii;
 9. Rodzice, w uzgodnionych terminach, krótko informują nauczyciela o efektach prowadzonych zajęć z wykorzystaniem metod i technik kształcenia na odległość za pomocą poczty elektronicznej lub SMS-ów. Mogą też przesłać zdjęcia wykonanych kart zadaniowych czy prac plastycznych. Jest to sposób potwierdzania uczestnictwa dzieci w wymienionych zajęciach.
 10. W okresie organizacji dla dzieci zajęć z wykorzystaniem metod i technik kształcenia na odległość Dyrektor przedszkola odpowiada za organizację realizacji zadań tej jednostki, w tym wymienionych wyżej zajęć lub innego sposobu realizacji tych zajęć:
-   1. na czas pracy zdalnej dyrektor w porozumieniu z nauczycielami ustala tygodniowy zakres treści nauczania do zrealizowania w poszczególnych grupach przedszkolnych, uwzględniając w szczególności:
-   <ol type="a">
-   	<li>równomierne obciążenie dzieci w poszczególnych dniach tygodnia,</li>
-   	<li>zróżnicowanie zajęć w każdym dniu,</li>
-   	<li>możliwości psychofizyczne dzieci.</li>
-   </ol>
-   2. ustala, we współpracy z nauczycielami, sposób monitorowania postępów dzieci oraz formę przekazywania informacji o postępach rodzicom/ opiekunom prawnym;
-   3. ustala sposób dokumentowania realizacji zadań z wykorzystaniem metod i technik kształcenia na odległość lub innego sposobu realizacji tych zadań;
-   4. zapewnia rodzicom możliwość konsultacji z nauczycielem prowadzącym zajęcia oraz przekazuje im informację o formie i terminach tych konsultacji;
-   5. przekazuje rodzicom i nauczycielom informacje o sposobie i trybie realizacji zadań przedszkola, w szczególności w zakresie organizacji kształcenia specjalnego i pomocy psychologiczno–pedagogicznej;
-   6. koordynuje współpracę nauczycieli z rodzicami, uwzględniając potrzeby edukacyjne i możliwości psychofizyczne dzieci, w tym dzieci objętych kształceniem specjalnym.
+    1. na czas pracy zdalnej dyrektor w porozumieniu z nauczycielami ustala tygodniowy zakres treści nauczania do zrealizowania w poszczególnych grupach przedszkolnych, uwzględniając w szczególności:
+    <ol type="a">
+       <li>równomierne obciążenie dzieci w poszczególnych dniach tygodnia,</li>
+       <li>zróżnicowanie zajęć w każdym dniu,</li>
+       <li>możliwości psychofizyczne dzieci.</li>
+    </ol>
+    2. ustala, we współpracy z nauczycielami, sposób monitorowania postępów dzieci oraz formę przekazywania informacji o postępach rodzicom/ opiekunom prawnym;
+    3. ustala sposób dokumentowania realizacji zadań z wykorzystaniem metod i technik kształcenia na odległość lub innego sposobu realizacji tych zadań;
+    4. zapewnia rodzicom możliwość konsultacji z nauczycielem prowadzącym zajęcia oraz przekazuje im informację o formie i terminach tych konsultacji;
+    5. przekazuje rodzicom i nauczycielom informacje o sposobie i trybie realizacji zadań przedszkola, w szczególności w zakresie organizacji kształcenia specjalnego i pomocy psychologiczno–pedagogicznej;
+    6. koordynuje współpracę nauczycieli z rodzicami, uwzględniając potrzeby edukacyjne i możliwości psychofizyczne dzieci, w tym dzieci objętych kształceniem specjalnym.
 
 <span style="text-align: center; display: block;">§ 18</span>
 
@@ -67,8 +67,9 @@ color: violet
 <span style="text-align: center; display: block;">§ 19</span>
 
 Czas trwania zajęć dydaktyczno-wychowawczych z dziećmi, w tym również zajęć dodatkowych uzależniony jest od indywidualnych możliwości i potrzeb dzieci oraz realizowanego programu, i wynosi:
-   1. 15- 20 minut dla dzieci w wieku 3-4 lat,
-   2. 30 minut dla dzieci w wieku 5-6 lat.
+
+1.  15- 20 minut dla dzieci w wieku 3-4 lat,
+2.  30 minut dla dzieci w wieku 5-6 lat.
 
 <span style="text-align: center; display: block;">§ 20</span>
 
@@ -122,4 +123,4 @@ Czas trwania zajęć dydaktyczno-wychowawczych z dziećmi, w tym również zaję
    4. zaplecze kuchenne,
    5. pomieszczenia administracyjno-gospodarcze.
 2. Dzieci mają możliwość codziennego korzystania z placu zabaw z odpowiednio dobranymi
-urządzeniami dostosowanymi do ich wieku.
+   urządzeniami dostosowanymi do ich wieku.

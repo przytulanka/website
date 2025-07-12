@@ -16,6 +16,7 @@ const MenuMobile = ({ items, click, className }) => (
 );
 
 MenuMobile.propTypes = {
+	// eslint-disable-next-line react/forbid-prop-types
 	items: PropTypes.arrayOf(PropTypes.object).isRequired,
 	click: PropTypes.func,
 	className: PropTypes.string,

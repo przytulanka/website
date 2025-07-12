@@ -7,15 +7,15 @@ import { SectionWrapper, SectionTitle } from 'components/Share';
 
 const About = ({ id }) => {
 	const { form } = useStaticQuery(graphql`
-		{
-			form: markdownRemark(frontmatter: { type: { eq: "pageForm" } }) {
-				frontmatter {
-					title
-					color
-				}
-			}
-		}
-	`);
+    {
+      form: markdownRemark(frontmatter: { type: { eq: "pageForm" } }) {
+        frontmatter {
+          title
+          color
+        }
+      }
+    }
+  `);
 
 	return (
 		<SectionWrapper id={id}>

@@ -18,6 +18,7 @@ const Menu = ({ items, className }) => (
 );
 
 Menu.propTypes = {
+	// eslint-disable-next-line react/forbid-prop-types
 	items: PropTypes.arrayOf(PropTypes.object).isRequired,
 	className: PropTypes.string,
 };

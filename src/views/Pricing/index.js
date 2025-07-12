@@ -8,23 +8,23 @@ import { Wrapper, PricingList, PricingItem, Title, Text } from './styles';
 
 const Pricing = ({ id }) => {
 	const { pricing } = useStaticQuery(graphql`
-		{
-			pricing: markdownRemark(frontmatter: { type: { eq: "pagePricing" } }) {
-				frontmatter {
-					title
-					color
-					prices {
-						title {
-							html
-							frontmatter {
-								title
-							}
-						}
-					}
-				}
-			}
-		}
-	`);
+    {
+      pricing: markdownRemark(frontmatter: { type: { eq: "pagePricing" } }) {
+        frontmatter {
+          title
+          color
+          prices {
+            title {
+              html
+              frontmatter {
+                title
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
 	const prices = dataFilter(pricing, 'prices');
 	if (!prices.length) return null;
 

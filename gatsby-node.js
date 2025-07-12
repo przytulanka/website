@@ -36,7 +36,7 @@ exports.sourceNodes = async ({
 			title: el.title,
 			to: el.to,
 			subMenu:
-				el.title === 'galeria' ? [...el.subMenu, ...menuGallery] : el.subMenu,
+        el.title === 'galeria' ? [...el.subMenu, ...menuGallery] : el.subMenu,
 		};
 
 		const node = {
@@ -77,22 +77,22 @@ exports.createPages = async ({ graphql, actions }) => {
 	const { createPage } = actions;
 
 	const result = await graphql(`
-		{
-			allMarkdownRemark {
-				edges {
-					node {
-						id
-						fields {
-							slug
-						}
-						frontmatter {
-							type
-						}
-					}
-				}
-			}
-		}
-	`);
+    {
+      allMarkdownRemark {
+        edges {
+          node {
+            id
+            fields {
+              slug
+            }
+            frontmatter {
+              type
+            }
+          }
+        }
+      }
+    }
+  `);
 
 	if (result.errors) throw result.errors;
 
