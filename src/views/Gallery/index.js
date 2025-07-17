@@ -16,15 +16,8 @@ const GalleryView = () => {
 			});
 		}
 	}, []);
-	const { video, galleries } = useStaticQuery(graphql`
+	const { galleries } = useStaticQuery(graphql`
     {
-      video: markdownRemark(frontmatter: { type: { eq: "pageVideo" } }) {
-        frontmatter {
-          title
-          color
-          to
-        }
-      }
       galleries: markdownRemark(frontmatter: { type: { eq: "pageGallery" } }) {
         frontmatter {
           gallery {
@@ -45,33 +38,44 @@ const GalleryView = () => {
 
 	const gallery = dataFilter(galleries, 'gallery');
 	if (!gallery.length) return null;
-	const { title: videoTitle, color, to } = video.frontmatter;
 	return (
 		<>
-			{!!to && ReactPlayer && (
-				<SectionWrapper id="spacer">
-					<SectionTitle bg={color}>{videoTitle}</SectionTitle>
-					<VideoWrapper
-						as={ReactPlayer}
-						url={to}
-						playing
-						controls
-						width="auto"
-						height="auto"
-					/>
-				</SectionWrapper>
-			)}
-			{gallery.map(
-				({ title }) => !!title.frontmatter.images.length && (
-					<Gallery
-						id={title.fields.slug.substr(1)}
-						key={title.fields.slug.substr(1)}
-						title={title.frontmatter.title}
-						color={title.frontmatter.color}
-						images={title.frontmatter.images}
-					/>
-				),
-			)}
+			{gallery.map(({ title }) => {
+				if (title.frontmatter?.images?.length) {
+					return (
+						<Gallery
+							id={title.fields.slug.substr(1)}
+							key={title.fields.slug.substr(1)}
+							title={title.frontmatter.title}
+							color={title.frontmatter.color}
+							images={title.frontmatter.images}
+						/>
+					);
+				}
+
+				if (title.frontmatter?.to) {
+					return (
+						<SectionWrapper
+							id={title.fields.slug.substr(1)}
+							key={title.fields.slug.substr(1)}
+						>
+							<SectionTitle bg={title.frontmatter.color}>
+								{title.frontmatter.title}
+							</SectionTitle>
+							<VideoWrapper
+								as={ReactPlayer}
+								url={title.frontmatter.to}
+								playing
+								controls
+								width="auto"
+								height="auto"
+							/>
+						</SectionWrapper>
+					);
+				}
+
+				return null;
+			})}
 		</>
 	);
 };

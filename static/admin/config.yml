@@ -125,23 +125,6 @@ collections:
           - label: Treść
             name: body
             widget: markdown
-      - label: Galeria- Film
-        name: pageVideo
-        file: content/pages/spacer_po_przedszkolu/index.md
-        fields:
-          - label: Typ
-            name: type
-            widget: hidden
-          - label: Tytuł
-            name: title
-            widget: string
-          - label: Kolor
-            name: color
-            widget: 'select'
-            options: ['green', 'violet', 'pink', 'orange']
-          - label: Link
-            name: to
-            widget: string
       - label: Opowiadanie o Przytulance
         name: story
         file: content/pages/opowiadanie_o_przytulance/index.md
@@ -337,7 +320,7 @@ collections:
   - name: gallery
     label: Zarządzaj galeriami
     label_singular: galerię
-    description: Tutaj można dodawać i edytować Galerie.
+    description: Tutaj można dodawać i edytować galerie zdjęć oraz filmy.
     folder: content/pages
     create: true
     filter:
@@ -363,9 +346,19 @@ collections:
         name: images
         widget: list
         required: false
+        condition:
+          field: galleryType
+          equals: images
         field:
           name: image
           widget: image
+      - label: Link do filmu
+        name: to
+        widget: string
+        required: false
+        condition:
+          field: galleryType
+          equals: video
   - name: users
     label: Zarządzaj osobami
     label_singular: osoba

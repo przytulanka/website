@@ -20,7 +20,7 @@ exports.sourceNodes = async ({
 
 	const menuGallery = allGallery
 		.map(el => {
-			if (el.frontmatter.images.length) {
+			if (el.frontmatter) {
 				const link = {
 					title: el.frontmatter.title,
 					to: `/galeria/#${el.fields.slug.substr(1)}`,

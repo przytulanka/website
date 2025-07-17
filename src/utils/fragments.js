@@ -4,6 +4,7 @@ export const galleryFields = graphql`
   fragment galleryFields on MarkdownRemarkFrontmatter {
     title
     color
+    to
     images {
       id
       childImageSharp {

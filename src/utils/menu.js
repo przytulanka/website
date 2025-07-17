@@ -24,7 +24,7 @@ module.exports = [
 	{
 		title: 'galeria',
 		to: '!',
-		subMenu: [{ title: 'spacer po przedszkolu', to: '/galeria/#spacer' }],
+		subMenu: [],
 	},
 	{
 		title: 'kontakt',
