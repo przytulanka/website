@@ -3,9 +3,7 @@ type: statuteItem
 title: Rozdział VIII. Rodzice
 color: violet
 ---
-<!--StartFragment-->
-
- § 32 
+§ 32 
 
 1. Rodzice i nauczyciele zobowiązani są do współdziałania ze sobą w celu skutecznego oddziaływania wychowawczego na dziecko i określania drogi jego indywidualnego rozwoju.
 2. Rodzice (prawni opiekunowie) mają prawo do:
@@ -50,5 +48,3 @@ color: violet
    6. kąciki dla rodziców, kąciki plastyczne, informacje grupowe, 
    7. strona www i facebook,
    8. inne wzajemnie ustalone.
-
-<!--EndFragment-->
