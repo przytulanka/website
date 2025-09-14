@@ -15,13 +15,13 @@ color: violet
 2. Organem prowadzącym przedszkole jest właściciel – Agata Bal.
 3. Ustalona nazwa w pełnym brzmieniu:
 
-                                               Niepubliczne Przedszkole 
+**Niepubliczne Przedszkole** 
 
-                                                        „Przytulanka”
+**„Przytulanka”**
 
-                                                      ul. Kolbego 10 B
+**ul. Kolbego 10 B**
 
-                                                    05 – 070 Sulejówek
+**05 – 070 Sulejówek**
 
 4. Nadzór pedagogiczny nad przedszkolem sprawuje Kuratorium Oświaty w Warszawie.
 
