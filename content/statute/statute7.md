@@ -3,8 +3,6 @@ type: statuteItem
 title: Rozdział VII. Wychowankowie
 color: violet
 ---
-<!--StartFragment-->
-
 § 30
 
 1. Dzieci mają prawo do respektowania wobec nich wszystkich postanowień Konwencji Praw Dziecka, a w szczególności do:
@@ -44,6 +42,4 @@ W przedszkolu dzieci mają obowiązek: 
 4. przestrzegania ustalonych zasad bezpieczeństwa w przedszkolu i poza nim,
 5. dbania o estetykę i higienę własnego wyglądu i otoczenia na miarę swoich możliwości,
 6. respektowania poleceń nauczyciela i innych osób uczestniczących w procesie edukacji,
-7. szanowania zabawek, gier i książek i odkładania je na wyznaczone miejsca,
-
-<!--EndFragment-->
+7. szanowania zabawek, gier i książek i odkładania je na wyznaczone miejsca.
