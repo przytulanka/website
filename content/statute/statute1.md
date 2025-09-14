@@ -1,8 +1,12 @@
 ---
-type: statuteItem
 title: Rozdział I. Postanowienia ogólne
+date: 2025-09-14
+description: Statut Niepublicznego Przedszkola Przytulanka w Sulejówku opisujący
+  zasady działalności i organizacji placówki.
+type: statuteItem
 color: violet
 ---
+
 <!--StartFragment-->
 
 § 1
