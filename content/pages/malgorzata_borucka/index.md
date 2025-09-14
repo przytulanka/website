@@ -2,12 +2,15 @@
 type: user
 title: Małgorzata Borucka
 color: orange
-cover: malgorzata_borucka.jpg
+cover: przedszkole_przytulanka_kadra-3.jpg
 ---
+<!--StartFragment-->
 
-Ukończyłam technikum chemiczne o profilu: Ochrona środowiska.
-Obecnie jestem na trzecim roku Pedagogiki o specjalności Pedagogika przedszkolna i wczesnoszkolna.
-W przedszkolu „Przytulanka” pracuję już 4 lata. Praca z małymi dziećmi daje mi wiele satysfakcji, lubię patrzeć na postęp w rozwoju dzieci od momentu wejścia ich w naszą małą „Przytulankową” społeczność.
-Dzięki dzieciom odkrywam w sobie niezmierzone pokłady energii do pracy w przedszkolu, która stała się moim przeznaczeniem.
-Od szesnastu lat jestem szczęśliwą mężatką. Mam dwóch cudownych synów, z których jestem bardzo dumna.
-Lubię spędzać czas z moją rodziną, chodzić na wspólne spacery i jeździć na rowerze. W wolnej chwili lubię czytać książki i układać puzzle.
+Ukończyłam studia na kierunku Pedagogika Przedszkolna i Wczesnoszkolna. Dyplom magistra otrzymałam po ukończeniu Pedagogiki Przedszkolnej i Wczesnoszkolnej z terapią pedagogiczną. Ukończyłam także studia podyplomowe z Integracji Sensorycznej oraz INPP. Prowadzę zajęcia\
+z terapii ręki. Ukończyłam też kursy wspierające rozwój dzieci w wieku przedszkolnym. 
+
+W przedszkolu „Przytulanka” pracuję już 9 lat. Praca z małymi dziećmi daje mi wiele satysfakcji, lubię patrzeć na postęp w rozwoju dzieci od momentu wejścia ich w naszą małą „Przytulankową” społeczność. Dzięki dzieciom odkrywam w sobie niezmierzone pokłady energii do pracy w przedszkolu, która stała się moim przeznaczeniem. 
+
+Prywatnie od dwudziestu jeden lat jestem szczęśliwą mężatką i mamą dwóch cudownych synów.
+
+<!--EndFragment-->
