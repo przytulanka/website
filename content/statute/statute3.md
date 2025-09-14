@@ -38,7 +38,7 @@ color: violet
 
                                                                              § 13
 
-1. Zastępca dyrektora ds.pedagogicznych  realizuje następujące zadania:
+1. Zastępca dyrektora ds. pedagogicznych  realizuje następujące zadania:
 2. 1. odpowiada za realizację zadań przedszkola i sprawuje nadzór nad prawidłowym przebiegiem  procesu dydaktyczno-wychowawczego,
    2. nadzoruje pracę nauczycieli i prowadzenie przez nich dokumentacji pedagogicznej zgodnie                 z przepisami prawa oświatowego,
    3. opracowuje wspólnie z  dyrektorem dokumenty programowe i organizacyjne przedszkola,
