@@ -3,9 +3,7 @@ type: statuteItem
 title: Rozdział VI. Nauczyciele i inni pracownicy przedszkola
 color: violet
 ---
-<!--StartFragment-->
-
- § 27
+§ 27
 
 1. W przedszkolu zatrudnieni są:
 2. zastępca dyrektora ds. pedagogicznych,
@@ -76,5 +74,3 @@ color: violet
 7. przygotowywanie stołów do posiłków, podawanie posiłków, sprzątanie po nich,
 8. dbanie o czystość sprzętu i zabawek na placu zabaw, 
 9. wykonywanie innych czynności poleconych przez dyrektora, wynikających z organizacji pracy placówki.
-
-<!--EndFragment-->
