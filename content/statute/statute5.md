@@ -3,9 +3,7 @@ type: statuteItem
 title: Rozdział V. Zasady rekrutacji oraz skreślenia z listy wychowanków przedszkola
 color: violet
 ---
-<!--StartFragment-->
-
- § 25
+§ 25
 
 1. O przyjęciu dziecka do przedszkola decyduje dyrektor.
 2. Dzieci mogą być przyjmowane do przedszkola w ciągu całego roku szkolnego, jeżeli przedszkole dysponuje wolnymi miejscami.
@@ -27,5 +25,3 @@ color: violet
 7. powtarzających się, agresywnych zachowań rodziców (opiekunów prawnych) dziecka                      w przedszkolu, łamiących normy współżycia społecznego i zasady zachowania w instytucji publicznej.
 8. Rodzice mogą w terminie 14 dni od doręczenia decyzji odwołać się do Kuratora Oświaty nadzorującego placówkę.
 9. W przypadku dziecka objętego obowiązkiem rocznego przygotowania przedszkolnego, dyrektor informuje pisemnie dyrektora szkoły, w obwodzie której mieszka dziecko                                 o skreśleniu dziecka z listy wychowanków.
-
-<!--EndFragment-->
