@@ -9,9 +9,9 @@ color: violet
 
 2.  Naczelnym celem wychowania przedszkolnego jest wsparcie całościowego rozwoju dziecka.  
 
-                                                                                                                           
 
-                                                                § 4
+
+§ 4
 
 3.  W ramach działalności edukacyjnej przedszkole realizuje następujące zadania:
 
@@ -59,7 +59,7 @@ do poziomu rozwoju dziecka, jego możliwości percepcyjnych, wyobrażeń i rozum
 
 
 
-                                                                                 § 5
+§ 5
 
 1.  Przedszkole realizuje cele i zadania poprzez:
 
@@ -125,7 +125,9 @@ do poziomu rozwoju dziecka, jego możliwości percepcyjnych, wyobrażeń i rozum
 
 4)  stosowanie obowiązujących przepisów bhp i ppoż.
 
-                                                                                § 6
+
+
+§ 6
 
 1.  Szczegółowe zadania przedszkola i sposób ich realizacji ustalany jest w planie pracy przedszkola oraz w miesięcznych planach pracy w poszczególnych grupach przedszkolnych.
 
@@ -145,7 +147,9 @@ do poziomu rozwoju dziecka, jego możliwości percepcyjnych, wyobrażeń i rozum
 
 4.  Przedszkole organizuje różne formy współpracy z rodzicami (opiekunami).
 
-                                                                               § 7
+
+
+§ 7
 
 1.  Przedszkole może organizować dla wychowanków różne wycieczki i imprezy. Organizację i program wycieczek oraz imprez dostosowuje się do wieku, zainteresowań i potrzeb dzieci.
 
@@ -161,7 +165,9 @@ z dyrektorem przedszkola, a program wycieczki podany do wiadomości rodziców na
 
 z przewozem wychowanków.
 
-                                                                               § 8
+
+
+§ 8
 
 1.  Przedszkole organizuje i udziela  pomocy psychologiczno – pedagogicznej zgodnie z przepisami prawa regulującego te kwestie.
 
@@ -193,11 +199,15 @@ z przewozem wychowanków.
 
 8.  Dla wychowanków posiadających orzeczenie o potrzebie kształcenia specjalnego dyrektor organizuje zajęcia specjalistyczne, zajęcia rewalidacyjne odpowiadające ich indywidualnym potrzebom rozwojowym i edukacyjnym określonym w wydanym przez publiczną poradnię psychologiczno-pedagogiczną orzeczeniu o potrzebie kształcenia specjalnego
 
-                                                                               § 9
+
+
+§ 9
 
 1.  W ramach posiadanych możliwości przedszkole może organizować wczesne wpomaganie rozwoju dzieci, które ma na celu pobudzenie psychoruchowego, społecznego rozwoju dziecka od chwili wykrycia niepełnosprawności do momentu podjęcia nauki w szkole.
 
-                                                                             § 10
+
+
+§ 10
 
 1.  W przedszkolu zatrudniony jest logopeda i psycholog i inni specjaliści w miarę potrzeb.
 
