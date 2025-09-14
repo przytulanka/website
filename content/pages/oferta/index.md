@@ -1,13 +1,12 @@
 ---
 type: pageOffer
-color: orange
 title: Oferta Przytulanki
+color: orange
 ---
-
 <h3>Zapraszamy dzieci w wieku od 2,5 do 6 lat.</h3>
 <ul>
-	<li>Zapewniamy domowe warunki, kameralne grupy (do 14 osób), przyjazną, rodzinną atmosferę.</li>
-	<li>Uczymy i rozwijamy zdolności i umiejętności naszych podopiecznych: samodzielnośc, nawiązywanie relacji, zasady współpracy oraz zachowania społeczne.</li>
+	<li>Zapewniamy domowe warunki, kameralne grupy (do 16 osób), przyjazną, rodzinną atmosferę.</li>
+	<li>Uczymy i rozwijamy zdolności i umiejętności naszych podopiecznych: samodzielność, nawiązywanie relacji, zasady współpracy oraz zachowania społeczne.</li>
 	<li>Proponujemy treści ułatwiające harmonijny rozwój dziecka i jednocześnie pozwalające na radosne twórcze bycie sobą.</li>
 	<li>Treści edukacyjne dobieramy adekwatnie do faktycznych możliwości wychowanków.</li>
 	<li>Czas organizujemy tak, by zachować równowagę między swobodną zabawą, grami, zajęciami dydaktycznymi oraz przebywaniem na świeżym powietrzu.</li>
