@@ -3,8 +3,6 @@ type: statuteItem
 title: Rozdział IV. Organizacja przedszkola
 color: violet
 ---
-<!--StartFragment-->
-
 § 14
 
 1. Przedszkole jest placówką niepubliczną przeznaczoną dla dzieci w wieku od trzech do siedmiu lat, objętych w świetle ustaw oświatowych wychowaniem przedszkolnym, realizującą programy wychowania przedszkolnego uwzględniające podstawę programową wychowania przedszkolnego, zatrudniającą nauczycieli mających kwalifikacje określone dla nauczycieli przedszkoli publicznych. W szczególnie uzasadnionych przypadkach Dyrektor może przyjąć\
@@ -99,25 +97,19 @@ i wynosi:
 7. odliczanie dzieci przed wyjściem poza budynek przedszkola oraz przed i po powrocie do przedszkola,
 8. reagowanie na wszelkie sytuacje, sygnały lub znamiona przestępstwa, mogące stanowić zagrożenie dla zdrowia lub życia dzieci i zgłaszanie o tym dyrektorowi przedszkola,
 9. natychmiastowe reagowanie na osoby postronne przebywające na terenie przedszkola, zwrócenie się o podanie celu przybycia, udzielenie informacji zgodnie z posiadanymi kompetencjami, a w razie potrzeby zawiadomienie dyrektora przedszkola – osoby postronnej nie pozostawia się samej na terenie przedszkola bez nadzoru personelu przedszkola,
-
-6.   Zabrania się pozostawiania dzieci bez opieki nauczyciela – w sytuacji koniecznej należy zapewnić odpowiednie zastępstwo.
-
-7. Określone są zasady przyprowadzania i odbierania dzieci z przedszkola:
-8. opiekę nad dziećmi przy przyprowadzaniu i odbieraniu z przedszkola sprawują rodzice (prawni opiekunowie) lub osoby pisemnie przez nich upoważnione zapewniające dziecku pełne bezpieczeństwo,
-9. przedszkole nie wydaje dziecka osobom niepełnoletnim, poza upoważnionym przez rodziców rodzeństwem, które ma co najmniej 10 lat, na podstawie pisemnego oświadczenia,
-10. osoba upoważniona ma obowiązek przedstawienia dowodu tożsamości,
-11. rodzice (prawni opiekunowie) przyjmują odpowiedzialność prawną za bezpieczeństwo dziecka odbieranego z przedszkola przez upoważnioną przez nich osobę,
-12. osoby nietrzeźwe lub będące pod pływem środków psychoaktywnych nie mogą odbierać dzieci z przedszkola,
-13. do przedszkola mogą uczęszczać wyłącznie dzieci zdrowe - personel może odmówić przyjęcia dziecka z widocznymi objawami chorobowymi, 
-14. nauczyciel oddziału ma obowiązek zgłosić rodzicom (prawnym opiekunom) stan dziecka wskazujący na chorobę,
-15. dzieci mogą być przyprowadzane do przedszkola do 900 lub w szczególnych wypadkach,\
+10.   Zabrania się pozostawiania dzieci bez opieki nauczyciela – w sytuacji koniecznej należy zapewnić odpowiednie zastępstwo.
+11. Określone są zasady przyprowadzania i odbierania dzieci z przedszkola:
+12. opiekę nad dziećmi przy przyprowadzaniu i odbieraniu z przedszkola sprawują rodzice (prawni opiekunowie) lub osoby pisemnie przez nich upoważnione zapewniające dziecku pełne bezpieczeństwo,
+13. przedszkole nie wydaje dziecka osobom niepełnoletnim, poza upoważnionym przez rodziców rodzeństwem, które ma co najmniej 10 lat, na podstawie pisemnego oświadczenia,
+14. osoba upoważniona ma obowiązek przedstawienia dowodu tożsamości,
+15. rodzice (prawni opiekunowie) przyjmują odpowiedzialność prawną za bezpieczeństwo dziecka odbieranego z przedszkola przez upoważnioną przez nich osobę,
+16. osoby nietrzeźwe lub będące pod pływem środków psychoaktywnych nie mogą odbierać dzieci z przedszkola,
+17. do przedszkola mogą uczęszczać wyłącznie dzieci zdrowe - personel może odmówić przyjęcia dziecka z widocznymi objawami chorobowymi, 
+18. nauczyciel oddziału ma obowiązek zgłosić rodzicom (prawnym opiekunom) stan dziecka wskazujący na chorobę,
+19. dzieci mogą być przyprowadzane do przedszkola do 900 lub w szczególnych wypadkach,\
     w każdym innym czasie po uprzednim wcześniejszym zgłoszeniu osobiście, bądź telefonicznie późniejszego przyprowadzenia dziecka do przedszkola,
-16. dzieci należy odebrać z przedszkola do godz. 1700.
-17. Zastrzeżenia rodziców dotyczące ograniczeń odbioru dziecka przez drugiego rodzica muszą być uzasadnione stosownymi orzeczeniami sądowymi. 
-
-                                                                               
-
-                                                                                  
+20. dzieci należy odebrać z przedszkola do godz. 1700.
+21. Zastrzeżenia rodziców dotyczące ograniczeń odbioru dziecka przez drugiego rodzica muszą być uzasadnione stosownymi orzeczeniami sądowymi. 
 
                                                                                 § 23
 
@@ -136,5 +128,3 @@ i wynosi:
 5. zaplecze kuchenne,
 6. pomieszczenia administracyjno-gospodarcze.
 7. Dzieci mają możliwość codziennego korzystania z placu zabaw z odpowiednio dobranymi urządzeniami dostosowanymi do ich wieku.
-
-<!--EndFragment-->
