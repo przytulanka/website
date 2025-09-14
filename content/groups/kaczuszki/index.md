@@ -5,10 +5,9 @@ subtitle: (grupa najmłodsza)
 color: orange
 icon: kaczka.svg
 ---
-
 ### 7:30 - 8:20
 
-Schodzenie się dzieci. Praca indywidualna i zespołowa zabawy inspirowane: zabawy służące realizacji pomysłów dzieci, indywidualne zajęcia edukacyjne, zabawy manipulacyjne, konstrukcyjne, dźwiękonaśladowcze. Zajęcia kompensacyjno-wyrównawcze, obserwacje. Zabawy ruchowe.
+Schodzenie się dzieci. Praca indywidualna i zespołowa. Zabawy inspirowane: zabawy służące realizacji pomysłów dzieci, indywidualne zajęcia edukacyjne, zabawy manipulacyjne, konstrukcyjne, dźwiękonaśladowcze. Zajęcia kompensacyjno-wyrównawcze, obserwacje. Zabawy ruchowe.
 
 ### 8:20 - 8:50
 
@@ -16,20 +15,9 @@ Przygotowanie do śniadania. Śniadanie.
 
 ### 8:50 - 10:00
 
-Przygotowanie do zajęć, zajęcia edukacyjne, tworzenie sytuacji sprzyjających:
+Przygotowanie do zajęć, zajęcia edukacyjne wg [OFERTY](https://www.przedszkoleprzytulanka.pl/oferta/).
 
-- wzbogacaniu wiadomości o otaczającym świecie
-- rozwijaniu i wzbogacaniu słownictwa
-- rozwijaniu umiejętności wypowiadania się i ćwiczeniu pamięci
-- usprawnianiu motoryki i koordynacji wzrokowo-ruchowej
-- doskonaleniu percepcji wzrokowej i orientacji przestrzennej
-- doskonaleniu percepcji słuchowej
-- nabywaniu umiejętności matematycznych
-- doskonaleniu sprawności ruchowej
-- aktywności muzycznej i plastycznej
-- kształtowaniu umiejętności społecznych
-
-Zajęcia dodatkowe zgodnie z harmonogramem zabawy w kącikach zainteresowań, nauka samodzielności.
+Zajęcia specjalistyczne zgodnie z harmonogramem, zabawy swobodne w kącikach zainteresowań, nauka samodzielności.
 
 ### 10:00 - 11:40
 
@@ -41,7 +29,7 @@ Powrót z ogrodu. Czynności higieniczne. Obiad.
 
 ### 12:20 - 14:45
 
-Czynności higieniczne. Przygotowanie do odpoczynku.Leżakowanie.
+Czynności higieniczne. Przygotowanie do odpoczynku. Leżakowanie.
 
 ### 14:45 - 15:30
 
