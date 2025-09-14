@@ -2,9 +2,11 @@
 type: user
 title: Dorota Kwietniewska
 color: pink
-cover: dorota_kwietniewska.jpg
+cover: przedszkole_przytulanka_kadra-9.jpg
 ---
+<!--StartFragment-->
 
-Mam wyższe wykształcenie techniczne, ale życie napisało mi inny scenariusz niż inżynierska kariera.
-Jestem właścicielką Klubu Maluszka Przytulanka przytuloną do Przedszkola Przytulanka od 13 lat...
-Wcześniejsze lata spędziłam we własnym domowym przedszkolu wychowując czwórkę dzieci. Jest to nieustanny powód mojej dumy i szczęścia. Teraz doświadczenia tych lat służą mi w pracy z dziećmi, która jest dla mnie ciągle pasją i radością.
+Jestem absolwentką Politechniki Warszawskiej ale życie wprowadziło mnie w rolę wychowawcy i mamy czworga dzieci. Rola ta doprowadziła mnie do „Przytulanki” 23 lata temu. Więzy przyjaźni i fascynacji tym miejscem i jego wyjątkową misją wychowawczą na trwałe związały moje życie.\
+Od 20 lat jestem zatem współwłaścicielką i częścią zespołu tworzącego Przedszkole „Przytulanka”.
+
+<!--EndFragment-->
