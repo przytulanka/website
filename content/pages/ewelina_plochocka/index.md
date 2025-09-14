@@ -2,10 +2,14 @@
 type: user
 title: Ewelina Płochocka
 color: green
-cover: ewelina_plochocka.jpg
+cover: przedszkole_przytulanka_kadra-7.jpg
 ---
+<!--StartFragment-->
 
-Jestem absolwentką Akademii Pedagogiki Specjalnej na kierunku pedagogika specjalna: specjalizacja pedagogika terapeutyczno-lecznicza na studiach licencjackich. Dyplom magistra otrzymałam po ukończeniu edukacji i rehabilitacji osób z niepełnosprawnością intelektualną. Ukończyłam również liczne kursy doszkalające, takie jak terapia ręki, metody aktywizujące w pracy z dziećmi, grafomotoryka dla smyka, logorytmika i inne. Obecnie studiuję podyplomowo zarządzanie w systemie oświaty.
-W przedszkolu „Przytulanka” pracuję od 4 lat, spełniając się zawodowo i dzieląc swoje życie z moimi wychowankami. Praca z dziećmi to niezwykła przygoda i pasmo niespodzianek, które wciągnęły mnie w świat „Przytulankowych” dzieci. ❤️
-Lubię uczyć! Jako swoje małe sukcesy odbieram początki czytania i pisania przez dzieci, ale też odkrywanie przez dzieci swoich talentów – to największa motywacja do pracy.
-Prywatnie jestem szczęśliwą żoną. Lubię spędzać wolny czas spacerując, jeżdżąc na rowerze, pływając, czy też czytając dobrą książkę.
+Jestem absolwentką Akademii Pedagogiki Specjalnej na kierunku pedagogika specjalna: specjalizacja pedagogika terapeutyczno-lecznicza na studiach licencjackich. Dyplom magistra otrzymałam po ukończeniu studiów z edukacji i rehabilitacji osób z niepełnosprawnością intelektualną. Podyplomowo ukończyłam studia z zarządzania w systemie oświaty. Jestem studentką Integracji Sensorycznej. Ukończyłam również liczne kursy doszkalające, takie jak Metoda Ruchu Rozwijającego Weroniki Sherborne I stopnia, terapia ręki i stopy, metody aktywizujące w pracy z dziećmi, grafomotoryka dla smyka, logorytmika. 
+
+W przedszkolu „Przytulanka” pracuję od 9 lat, spełniając się zawodowo.
+
+Praca z dziećmi to niezwykła przygoda i pasmo niespodzianek, które wciągnęły mnie w świat „Przytulankowych” dzieci. Prywatnie jestem szczęśliwą żoną i mamą wspaniałych bliźniaków.
+
+<!--EndFragment-->
