@@ -3,8 +3,6 @@ type: statuteItem
 title: Rozdział III. Organy przedszkola i ich kompetencje
 color: violet
 ---
-<!--StartFragment-->
-
 § 11
 
 1. Organami przedszkola są:
@@ -45,5 +43,3 @@ color: violet
    4. gromadzi informacje o pracy nauczycieli w celu dokonania oceny ich pracy,
    5. prowadzi procedury związane z awansem zawodowym nauczycieli,
    6. wykonuje inne zadania zalecone przez dyrektora, a wynikajace z bieżącej działalności placówki.
-
-<!--EndFragment-->
