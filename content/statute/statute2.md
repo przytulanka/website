@@ -3,14 +3,10 @@ type: statuteItem
 title: Rozdział II. Cele i zadania przedszkola
 color: violet
 ---
-<!--StartFragment-->
-
 § 3
 
 1. Przedszkole realizuje cele i zadania wynikające w szczególności z podstawy programowej wychowania przedszkolnego.
 2. Naczelnym celem wychowania przedszkolnego jest wsparcie całościowego rozwoju dziecka.  
-
-                                                                                                                            
 
                                                                 § 4
 
@@ -37,8 +33,6 @@ color: violet
 21. rozwijanie poczucia przynależności narodowej i poszanowania tradycji w oparciu                               o chrześcijańskie wartości
 22. realizowanie zadań z zakresu doradztwa zawodowego.
 23. udzielanie pomocy psychologiczno-pedagogicznej, organizowanie opieki nad dziećmi niepełnosprawnymi, umożliwianie dzieciom podtrzymania poczucia tożsamości narodowej, etnicznej, językowej i religijnej, z uwzględnieniem zasad bezpieczeństwa.
-
-
 
                                                                                  § 5
 
@@ -148,5 +142,3 @@ color: violet
 1. W przedszkolu zatrudniony jest logopeda i psycholog i inni specjaliści w miarę potrzeb.
 2. Objęcie dziecka opieką psychologa i logopedy wymaga zgody rodziców. 
 3. Dzieci mogą dodatkowo uczestniczyć w indywidualnych zajęciach logopedycznych, które są opłacane przez rodziców.
-
-<!--EndFragment-->
