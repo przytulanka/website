@@ -6,9 +6,6 @@ description: Statut Niepublicznego Przedszkola Przytulanka w Sulejówku opisują
 type: statuteItem
 color: violet
 ---
-
-<!--StartFragment-->
-
 § 1
 
 1. Niepubliczne Przedszkole „Przytulanka”, zwane dalej Przedszkolem ma swoją siedzibę 
@@ -40,5 +37,3 @@ color: violet
 8. opłat rodziców i opiekunów (czesne, wpisowe), 
 9. dotacji z budżetu gminy,
 10. środków przeznaczonych na działalność przedszkola przez organ prowadzący.
-
-<!--EndFragment-->
