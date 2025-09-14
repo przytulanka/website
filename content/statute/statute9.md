@@ -3,9 +3,7 @@ type: statuteItem
 title: Rozdział IX. Postanowienia końcowe
 color: violet
 ---
-<!--StartFragment-->
-
- § 34
+§ 34
 
 Przedszkole prowadzi dokumentację bieżącą i archiwalną zgodnie z obowiązującymi przepisami.                                                                                                                                                  
 
@@ -22,12 +20,6 @@ Przedszkole prowadzi dokumentację bieżącą i archiwalną zgodnie z obowiązuj
 6. Z dniem wejścia w życie niniejszego statutu traci moc Statut Przedszkola Niepublicznego „Przytulanka” w Sulejówku z dnia 25 sierpnia 2024 r.
 7. Statut Przedszkola Niepublicznego „Przytulanka” w Sulejówku w powyższym brzmieniu wchodzi w życie z dniem 1 września 2024 r.          
 
-
-
 Sulejówek, dnia 30 sierpnia 2024 r.                                                    
 
-                                                                                                                              Organ prowadzący     
-
-
-
-<!--EndFragment-->
+                                                                                                                              Organ prowadzący
