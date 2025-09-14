@@ -1,11 +1,15 @@
 ---
 type: crew
-color: pink
 title: Kadra Przytulanki
+color: pink
 users:
   - title: Agata Bal
   - title: Dorota Kwietniewska
   - title: Ewelina Płochocka
-  - title: Izabela Łęcka- Milszkiewicz
   - title: Małgorzata Borucka
+  - title: Halina Michalik
+  - title: Katarzyna Szczepańska
+  - title: Katarzyna Wieczorek
+  - title: Monika Kusior
+  - title: Natalia Adamkiewicz
 ---
