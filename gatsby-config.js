@@ -3,7 +3,7 @@ const menuMobile = require('./src/utils/menuMobile');
 
 module.exports = {
 	siteMetadata: {
-		title: 'Przytulanka - Przedszkole i Klub maluszka',
+		title: 'Przedszkole Przytulanka w Sulejówku',
 		description:
       'Małe grupy, ciepła i rodzinna atmosfera. Nie my tak twierdzimy, ale rodzice naszych dzieci :-) Przyjdź i sprawdź. Sulejówek, ul. Kolbego 10B. Zapraszamy!',
 		url: 'https://www.przedszkoleprzytulanka.pl',
