@@ -1,15 +1,16 @@
 ---
 type: rules
-color: pink
 title: Statut Przedszkola "Przytulanka"
+color: pink
 rules:
-  - title: I Postanowienia ogólne
-  - title: II Cele i zadania przedszkola
-  - title: III Organy przedszkola i ich kompetencje
-  - title: IV Organizacja przedszkola
-  - title: V Zasady rekrutacji oraz skreślenia z listy wychowanków przedszkola
-  - title: VI Nauczyciele i inni pracownicy przedszkola
-  - title: VII Wychowankowie
-  - title: VIII Rodzice
-  - title: IX Postanowienia końcowe
+  - title: Rozdział I. Postanowienia ogólne
+  - title: Rozdział II. Cele i zadania przedszkola
+  - title: Rozdział III. Organy przedszkola i ich kompetencje
+  - title: Rozdział IV. Organizacja przedszkola
+  - title: Rozdział V. Zasady rekrutacji oraz skreślenia z listy wychowanków
+      przedszkola
+  - title: Rozdział VI. Nauczyciele i inni pracownicy przedszkola
+  - title: Rozdział VII. Wychowankowie
+  - title: Rozdział VIII. Rodzice
+  - title: Rozdział IX. Postanowienia końcowe
 ---
