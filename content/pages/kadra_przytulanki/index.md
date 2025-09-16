@@ -12,4 +12,5 @@ users:
   - title: Katarzyna Wieczorek
   - title: Monika Kusior
   - title: Natalia Adamkiewicz
+  - title: Katarzyna Chilimoniuk
 ---
