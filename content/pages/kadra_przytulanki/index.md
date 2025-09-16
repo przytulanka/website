@@ -5,12 +5,12 @@ color: pink
 users:
   - title: Agata Bal
   - title: Dorota Kwietniewska
-  - title: Ewelina Płochocka
+  - title: Natalia Adamkiewicz
   - title: Małgorzata Borucka
+  - title: Katarzyna Chilimoniuk
+  - title: Monika Kusior
   - title: Halina Michalik
+  - title: Ewelina Płochocka
   - title: Katarzyna Szczepańska
   - title: Katarzyna Wieczorek
-  - title: Monika Kusior
-  - title: Natalia Adamkiewicz
-  - title: Katarzyna Chilimoniuk
 ---
