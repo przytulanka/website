@@ -1,6 +1,6 @@
 ---
 type: pageReference
-title: Referencje
+title: Rodzice o Przytulance
 color: pink
 refs:
   - title: Katarzyna Makulec
