@@ -3,10 +3,7 @@ type: gallery
 title: Sala starszych dzieci - Misi
 color: pink
 images:
-  - image00021.jpeg
-  - image00023.jpeg
-  - image00026.jpeg
-  - image00033.jpeg
-  - image00037.jpeg
-  - image00049.jpeg
+  - przedszkole_przytulanka_sulejowek-52.jpg
+  - przedszkole_przytulanka_sulejowek-55.jpg
+  - przedszkole_przytulanka_sulejowek-62.jpg
 ---
