@@ -17,12 +17,12 @@ module.exports = [
       { title: 'opowiadanie o Przytulance', to: '/o_nas/#story' },
     ],
   },
-  {
-    title: 'galeria',
-    to: '/galeria/',
-  },
+  { title: 'galeria', to: '/galeria/' },
   {
     title: 'kontakt',
-    to: '/#contact',
+    to: '/kontakt/',
+    subMenu: [
+      { title: 'dane przedszkola', to: '/kontakt/#contact' },
+    ],
   },
 ];
