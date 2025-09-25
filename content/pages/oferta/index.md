@@ -23,11 +23,11 @@ dzięki którym dzieci:</p>
 
 <p><strong>Dodatkowo oferujemy:</strong></p>
 <ul>
-	<li><strong>Zajęcia rytmiczne</strong> – 2 razy w tygodniu,</li>
-	<li><strong>Naukę języka angielskiego</strong> przez zabawę i śpiew,</li>
-	<li><strong>Edukację teatralną</strong> – wizyty zespołów teatralnych i własne przedstawienia dzieci,</li>
-	<li><strong>Edukację przyrodniczą</strong> – wycieczki, spotkania ze zwierzętami,</li>
-	<li><strong>Zajęcia twórcze</strong> z artystą plastykiem, gimnastykę oraz zabawy ruchowe.</li>
+	<li><strong>Zajęcia rytmiczne </strong> – 2 razy w tygodniu,</li>
+	<li><strong>Naukę języka angielskiego </strong> przez zabawę i śpiew,</li>
+	<li><strong>Edukację teatralną </strong> – wizyty zespołów teatralnych i własne przedstawienia dzieci,</li>
+	<li><strong>Edukację przyrodniczą </strong> – wycieczki, spotkania ze zwierzętami,</li>
+	<li><strong>Zajęcia twórcze </strong> z artystą plastykiem, gimnastykę oraz zabawy ruchowe.</li>
 </ul>
 
 <h3>Zajęcia specjalistyczne</h3>
