@@ -28,39 +28,68 @@ color: orange
 
 #### Przedszkole oferuje:
 
+1. Codzienne zajęcia edukacyjne prowadzone przez doświadczonych nauczycieli wychowania przedszkolnego, w których dzieci:
 
+   • wzbogacają wiadomości o otaczającym je świecie
+   • rozwijają swoje słownictwo
+   • rozwijają umiejętność wypowiadania się
+   • usprawniają motorykę małą i dużą,
+   • usprawniają koordynację wzrokowo-ruchową
+   • doskonalą percepcję wzrokową i orientację przestrzenną
+   • doskonalą percepcję słuchową
+   • nabywają umiejętności matematycznych poprzez zabawę
+   • doskonalą sprawność ruchową 
+   • doświadczają cennych wrażeń sensorycznych 
+   • kształtują umiejętności społeczne
+2. Zajęcia rytmiczne 2 x w tygodniu prowadzone przez doświadczoną i kreatywną nauczycielkę rytmiki.
+3. Nauka języka angielskiego przez zabawę i śpiew.
+4. Edukacja teatralna
 
-1.	Codzienne zajęcia edukacyjne prowadzone przez doświadczonych nauczycieli wychowania przedszkolnego, w których dzieci:
+   • wizyty zespołów teatralnych
+   • przygotowywanie i prezentacja własnych spektakli
+5. Edukacja przyrodnicza
+   • przyrodnicze wycieczki edukacyjne
+   • spotkania ze zwierzętami
+6. Zajęcia specjalistyczne:
+   • Trening Umiejętności Społecznych
+   • Zajęcia z logopedą
+   • Zajęcia z psychologiem
+   • Zajęcia z pedagogiem specjalnym
 
-	• wzbogacają wiadomości o otaczającym je świecie
-	• rozwijają swoje słownictwo
-	• rozwijają umiejętność wypowiadania się
-	• usprawniają motorykę małą i dużą,
-	• usprawniają koordynację wzrokowo-ruchową
-	• doskonalą percepcję wzrokową i orientację przestrzenną
-	• doskonalą percepcję słuchową
-	• nabywają umiejętności matematycznych poprzez zabawę
-	• doskonalą sprawność ruchową 
-	• doświadczają cennych wrażeń sensorycznych 
-	• kształtują umiejętności społeczne
-2.	Zajęcia rytmiczne 2 x w tygodniu prowadzone przez doświadczoną i kreatywną nauczycielkę rytmiki.
-
-3.	Nauka języka angielskiego przez zabawę i śpiew.
-
-4.	Edukacja teatralna
-
-	• wizyty zespołów teatralnych
-	• przygotowywanie i prezentacja własnych spektakli
-
-5.	Edukacja przyrodnicza
-	• przyrodnicze wycieczki edukacyjne
-	• spotkania ze zwierzętami
-
-6.	Zajęcia specjalistyczne:
-	• Trening Umiejętności Społecznych
-	• Zajęcia z logopedą
-	• Zajęcia z psychologiem
-	• Zajęcia z pedagogiem specjalnym
- 
 Zapewniamy domowe warunki, kameralne grupy (15 osób), przyjazną, rodzinną atmosferę.
 Rozwijamy umiejętności i zdolności naszych podopiecznych, uczymy dzieci samodzielności, nawiązywania relacji z innymi, zasad współpracy w grupie oraz zachowań społecznych.  
+
+
+
+<h3>Dla kogo?</h3>
+<p>Zapraszamy dzieci w wieku <strong>2,5–6 lat</strong>.</p>
+<p>Oferujemy <strong>kameralne grupy (do 15 osób)</strong>, domowe warunki i przyjazną, rodzinną atmosferę, w której każde dziecko czuje się bezpiecznie.</p>
+
+<h3>Nasza oferta edukacyjna</h3>
+<p>Codzienne zajęcia edukacyjne prowadzone przez doświadczonych nauczycieli wychowania przedszkolnego, dzięki którym dzieci:</p>
+<ul>
+	<li>wzbogacają wiedzę o otaczającym świecie,</li>
+	<li>rozwijają słownictwo i umiejętność wypowiedzi,</li>
+	<li>doskonalą percepcję wzrokową, słuchową i orientację przestrzenną,</li>
+	<li>usprawniają motorykę małą i dużą,</li>
+	<li>nabywają umiejętności matematyczne poprzez zabawę,</li>
+	<li>doświadczają cennych wrażeń sensorycznych,</li>
+	<li>kształtują umiejętności społeczne.</li>
+</ul>
+
+<p>Dodatkowo:</p>
+<ul>
+	<li><strong>Zajęcia rytmiczne</strong> – 2 razy w tygodniu,</li>
+	<li><strong>Nauka języka angielskiego</strong> przez zabawę i śpiew,</li>
+	<li><strong>Edukacja teatralna</strong> – wizyty zespołów teatralnych i własne przedstawienia dzieci,</li>
+	<li><strong>Edukacja przyrodnicza</strong> – wycieczki, spotkania ze zwierzętami,</li>
+	<li><strong>Zajęcia twórcze</strong> z artystą plastykiem, gimnastyka, zabawy ruchowe.</li>
+</ul>
+
+<h3>Zajęcia specjalistyczne</h3>
+<ul>
+	<li>Trening Umiejętności Społecznych,</li>
+	<li>Zajęcia z logopedą (indywidualne i grupowe),</li>
+	<li>Zajęcia z psychologiem,</li>
+	<li>Zajęcia z pedagogiem specjalnym.</li>
+</ul>
