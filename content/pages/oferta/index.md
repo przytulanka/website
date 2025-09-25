@@ -26,37 +26,41 @@ color: orange
 
 ### Niepubliczne Przedszkole „Przytulanka” jest placówką dydaktyczno- wychowawczą dla dzieci 2,5-6 lat.
 
-#### Przedszkole oferuje: 
+#### Przedszkole oferuje:
 
-1. Codzienne zajęcia edukacyjne prowadzone przez doświadczonych nauczycieli wychowania przedszkolnego, w których dzieci:
 
-•	wzbogacają wiadomości o otaczającym je świecie
-•	rozwijają swoje słownictwo
-•	rozwijają umiejętność wypowiadania się
-•	usprawniają motorykę małą i dużą,
-•	usprawniają koordynację wzrokowo-ruchową
-•	doskonalą percepcję wzrokową i orientację przestrzenną
-•	doskonalą percepcję słuchową
-•	nabywają umiejętności matematycznych poprzez zabawę
-•	doskonalą sprawność ruchową 
-•	doświadczają cennych wrażeń sensorycznych 
-•	kształtują umiejętności społeczne
 
-2. Zajęcia rytmiczne 2 x w tygodniu prowadzone przez doświadczoną i kreatywną nauczycielkę rytmiki.
-3. Nauka języka angielskiego przez zabawę i śpiew.
-4. Edukacja teatralna
+1.	Codzienne zajęcia edukacyjne prowadzone przez doświadczonych nauczycieli wychowania przedszkolnego, w których dzieci:
 
-•	wizyty zespołów teatralnych
-•	przygotowywanie i prezentacja własnych spektakli
+	• wzbogacają wiadomości o otaczającym je świecie
+	• rozwijają swoje słownictwo
+	• rozwijają umiejętność wypowiadania się
+	• usprawniają motorykę małą i dużą,
+	• usprawniają koordynację wzrokowo-ruchową
+	• doskonalą percepcję wzrokową i orientację przestrzenną
+	• doskonalą percepcję słuchową
+	• nabywają umiejętności matematycznych poprzez zabawę
+	• doskonalą sprawność ruchową 
+	• doświadczają cennych wrażeń sensorycznych 
+	• kształtują umiejętności społeczne
+2.	Zajęcia rytmiczne 2 x w tygodniu prowadzone przez doświadczoną i kreatywną nauczycielkę rytmiki.
 
-5. Edukacja przyrodnicza
-   •	przyrodnicze wycieczki edukacyjne
-   •	spotkania ze zwierzętami
-6. Zajęcia specjalistyczne:
-   •	Trening Umiejętności Społecznych
-   •	Zajęcia z logopedą
-   •	Zajęcia z psychologiem
-   •	Zajęcia z pedagogiem specjalnym
+3.	Nauka języka angielskiego przez zabawę i śpiew.
 
+4.	Edukacja teatralna
+
+	• wizyty zespołów teatralnych
+	• przygotowywanie i prezentacja własnych spektakli
+
+5.	Edukacja przyrodnicza
+	• przyrodnicze wycieczki edukacyjne
+	• spotkania ze zwierzętami
+
+6.	Zajęcia specjalistyczne:
+	• Trening Umiejętności Społecznych
+	• Zajęcia z logopedą
+	• Zajęcia z psychologiem
+	• Zajęcia z pedagogiem specjalnym
+ 
 Zapewniamy domowe warunki, kameralne grupy (15 osób), przyjazną, rodzinną atmosferę.
-Rozwijamy umiejętności i zdolności naszych podopiecznych, uczymy dzieci samodzielności, nawiązywania relacji z innymi, zasad współpracy w grupie oraz zachowań społecznych.
+Rozwijamy umiejętności i zdolności naszych podopiecznych, uczymy dzieci samodzielności, nawiązywania relacji z innymi, zasad współpracy w grupie oraz zachowań społecznych.  
