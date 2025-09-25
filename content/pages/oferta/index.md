@@ -63,10 +63,12 @@ Rozwijamy umiejętności i zdolności naszych podopiecznych, uczymy dzieci samod
 
 <h3>Dla kogo?</h3>
 <p>Zapraszamy dzieci w wieku <strong>2,5–6 lat</strong>.</p>
-<p>Oferujemy <strong>kameralne grupy (do 15 osób)</strong>, domowe warunki i przyjazną, rodzinną atmosferę, w której każde dziecko czuje się bezpiecznie.</p>
+<p>Oferujemy <strong>kameralne grupy (do 15 osób)</strong>, domowe warunki i przyjazną, rodzinną atmosferę, 
+w której każde dziecko czuje się bezpiecznie.</p>
 
 <h3>Nasza oferta edukacyjna</h3>
-<p>Codzienne zajęcia edukacyjne prowadzone przez doświadczonych nauczycieli wychowania przedszkolnego, dzięki którym dzieci:</p>
+<p>Codzienne zajęcia edukacyjne prowadzone przez doświadczonych nauczycieli wychowania przedszkolnego, 
+dzięki którym dzieci:</p>
 <ul>
 	<li>wzbogacają wiedzę o otaczającym świecie,</li>
 	<li>rozwijają słownictwo i umiejętność wypowiedzi,</li>
@@ -77,13 +79,13 @@ Rozwijamy umiejętności i zdolności naszych podopiecznych, uczymy dzieci samod
 	<li>kształtują umiejętności społeczne.</li>
 </ul>
 
-<p>Dodatkowo:</p>
+<p><strong>Dodatkowo oferujemy:</strong></p>
 <ul>
 	<li><strong>Zajęcia rytmiczne</strong> – 2 razy w tygodniu,</li>
-	<li><strong>Nauka języka angielskiego</strong> przez zabawę i śpiew,</li>
-	<li><strong>Edukacja teatralna</strong> – wizyty zespołów teatralnych i własne przedstawienia dzieci,</li>
-	<li><strong>Edukacja przyrodnicza</strong> – wycieczki, spotkania ze zwierzętami,</li>
-	<li><strong>Zajęcia twórcze</strong> z artystą plastykiem, gimnastyka, zabawy ruchowe.</li>
+	<li><strong>Naukę języka angielskiego</strong> przez zabawę i śpiew,</li>
+	<li><strong>Edukację teatralną</strong> – wizyty zespołów teatralnych i własne przedstawienia dzieci,</li>
+	<li><strong>Edukację przyrodniczą</strong> – wycieczki, spotkania ze zwierzętami,</li>
+	<li><strong>Zajęcia twórcze</strong> z artystą plastykiem, gimnastykę oraz zabawy ruchowe.</li>
 </ul>
 
 <h3>Zajęcia specjalistyczne</h3>
