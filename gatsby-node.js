@@ -17,7 +17,6 @@ exports.sourceNodes = async ({
     (el) => el.frontmatter.type === 'pageGallery'
   );
 
-  // Jeśli brak pageGallery – nie wywalaj buildu
   const galleryOrder = pageGallery[0]
     ? pageGallery[0].frontmatter.gallery.map(({ title }) => title)
     : [];
@@ -40,15 +39,18 @@ exports.sourceNodes = async ({
 
   // budowa węzłów Menu
   menu.forEach((el, index) => {
-    // bezpieczna baza submenu (pusta tablica, jeśli brak)
     const baseSub = Array.isArray(el.subMenu) ? el.subMenu : [];
+    const merged =
+      el.title === 'galeria' ? [...baseSub, ...menuGallery] : baseSub;
 
-    const data = {
+    const dataBase = {
       title: el.title,
       to: el.to,
-      // do "galeria" doklej pozycje z contentu, w innych przypadkach zwróć bazę
-      subMenu: el.title === 'galeria' ? [...baseSub, ...menuGallery] : baseSub,
     };
+
+    // KLUCZ: dodaj subMenu tylko jeśli ma elementy
+    const data =
+      merged.length > 0 ? { ...dataBase, subMenu: merged } : dataBase;
 
     const node = {
       id: createNodeId(`menu-${index}`),
