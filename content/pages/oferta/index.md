@@ -24,9 +24,9 @@ color: orange
 	<li>Zajęcia twórcze prowadzone przez artystę plastyka oraz zajęcia gimnastyczne.</li>
 </ul>
 
-Niepubliczne Przedszkole „Przytulanka” jest placówką dydaktyczno- wychowawczą dla dzieci 2,5-6 lat.
+### Niepubliczne Przedszkole „Przytulanka” jest placówką dydaktyczno- wychowawczą dla dzieci 2,5-6 lat.
 
-Przedszkole oferuje: 
+#### Przedszkole oferuje: 
 
 1. Codzienne zajęcia edukacyjne prowadzone przez doświadczonych nauczycieli wychowania przedszkolnego, w których dzieci:
 
