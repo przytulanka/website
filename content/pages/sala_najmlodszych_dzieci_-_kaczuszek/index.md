@@ -3,10 +3,6 @@ type: gallery
 title: Sala najmłodszych dzieci - Kaczuszek
 color: orange
 images:
-  - image00001.jpeg
-  - image00005.jpeg
-  - image00007.jpeg
-  - image00011.jpeg
-  - image00016.jpeg
+  - przedszkole_przytulanka_sulejowek-45.jpg
   - image00017.jpeg
 ---
