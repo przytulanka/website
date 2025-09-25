@@ -7,5 +7,4 @@ module.exports = [
   { title: 'statut',                to: '/statut_przedszkola_przytulanka/' },
   { title: 'galeria',               to: '/galeria/' },
   { title: 'kontakt',               to: '/#contact' },
-  { title: 'formularz kontaktowy',  to: '/formularz_kontaktowy/' },
 ];
