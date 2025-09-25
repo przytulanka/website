@@ -11,15 +11,11 @@ module.exports = [
 		],
 	},
 	{
-		title: 'o nas',
-		to: '/o_nas',
-		subMenu: [
-			{
-				title: 'opowiadanie o Przytulance',
-				to: '/o_nas/#story',
-			},
-			{ title: 'referencje', to: '/o_nas/#reference' },
-		],
+  	title: 'o nas',
+  	to: '/o_nas/',
+  	subMenu: [
+    	{ title: 'opowiadanie o Przytulance', to: '/o_nas/#story' }
+  		],
 	},
 	{
 		title: 'galeria',
@@ -27,11 +23,8 @@ module.exports = [
 		subMenu: [],
 	},
 	{
-		title: 'kontakt',
-		to: '!',
-		subMenu: [
-			{ title: 'formularz kontaktowy', to: '/formularz_kontaktowy' },
-			{ title: 'dane przedszkola', to: '/#contact' },
-		],
+  	title: 'kontakt',
+  	to: '/#contact',   // klik przenosi na kotwicę na stronie głównej
+  	subMenu: [],       // pusta tablica = brak dropdownu
 	},
 ];
