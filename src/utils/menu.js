@@ -17,7 +17,11 @@ module.exports = [
       { title: 'opowiadanie o Przytulance', to: '/o_nas/#story' },
     ],
   },
-  { title: 'galeria', to: '/galeria/' },
+  {
+    title: 'galeria',
+    to: '/galeria/',
+    subMenu: [], // puste – gatsby-node doklei dynamiczne pozycje galerii
+  },
   {
     title: 'kontakt',
     to: '/kontakt/',
