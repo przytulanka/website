@@ -26,7 +26,7 @@ module.exports = [
     title: 'kontakt',
     to: '/kontakt/',
     subMenu: [
-      { title: 'dane przedszkola', to: '/kontakt/#contact' },
+      { title: 'dane przedszkola', to: '/#contact' },
     ],
   },
 ];
