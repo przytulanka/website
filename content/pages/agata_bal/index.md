@@ -2,7 +2,7 @@
 type: user
 title: Agata Bal
 color: orange
-cover: przedszkole_przytulanka_kadra-2.jpg
+cover: agata-1.jpg
 ---
 <!--StartFragment-->
 
