@@ -10,6 +10,8 @@ Godziny otwarcia:\
 ul. Kolbego 10b\
 05-070 Sulejówek\
 \
+tel. <a href="tel:+48506121072">tel:+48506121072</a>
+
 tel. 506 121 072\
 tel. 508 347 408\
 e﻿-mail: przedszkole@przedszkoleprzytulanka.pl
