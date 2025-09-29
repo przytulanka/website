@@ -23,17 +23,17 @@ ul. Kolbego 10b\
   display: inline-block;
   margin: 8px 0;
   padding: 10px 16px;
-  border: 2px solid #4a3aff;
+  border: 2px solid rgb(130,185,0);
   border-radius: 8px;
   text-decoration: none;
   font-weight: 700;
   font-size: 16px;
-  color: #4a3aff;
-  background-color: #f7f6ff;
+  color: rgb(130,185,0);
+  background-color: #f9fff3; /* delikatne, jasne tło pod zielony */
   transition: 0.2s ease-in-out;
 }
 .call-button:hover {
-  background-color: #4a3aff;
+  background-color: rgb(130,185,0);
   color: #ffffff;
 }
 </style>
