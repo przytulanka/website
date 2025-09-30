@@ -40,4 +40,4 @@ ul. Kolbego 10b\
 
 e﻿-mail: przedszkole@przedszkoleprzytulanka.pl
 \
-nr konta 82 1140 2004 0000 3602 7401 8743
+nr konta: 82 1140 2004 0000 3602 7401 8743
