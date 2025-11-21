@@ -1,6 +1,6 @@
 ---
 type: reference
-title: "-"
+title: Iwona Parafińczuk i Tomasz Baluta
 ---
 <!--StartFragment-->
 
