@@ -10,19 +10,19 @@ const Menu = ({ items, className }) => (
 		<MenuList>
 			{items.map(({ node: item }) => {
 				const hasSubmenu = item.subMenu && item.subMenu.length > 0;
+				const isGallery = item.to === '/galeria/'; 
+				const showDropdown = hasSubmenu && !isGallery; 
 
 				return (
 					<MenuItem key={item.title}>
 						<MenuHeader
-							// jeśli NIE ma submenu → jest to link
-							as={hasSubmenu ? 'span' : ConditionalLink}
-							to={hasSubmenu ? undefined : item.to}
+							as={ConditionalLink}
+							to={item.to}
 						>
 							{item.title}
 						</MenuHeader>
 
-						{/* dropdown tylko dla pozycji z submenu (np. "o nas") */}
-						{hasSubmenu && <Dropdown submenu={item.subMenu} />}
+						{showDropdown && <Dropdown submenu={item.subMenu} />}
 					</MenuItem>
 				);
 			})}
@@ -31,7 +31,6 @@ const Menu = ({ items, className }) => (
 );
 
 Menu.propTypes = {
-	// eslint-disable-next-line react/forbid-prop-types
 	items: PropTypes.arrayOf(PropTypes.object).isRequired,
 	className: PropTypes.string,
 };

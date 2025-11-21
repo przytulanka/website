@@ -19,15 +19,12 @@ export const MenuItem = styled.li`
 	flex: 1;
 
 	/* code needs to be repeated cause of an IE bug */
-	&:hover {
-		background: ${({ theme }) => theme.background.transparentDropdown};
+	&:hover > ul {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
 
-		& > ul {
-			display: block;
-			visibility: visible;
-			opacity: 1;
-		}
-	}
 `;
 
 export const MenuHeader = styled.span`
