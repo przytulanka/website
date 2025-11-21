@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import ConditionalLink from 'components/Conditional';
 
 import Dropdown from './Dropdown';
 import { Wrapper, MenuList, MenuItem, MenuHeader } from './styles';
@@ -7,15 +8,26 @@ import { Wrapper, MenuList, MenuItem, MenuHeader } from './styles';
 const Menu = ({ items, className }) => (
 	<Wrapper className={className}>
 		<MenuList>
-			{items.map(({ node: item }) => (
-				<MenuItem key={item.title}>
-					<MenuHeader>{item.title}</MenuHeader>
-					{item.subMenu && <Dropdown submenu={item.subMenu} />}
-				</MenuItem>
-			))}
+			{items.map(({ node: item }) => {
+				const hasSubmenu = item.subMenu && item.subMenu.length > 0;
+
+				return (
+					<MenuItem key={item.title}>
+						{hasSubmenu ? (
+							<MenuHeader>{item.title}</MenuHeader>
+						) : (
+							<MenuHeader as={ConditionalLink} to={item.to}>
+								{item.title}
+							</MenuHeader>
+						)}
+						{hasSubmenu && <Dropdown submenu={item.subMenu} />}
+					</MenuItem>
+				);
+			})}
 		</MenuList>
 	</Wrapper>
 );
+
 
 Menu.propTypes = {
 	// eslint-disable-next-line react/forbid-prop-types
