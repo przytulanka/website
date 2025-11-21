@@ -10,7 +10,8 @@ module.exports = [
 	{
 		title: 'galeria',
 		to: '/galeria/',
-		subMenu: [], // zostawiamy – Gatsby dokleja dynamiczne pozycje galerii
+		// UWAGA: bez subMenu – dzięki temu w stopce użyjemy tylko tego tytułu,
+		// a dropdown w headerze i tak wyłączymy w komponencie Menu
 	},
 	{
 		title: 'o nas',
@@ -25,7 +26,6 @@ module.exports = [
 	},
 	{
 		title: 'kontakt',
-		to: '/kontakt/',
-		subMenu: [{ title: 'dane przedszkola', to: '/#contact' }],
+		to: '/#contact', // <— poprawka linku
 	},
 ];

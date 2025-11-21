@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ConditionalLink from 'components/Conditional';
 
 import Dropdown from './Dropdown';
 import { Wrapper, MenuList, MenuItem, MenuHeader } from './styles';
@@ -9,18 +8,15 @@ const Menu = ({ items, className }) => (
 	<Wrapper className={className}>
 		<MenuList>
 			{items.map(({ node: item }) => {
-				const hasDropdown =
-					Array.isArray(item.subMenu) &&
+				const hasSubMenu =
+					item.subMenu &&
 					item.subMenu.length > 0 &&
-					item.title !== 'galeria' &&
-					item.title !== 'kontakt';
+					item.title !== 'galeria'; // <— NIE pokazuj dropdownu dla "galeria"
 
 				return (
 					<MenuItem key={item.title}>
-						<MenuHeader as={ConditionalLink} to={item.to}>
-							{item.title}
-						</MenuHeader>
-						{hasDropdown && <Dropdown submenu={item.subMenu} />}
+						<MenuHeader>{item.title}</MenuHeader>
+						{hasSubMenu && <Dropdown submenu={item.subMenu} />}
 					</MenuItem>
 				);
 			})}
