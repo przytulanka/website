@@ -9,25 +9,24 @@ const Menu = ({ items, className }) => (
 	<Wrapper className={className}>
 		<MenuList>
 			{items.map(({ node: item }) => {
-				const hasSubmenu = item.subMenu && item.subMenu.length > 0;
+				const hasDropdown =
+					Array.isArray(item.subMenu) &&
+					item.subMenu.length > 0 &&
+					item.title !== 'galeria' &&
+					item.title !== 'kontakt';
 
 				return (
 					<MenuItem key={item.title}>
-						{hasSubmenu ? (
-							<MenuHeader>{item.title}</MenuHeader>
-						) : (
-							<MenuHeader as={ConditionalLink} to={item.to}>
-								{item.title}
-							</MenuHeader>
-						)}
-						{hasSubmenu && <Dropdown submenu={item.subMenu} />}
+						<MenuHeader as={ConditionalLink} to={item.to}>
+							{item.title}
+						</MenuHeader>
+						{hasDropdown && <Dropdown submenu={item.subMenu} />}
 					</MenuItem>
 				);
 			})}
 		</MenuList>
 	</Wrapper>
 );
-
 
 Menu.propTypes = {
 	// eslint-disable-next-line react/forbid-prop-types
