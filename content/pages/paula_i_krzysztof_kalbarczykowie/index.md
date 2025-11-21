@@ -4,7 +4,7 @@ title: Paula i Krzysztof Kalbarczykowie
 ---
 <!--StartFragment-->
 
-Przedszkole Przytulanka uczy dzieci wartości takich, jak miłość, szacunek, życzliwość i pomoc innym – co w dzisiejszych czasach jest niespotykane. Nazwa „Przytulanka” nie jest przypadkowa – dzieci są tu\
+Przedszkole Przytulanka uczy dzieci wartości takich, jak miłość, szacunek, życzliwość i pomoc innym – co w dzisiejszych czasach jest rzadko spotykane. Nazwa „Przytulanka” nie jest przypadkowa – dzieci są tu\
 naprawdę przytulane i czują się bezpiecznie – to ich drugi dom.\
 Po tych 3 latach uważam, iż nie mogliśmy podjąć lepszej decyzji i oddaliśmy swoje dzieci we\
 wspaniałe ręce. Od nikogo nie otrzymaliśmy nigdy takiej pomocy, jak od „cioć” z Przytulanki – są\
