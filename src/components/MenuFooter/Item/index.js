@@ -4,20 +4,43 @@ import ConditionalLink from 'components/Conditional';
 import { Wrapper, Title, List, ListItem, StyledLink } from './styles';
 
 const shorten = text => {
-	switch (text) {
-		case 'opowiadanie o Przytulance':
-			return 'opowiadanie';
-		case 'rodzice o Przytulance':
-			return 'rodzice';
-		case 'sala najmłodszych dzieci - kaczuszek':
-			return 'kaczuszki';
-		case 'sala starszych dzieci - misie':
-			return 'misie';
-		case 'sala najstarszych dzieci - zajączków':
-			return 'zajączki';
-		default:
-			return text;
+	const normalized = text.toLowerCase();
+
+	// O nas
+	if (normalized.startsWith('opowiadanie o przytulance')) {
+		return 'opowiadanie';
 	}
+	if (normalized.startsWith('rodzice o przytulance')) {
+		return 'rodzice';
+	}
+
+	// Galeria – sale
+	if (
+		normalized.includes('najmłodszych') &&
+		normalized.includes('kaczuszek')
+	) {
+		return 'kaczuszki';
+	}
+	if (normalized.includes('starszych dzieci - misie')) {
+		return 'misie';
+	}
+	if (
+		normalized.includes('najstarszych') &&
+		normalized.includes('zajączków')
+	) {
+		return 'zajączki';
+	}
+
+	// Galeria – budynek / plac zabaw (na wypadek dłuższych nazw)
+	if (normalized.startsWith('budynek')) {
+		return 'budynek';
+	}
+	if (normalized.startsWith('plac zabaw')) {
+		return 'plac zabaw';
+	}
+
+	// Domyślnie bez zmian
+	return text;
 };
 
 const NavItem = ({ title, to, subItems }) => (
