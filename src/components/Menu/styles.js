@@ -18,14 +18,19 @@ export const MenuItem = styled.li`
 	position: relative;
 	flex: 1;
 
-	/* code needs to be repeated cause of an IE bug */
-	&:hover > ul {
-    display: block;
-    visibility: visible;
-    opacity: 1;
-}
+	/* podświetlenie pozycji menu – działa dla WSZYSTKICH */
+	&:hover {
+		background: ${({ theme }) => theme.background.transparentDropdown};
+	}
 
+	/* a tu tylko rozwijamy dropdown, jeśli w ogóle jest ul w środku */
+	&:hover > ul {
+		display: block;
+		visibility: visible;
+		opacity: 1;
+	}
 `;
+
 
 export const MenuHeader = styled.span`
 	display: block;

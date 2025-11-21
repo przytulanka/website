@@ -9,23 +9,25 @@ const Menu = ({ items, className }) => (
 	<Wrapper className={className}>
 		<MenuList>
 			{items.map(({ node: item }) => {
-				const hasSubmenu = item.subMenu && item.subMenu.length > 0;
-				const isGallery = item.to === '/galeria/'; 
-				const showDropdown = hasSubmenu && !isGallery; 
+	const hasSubmenu = item.subMenu && item.subMenu.length > 0;
 
-				return (
-					<MenuItem key={item.title}>
-						<MenuHeader
-							as={ConditionalLink}
-							to={item.to}
-						>
-							{item.title}
-						</MenuHeader>
+	// dropdown pokazujemy TYLKO dla "o nas"
+	const showDropdown = item.title === 'o nas' && hasSubmenu;
 
-						{showDropdown && <Dropdown submenu={item.subMenu} />}
-					</MenuItem>
-				);
-			})}
+	return (
+		<MenuItem key={item.title}>
+			<MenuHeader
+				as={ConditionalLink}
+				to={item.to}
+			>
+				{item.title}
+			</MenuHeader>
+
+			{showDropdown && <Dropdown submenu={item.subMenu} />}
+		</MenuItem>
+	);
+})
+}
 		</MenuList>
 	</Wrapper>
 );
