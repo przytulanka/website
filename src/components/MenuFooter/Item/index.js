@@ -4,9 +4,11 @@ import ConditionalLink from 'components/Conditional';
 import { Wrapper, Title, List, ListItem, StyledLink } from './styles';
 
 const shorten = text => {
+	if (!text) return text;
+
 	const normalized = text.toLowerCase();
 
-	// O nas
+	// --- O NAS ---
 	if (normalized.startsWith('opowiadanie o przytulance')) {
 		return 'opowiadanie';
 	}
@@ -14,32 +16,35 @@ const shorten = text => {
 		return 'rodzice';
 	}
 
-	// Galeria – sale
-	if (
-		normalized.includes('najmłodszych') &&
-		normalized.includes('kaczuszek')
-	) {
+	// --- GALERIA: KACZUSZKI ---
+	if (normalized.includes('najmłodszych') && normalized.includes('kaczuszek')) {
 		return 'kaczuszki';
 	}
-	if (normalized.includes('starszych dzieci - misie')) {
+
+	// --- GALERIA: MISIE (bardziej elastyczne) ---
+	if (
+		normalized.includes('starszych') &&
+		(normalized.includes('misie') || normalized.includes('misi'))
+	) {
 		return 'misie';
 	}
-	if (
-		normalized.includes('najstarszych') &&
-		normalized.includes('zajączków')
-	) {
+
+	// --- GALERIA: ZAJĄCZKI ---
+	if (normalized.includes('najstarszych') && normalized.includes('zającz')) {
 		return 'zajączki';
 	}
 
-	// Galeria – budynek / plac zabaw (na wypadek dłuższych nazw)
+	// --- GALERIA: BUDYNEK ---
 	if (normalized.startsWith('budynek')) {
 		return 'budynek';
 	}
+
+	// --- GALERIA: PLAC ZABAW ---
 	if (normalized.startsWith('plac zabaw')) {
 		return 'plac zabaw';
 	}
 
-	// Domyślnie bez zmian
+	// Domyślnie nie zmieniamy
 	return text;
 };
 
@@ -63,7 +68,6 @@ const NavItem = ({ title, to, subItems }) => (
 NavItem.propTypes = {
 	title: PropTypes.string.isRequired,
 	to: PropTypes.string.isRequired,
-	// eslint-disable-next-line react/forbid-prop-types
 	subItems: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
