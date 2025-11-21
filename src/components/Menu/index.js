@@ -1,68 +1,70 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ConditionalLink from 'components/Conditional';
 
+import ConditionalLink from 'components/Conditional';
 import Dropdown from './Dropdown';
 import { Wrapper, MenuList, MenuItem, MenuHeader } from './styles';
 
-// docelowa kolejność w menu desktop
-const DESKTOP_ORDER = ['oferta', 'plan dnia', 'galeria', 'o nas', 'kontakt'];
+// Docelowa kolejność pozycji w menu desktop
+const ORDER = ['oferta', 'plan dnia', 'galeria', 'o nas', 'kontakt'];
 
-const sortItems = edges =>
-	[...edges].sort((a, b) => {
-		const aTitle = a.node.title;
-		const bTitle = b.node.title;
+const sortItems = items => {
+  const orderMap = new Map(ORDER.map((title, index) => [title, index]));
 
-		const aIdx = DESKTOP_ORDER.indexOf(aTitle);
-		const bIdx = DESKTOP_ORDER.indexOf(bTitle);
+  // nie modyfikujemy oryginalnej tablicy – robimy kopię
+  return [...items].sort((a, b) => {
+    const aTitle = a?.node?.title || '';
+    const bTitle = b?.node?.title || '';
 
-		// jeśli czegoś nie ma w DESKTOP_ORDER – ląduje na końcu
-		if (aIdx === -1 && bIdx === -1) return 0;
-		if (aIdx === -1) return 1;
-		if (bIdx === -1) return -1;
-		return aIdx - bIdx;
-	});
+    const aIndex = orderMap.get(aTitle) ?? 999;
+    const bIndex = orderMap.get(bTitle) ?? 999;
+
+    return aIndex - bIndex;
+  });
+};
 
 const Menu = ({ items, className }) => {
-	const orderedItems = sortItems(items);
+  const orderedItems = sortItems(items);
 
-	return (
-		<Wrapper className={className}>
-			<MenuList>
-				{orderedItems.map(({ node: item }) => {
-					const hasSubmenu = item.subMenu && item.subMenu.length > 0;
+  return (
+    <Wrapper className={className}>
+      <MenuList>
+        {orderedItems.map(({ node: item }) => {
+          // dodatkowe zabezpieczenie na wypadek undefined
+          if (!item) return null;
 
-					// dropdown pokazujemy TYLKO dla "o nas"
-					const showDropdown = item.title === 'o nas' && hasSubmenu;
+          const hasSubmenu =
+            Array.isArray(item.subMenu) && item.subMenu.length > 0;
 
-					// poprawka linku dla "kontakt"
-					let linkTo = item.to;
-					if (item.title === 'kontakt') {
-						linkTo = '/#contact';
-					}
+          // dropdown pokazujemy TYLKO dla "o nas"
+          const showDropdown = item.title === 'o nas' && hasSubmenu;
 
-					return (
-						<MenuItem key={item.title}>
-							<MenuHeader as={ConditionalLink} to={linkTo}>
-								{item.title}
-							</MenuHeader>
-							{showDropdown && <Dropdown submenu={item.subMenu} />}
-						</MenuItem>
-					);
-				})}
-			</MenuList>
-		</Wrapper>
-	);
+          return (
+            <MenuItem key={item.title}>
+              <MenuHeader
+                as={ConditionalLink}
+                to={item.to}
+              >
+                {item.title}
+              </MenuHeader>
+
+              {showDropdown && <Dropdown submenu={item.subMenu} />}
+            </MenuItem>
+          );
+        })}
+      </MenuList>
+    </Wrapper>
+  );
 };
 
 Menu.propTypes = {
-	// eslint-disable-next-line react/forbid-prop-types
-	items: PropTypes.arrayOf(PropTypes.object).isRequired,
-	className: PropTypes.string,
+  // eslint-disable-next-line react/forbid-prop-types
+  items: PropTypes.arrayOf(PropTypes.object).isRequired,
+  className: PropTypes.string,
 };
 
 Menu.defaultProps = {
-	className: null,
+  className: null,
 };
 
 export default Menu;
