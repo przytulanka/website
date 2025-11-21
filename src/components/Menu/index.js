@@ -8,20 +8,24 @@ import { Wrapper, MenuList, MenuItem, MenuHeader } from './styles';
 // docelowa kolejność w menu desktop
 const DESKTOP_ORDER = ['oferta', 'plan dnia', 'galeria', 'o nas', 'kontakt'];
 
+// bezpieczne sortowanie (ignoruje dziwne / pust e wpisy)
 const sortItems = edges =>
-	[...edges].sort((a, b) => {
-		const aTitle = a.node.title;
-		const bTitle = b.node.title;
+	(edges || [])
+		.filter(edge => edge && edge.node && edge.node.title)
+		.sort((a, b) => {
+			const aTitle = a.node.title.toLowerCase();
+			const bTitle = b.node.title.toLowerCase();
 
-		const aIdx = DESKTOP_ORDER.indexOf(aTitle);
-		const bIdx = DESKTOP_ORDER.indexOf(bTitle);
+			const aIdx = DESKTOP_ORDER.indexOf(aTitle);
+			const bIdx = DESKTOP_ORDER.indexOf(bTitle);
 
-		// jeśli czegoś nie ma w DESKTOP_ORDER – ląduje na końcu
-		if (aIdx === -1 && bIdx === -1) return 0;
-		if (aIdx === -1) return 1;
-		if (bIdx === -1) return -1;
-		return aIdx - bIdx;
-	});
+			// jeśli coś nie jest w DESKTOP_ORDER – ląduje na końcu
+			if (aIdx === -1 && bIdx === -1) return 0;
+			if (aIdx === -1) return 1;
+			if (bIdx === -1) return -1;
+
+			return aIdx - bIdx;
+		});
 
 const Menu = ({ items, className }) => {
 	const orderedItems = sortItems(items);
@@ -30,22 +34,18 @@ const Menu = ({ items, className }) => {
 		<Wrapper className={className}>
 			<MenuList>
 				{orderedItems.map(({ node: item }) => {
-					const hasSubmenu = item.subMenu && item.subMenu.length > 0;
+					const hasSubmenu = Array.isArray(item.subMenu) && item.subMenu.length > 0;
 
 					// dropdown pokazujemy TYLKO dla "o nas"
 					const showDropdown = item.title === 'o nas' && hasSubmenu;
 
-					// poprawka linku dla "kontakt"
-					let linkTo = item.to;
-					if (item.title === 'kontakt') {
-						linkTo = '/#contact';
-					}
-
 					return (
 						<MenuItem key={item.title}>
-							<MenuHeader as={ConditionalLink} to={linkTo}>
+							{/* nagłówek jest linkiem (działa hover/styl z MenuHeader) */}
+							<MenuHeader as={ConditionalLink} to={item.to}>
 								{item.title}
 							</MenuHeader>
+
 							{showDropdown && <Dropdown submenu={item.subMenu} />}
 						</MenuItem>
 					);
