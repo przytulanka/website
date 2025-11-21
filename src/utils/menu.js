@@ -11,12 +11,14 @@ module.exports = [
     ],
   },
   {
-    title: 'o nas',
-    to: '/o_nas/',
-    subMenu: [
-      { title: 'opowiadanie o Przytulance', to: '/o_nas/#story' },
-    ],
+  title: 'o nas',
+  to: '/o_nas/',
+  subMenu: [
+    { title: 'Opowiadanie o Przytulance', to: '/o_nas/#story' },
+    { title: 'Rodzice o Przytulance', to: '/o_nas/#reference' },
+  ],
   },
+
   {
     title: 'galeria',
     to: '/galeria/',
