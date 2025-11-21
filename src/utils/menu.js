@@ -2,16 +2,17 @@ module.exports = [
 	{
 		title: 'oferta',
 		to: '/oferta/',
+		subMenu: [],
 	},
 	{
 		title: 'plan dnia',
 		to: '/grupy_i_plan_dnia/',
+		subMenu: [],
 	},
 	{
 		title: 'galeria',
 		to: '/galeria/',
-		// UWAGA: bez subMenu – dzięki temu w stopce użyjemy tylko tego tytułu,
-		// a dropdown w headerze i tak wyłączymy w komponencie Menu
+		subMenu: [],
 	},
 	{
 		title: 'o nas',
@@ -19,13 +20,14 @@ module.exports = [
 		subMenu: [
 			{ title: 'opowiadanie o Przytulance', to: '/o_nas/#story' },
 			{ title: 'rodzice o Przytulance', to: '/o_nas/#reference' },
-			{ title: 'kadra', to: '/#crew' },
+			{ title: 'kadra', to: '/crew/' },
 			{ title: 'statut', to: '/statut_przedszkola_przytulanka/' },
 			{ title: 'regulamin', to: '/regulamin_przedszkola_przytulanka/' },
 		],
 	},
 	{
 		title: 'kontakt',
-		to: '/#contact', // <— poprawka linku
+		to: '/#contact',
+		subMenu: [],
 	},
 ];
