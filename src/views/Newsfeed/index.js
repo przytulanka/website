@@ -23,7 +23,7 @@ const Newsfeed = ({ id }) => {
 					}
 				}
 			}
-			poster: file(name: { eq: "nowa_rekrutacja" }) {
+			poster: file(name: { eq: "nowa_rekrutacja_2026" }) {
 				childImageSharp {
 					fluid(maxWidth: 900, quality: 80) {
 						...GatsbyImageSharpFluid
