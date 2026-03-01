@@ -10,22 +10,30 @@ import { Wrapper, SliderWrapper, PosterLink } from './styles';
 
 const Newsfeed = ({ id }) => {
 	const { newsfeed, poster } = useStaticQuery(graphql`
-    {
-      newsfeed: markdownRemark(frontmatter: { type: { eq: "pageNewsfeed" } }) {
-        frontmatter {
-          }
-        }
-      }
-      poster: file(name: { eq: "nowa_rekrutacja" }) {
-        childImageSharp {
-          fluid(maxWidth: 900, quality: 80) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `);
+		query {
+			newsfeed: markdownRemark(frontmatter: { type: { eq: "pageNewsfeed" } }) {
+				frontmatter {
+					color
+					images {
+						childImageSharp {
+							fluid(maxWidth: 1200, quality: 80) {
+								...GatsbyImageSharpFluid
+							}
+						}
+					}
+				}
+			}
+			poster: file(name: { eq: "nowa_rekrutacja" }) {
+				childImageSharp {
+					fluid(maxWidth: 900, quality: 80) {
+						...GatsbyImageSharpFluid
+					}
+				}
+			}
+		}
+	`);
 
+	const { color, images } = newsfeed.frontmatter;
 
 	return (
 		<Wrapper as={SectionWrapper} id={id} bg={uppercaseFirstChar(color)}>
@@ -42,3 +50,12 @@ const Newsfeed = ({ id }) => {
 			<SliderWrapper>
 				<Slider images={images} type="newsfeed" />
 			</SliderWrapper>
+		</Wrapper>
+	);
+};
+
+Newsfeed.propTypes = {
+	id: PropTypes.string.isRequired,
+};
+
+export default Newsfeed;
