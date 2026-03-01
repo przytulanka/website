@@ -9,7 +9,7 @@ import { SectionWrapper } from 'components/Share';
 import { Wrapper, SliderWrapper, PosterLink } from './styles';
 
 const Newsfeed = ({ id }) => {
-	const { newsfeed, poster } = useStaticQuery(graphql`
+	const data = useStaticQuery(graphql`
 		query {
 			newsfeed: markdownRemark(frontmatter: { type: { eq: "pageNewsfeed" } }) {
 				frontmatter {
@@ -23,21 +23,25 @@ const Newsfeed = ({ id }) => {
 					}
 				}
 			}
-			poster: file(relativePath: { eq: "../../assets/images/nowa_rekrutacja.jpg" }) {
-    			childImageSharp {
-        			fluid(maxWidth: 900, quality: 80) {
-            			...GatsbyImageSharpFluid
-        			}
-    			}
+			poster: file(name: { eq: "nowa_rekrutacja" }) {
+				childImageSharp {
+					fluid(maxWidth: 900, quality: 80) {
+						...GatsbyImageSharpFluid
+					}
+				}
 			}
 		}
 	`);
 
-	const { color, images } = newsfeed.frontmatter;
+	// Bezpieczne wyciąganie danych
+	const newsfeed = data?.newsfeed;
+	const poster = data?.poster;
+	const color = newsfeed?.frontmatter?.color || 'white';
+	const images = newsfeed?.frontmatter?.images || [];
 
 	return (
 		<Wrapper as={SectionWrapper} id={id} bg={uppercaseFirstChar(color)}>
-			{poster && (
+			{poster?.childImageSharp?.fluid && (
 				<SliderWrapper>
 					<PosterLink href="https://www.przedszkoleprzytulanka.pl/#contact">
 						<Img
@@ -47,9 +51,11 @@ const Newsfeed = ({ id }) => {
 					</PosterLink>
 				</SliderWrapper>
 			)}
-			<SliderWrapper>
-				<Slider images={images} type="newsfeed" />
-			</SliderWrapper>
+			{images && images.length > 0 && (
+				<SliderWrapper>
+					<Slider images={images} type="newsfeed" />
+				</SliderWrapper>
+			)}
 		</Wrapper>
 	);
 };
