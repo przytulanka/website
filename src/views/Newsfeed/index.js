@@ -23,12 +23,12 @@ const Newsfeed = ({ id }) => {
 					}
 				}
 			}
-			poster: file(name: { eq: "nowa_rekrutacja" }) {
-				childImageSharp {
-					fluid(maxWidth: 900, quality: 80) {
-						...GatsbyImageSharpFluid
-					}
-				}
+			poster: file(relativePath: { eq: "../../assets/images/nowa_rekrutacja.jpg" }) {
+    			childImageSharp {
+        			fluid(maxWidth: 900, quality: 80) {
+            			...GatsbyImageSharpFluid
+        			}
+    			}
 			}
 		}
 	`);
