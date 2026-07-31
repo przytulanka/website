@@ -15,6 +15,7 @@
     "postlint": "npm run eslint",
     "lintstaged": "lint-staged -c ./lint-staged.config.mjs",
     "proxy": "npx netlify-cms-proxy-server",
+    "postinstall": "patch-package",
     "prepare": "husky"
   },
   "resolutions": {
@@ -59,6 +60,8 @@
     "gatsby-plugin-root-import": "^2.0.5",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
+    "patch-package": "^8.0.1",
+    "postinstall-postinstall": "^2.1.0",
     "prettier": "^3.6.2",
     "stylelint": "^13.7.0",
     "stylelint-config-rational-order": "^0.1.2",

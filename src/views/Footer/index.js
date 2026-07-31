@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 
 import MenuFooter from 'components/MenuFooter';
@@ -14,8 +14,13 @@ import {
 } from './styles';
 
 const Footer = () => {
-	const { allMenu, logo, socials } = useStaticQuery(graphql`
+	const { allMenu, logo, socials, site } = useStaticQuery(graphql`
     {
+      site {
+        siteMetadata {
+          buildYear
+        }
+      }
       allMenu {
         edges {
           node {
@@ -51,7 +56,14 @@ const Footer = () => {
     }
   `);
 
-	const actualDate = new Date();
+	// Rok budowania (siteMetadata) to wspolne zrodlo dla SSR i pierwszego renderu
+	// klienta - dzieki temu hydratacja nigdy sie nie rozjezdza, nawet na przelomie
+	// roku. Aktualizacja biezacym rokiem dopiero po hydratacji (useEffect).
+	const [year, setYear] = useState(site.siteMetadata.buildYear);
+
+	useEffect(() => {
+		setYear(new Date().getFullYear());
+	}, []);
 
 	return (
 		<Container>
@@ -62,7 +74,7 @@ const Footer = () => {
 			</Wrapper>
 			<Copyright>
 				copyright © Przedszkole Klub Maluszka Przytulanka
-				{` ${actualDate.getFullYear()}`} | developed by las media
+				{` ${year}`} | developed by las media
 			</Copyright>
 		</Container>
 	);

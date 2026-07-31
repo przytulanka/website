@@ -8,6 +8,8 @@ module.exports = {
       'Małe grupy, ciepła i rodzinna atmosfera. Nie my tak twierdzimy, ale rodzice naszych dzieci :-) Przyjdź i sprawdź. Sulejówek, ul. Kolbego 10B. Zapraszamy!',
 		url: 'https://www.przedszkoleprzytulanka.pl',
 		author: '@lasmedia',
+		// Rok z chwili budowania - wspolne zrodlo dla SSR i hydratacji (stopka).
+		buildYear: new Date().getFullYear(),
 		menuMobile,
 	},
 	mapping: {

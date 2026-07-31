@@ -1,0 +1,29 @@
+diff --git a/node_modules/gatsby-image/index.js b/node_modules/gatsby-image/index.js
+index 11a7c51..7ff4f8e 100644
+--- a/node_modules/gatsby-image/index.js
++++ b/node_modules/gatsby-image/index.js
+@@ -370,7 +370,10 @@ var Image = /*#__PURE__*/function (_React$Component) {
+     _this.isCritical = props.loading === "eager" || props.critical;
+     _this.addNoScript = !(_this.isCritical && !props.fadeIn);
+     _this.useIOSupport = !hasNativeLazyLoadSupport && hasIOSupport && !_this.isCritical && !_this.seenBefore;
+-    var isVisible = _this.isCritical || isBrowser && (hasNativeLazyLoadSupport || !_this.useIOSupport);
++    // PATCH (React 18 hydration): initial client render must match SSR output.
++    // SSR renders with isVisible=false (isBrowser is false at build time), so the
++    // first client render has to start false as well; componentDidMount flips it.
++    var isVisible = _this.isCritical;
+     _this.state = {
+       isVisible: isVisible,
+       imgLoaded: false,
+@@ -388,8 +391,11 @@ var Image = /*#__PURE__*/function (_React$Component) {
+   var _proto = Image.prototype;
+ 
+   _proto.componentDidMount = function componentDidMount() {
++    // PATCH (React 18 hydration): reveal the image only after hydration, using the
++    // same visibility rules the constructor previously applied during client render.
+     this.setState({
+-      isHydrated: isBrowser
++      isHydrated: isBrowser,
++      isVisible: this.state.isVisible || hasNativeLazyLoadSupport || !this.useIOSupport
+     });
+ 
+     if (this.state.isVisible && typeof this.props.onStartLoad === "function") {
