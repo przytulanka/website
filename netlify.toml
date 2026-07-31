@@ -1,0 +1,22 @@
+# Naglowki HTTP dla strony przedszkola.
+#
+# Wczesniej byly ustawione recznie w panelu Netlify, poza repozytorium - przez co
+# nie bylo ich widac w kodzie i nikt nie wiedzial, skad pochodza. Teraz sa tutaj,
+# pod kontrola wersji. Plik ma pierwszenstwo nad ustawieniami z panelu.
+#
+# Zmiana wzgledem poprzedniego stanu dotyczy wylacznie Referrer-Policy:
+# bylo "same-origin", ktore blokowalo ladowanie kafelkow mapy z OpenStreetMap
+# (ich polityka wymaga naglowka Referer i odrzuca zadania bez niego).
+# Jest "strict-origin-when-cross-origin" - domyslne zachowanie przegladarek:
+# do obcych domen wysyla sama nazwe domeny, bez sciezki podstrony.
+# Pozostale cztery naglowki sa przepisane bez zmian.
+
+[[headers]]
+  for = "/*"
+
+  [headers.values]
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
