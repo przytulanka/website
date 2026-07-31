@@ -19,7 +19,14 @@ const Hero = () => {
 
 	return (
 		<Wrapper>
-			<Image as={Img} fluid={heroImage.childImageSharp.fluid} />
+			{/* Hero to element LCP - eager + brak fade-in sprawiaja, ze <picture>
+			    jest juz w HTML z budowania i widoczny w trakcie ladowania. */}
+			<Image
+				as={Img}
+				fluid={heroImage.childImageSharp.fluid}
+				loading="eager"
+				fadeIn={false}
+			/>
 		</Wrapper>
 	);
 };
