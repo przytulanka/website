@@ -4,6 +4,13 @@ import PropTypes from 'prop-types';
 import ConditionalLink from 'components/Conditional';
 import { Wrapper, SocialItem, Icon, Text } from './styles';
 
+// Opisy ikon dla czytnikow ekranu - klucze odpowiadaja polu title z CMS.
+const ICON_LABELS = {
+	facebook: 'Facebook',
+	mail: 'Napisz e-mail',
+	mobile: 'Zadzwon',
+};
+
 const Socials = ({ socials, className }) => (
 	<Wrapper className={className}>
 		{socials.map(social => {
@@ -16,7 +23,7 @@ const Socials = ({ socials, className }) => (
 					as={ConditionalLink}
 					to={mailto || phoneto || to}
 				>
-					<Icon src={cover.publicURL} />
+					<Icon src={cover.publicURL} alt={ICON_LABELS[title] || title} />
 					<Text>{social.title.rawMarkdownBody}</Text>
 				</SocialItem>
 			);

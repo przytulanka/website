@@ -5,7 +5,7 @@ import Img from 'gatsby-image';
 
 import { Cover, Image, NoImage } from './styles';
 
-const BioCover = ({ cover, color, className }) => {
+const BioCover = ({ cover, color, alt, className }) => {
 	const { userIcon } = useStaticQuery(graphql`
     {
       userIcon: file(name: { eq: "user" }) {
@@ -17,9 +17,14 @@ const BioCover = ({ cover, color, className }) => {
 	return (
 		<Cover className={className} bg={color}>
 			{cover ? (
-				<Image as={Img} fixed={cover.childImageSharp.fixed} draggable={false} />
+				<Image
+					as={Img}
+					fixed={cover.childImageSharp.fixed}
+					draggable={false}
+					alt={alt}
+				/>
 			) : (
-				<NoImage className={className} src={userIcon.publicURL} />
+				<NoImage className={className} src={userIcon.publicURL} alt={alt} />
 			)}
 		</Cover>
 	);
@@ -28,12 +33,14 @@ const BioCover = ({ cover, color, className }) => {
 BioCover.propTypes = {
 	cover: PropTypes.shape(),
 	color: PropTypes.string,
+	alt: PropTypes.string,
 	className: PropTypes.string,
 };
 
 BioCover.defaultProps = {
 	color: null,
 	cover: null,
+	alt: '',
 	className: null,
 };
 

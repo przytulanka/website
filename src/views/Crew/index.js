@@ -63,6 +63,7 @@ const Crew = ({ id }) => {
 							<BioCover
 								cover={title.frontmatter.cover}
 								color={title.frontmatter.color}
+								alt={title.frontmatter.title}
 							/>
 						</StyledLink>
 					</CrewItem>

@@ -101,5 +101,29 @@ module.exports = {
 			},
 		},
 		'gatsby-plugin-remove-serviceworker',
+		{
+			// Mapa strony dla wyszukiwarek: /sitemap-index.xml (wskazana w static/robots.txt).
+			// Panel CMS wykluczony - nie ma czego indeksowac.
+			// Wtyczka domyslnie szuka siteMetadata.siteUrl, a ten projekt trzyma
+			// adres w polu "url" - stad alias w zapytaniu zamiast dublowania pola.
+			resolve: 'gatsby-plugin-sitemap',
+			options: {
+				excludes: ['/admin', '/admin/**'],
+				query: `
+					{
+						site {
+							siteMetadata {
+								siteUrl: url
+							}
+						}
+						allSitePage {
+							nodes {
+								path
+							}
+						}
+					}
+				`,
+			},
+		},
 	],
 };

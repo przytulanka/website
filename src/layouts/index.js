@@ -11,7 +11,7 @@ const Layout = ({ children }) => (
 	<ThemeProvider theme={theme}>
 		<GlobalStyle />
 		<Navbar />
-		{children}
+		<main>{children}</main>
 		<Footer />
 	</ThemeProvider>
 );
