@@ -71,3 +71,6 @@ yarn-error.log
 
 # Local Netlify folder
 .netlify
+
+# Zrzuty i logi z Playwright MCP (artefakty robocze weryfikacji)
+.playwright-mcp/
