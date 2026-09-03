@@ -1,54 +1,39 @@
 ---
 type: statuteItem
-title: Rozdział VII. Wychowankowie
+title: § 29-30. Baza lokalowa, wyżywienie i odpłatność
 color: violet
 ---
-§ 30
+**§ 29**
 
-1.  Dzieci mają prawo do respektowania wobec nich wszystkich postanowień Konwencji Praw Dziecka, a w szczególności do:
+1. Do realizacji celów statutowych przedszkole posiada:
 
-1)  życzliwego i podmiotowego traktowania przez cały personel przedszkola,
+    1) sale zajęć dla poszczególnych grup,
 
-2)  właściwie zorganizowanego procesu edukacyjnego, zgodnie z zasadami higieny pracy umysłowej i własnego tempa rozwoju,
+    2) łazienki dla dzieci i personelu,
 
-3)  swobody wyrażania myśli i przekonań, w szczególności dotyczących życia przedszkolnego, religijnego oraz światopoglądu, jeśli nie narusza to dobra innych ludzi,
+    3) szatnię,
 
-4)  indywidualnego procesu rozwoju i własnego tempa rozwoju,
+    4) zaplecze kuchenne
 
-5)  rozwijania zainteresowań i zdolności,
+    5) pomieszczenia administracyjno-gospodarcze.
 
-6)  relaksu, odpoczynku lub snu w ciągu dnia,
+2. Dzieci mają możliwość codziennego korzystania z placu zabaw z odpowiednio dobranymi urządzeniami dostosowanymi do ich wieku.
 
-7)  zdrowego jedzenia,
+3. W celu zapewnienia prawidłowej realizacji zadań opiekuńczych, w szczególności wspierania prawidłowego rozwoju wychowanków przedszkole organizuje żywienie.
 
-8)  opieki i ochrony przed wszelkimi formami przemocy fizycznej bądź psychicznej, poszanowania jego godności osobistej, tolerancji i zrozumienia indywidualnych potrzeb,
+4. W zależności od długości pobytu i warunków ustalonych z rodzicami (opiekunami prawnymi) przedszkole zapewnia wychowankom posiłki w formie cateringu.:
 
-9)  poszanowania ich własności i akceptacji takimi jakie są,
+    1) obiad,
 
-10) sprawiedliwej, obiektywnej i jawnej oceny ich wyników pracy i zachowania,
+    2) podwieczorek.
 
-11) zwracania uwagi i dyscyplinowania w sposób zgodny z godnością dziecka przy uwzględnieniu jego wieku, stopnia rozwoju i dojrzałości.
-
-2.  Wychowankowie przedszkola są ubezpieczeni od następstw nieszczęśliwych wypadków. Dobrowolne ubezpieczenie jest płatne przez rodziców jednorazowo na początku roku szkolnego.
-
-3.  Przedszkole nie ponosi odpowiedzialności materialnej za cenne rzeczy i zabawki przyniesione przez dzieci do przedszkola.
+5. Przedszkole zapewnia wyżywienie dla dzieci z różnymi alergiami pokarmowymi. Obowiązkiem rodzica jest dostarczenie pełnej listy produktów uczulających dziecko.
 
 
+**§ 30**
 
-§ 31
+1. Odpłatność za przedszkole obejmuje usługi świadczone przez placówkę, związane z wychowaniem, opieką i nauczaniem, (w tym zajęcia dodatkowe objęte ofertą), ubezpieczeniem dzieci oraz ich wyżywieniem.
 
-1.  W przedszkolu dzieci mają obowiązek:
+2. Wysokość opłat za pobyt dziecka w przedszkolu ustala dyrektor, szczegółowo określając ją w umowie z rodzicami. O zmianie wysokości opłaty dyrektor ma prawo poinformować rodziców z miesięcznym wyprzedzeniem.
 
-1)  kulturalnego i z szacunkiem odnoszenia się do rówieśników i osób dorosłych (szanowania praw innych ludzi),
-
-2)  zachowywania się zgodnie z przyjętymi normami i zasadami akceptowanymi przez grupę i społeczność przedszkolną,
-
-3)  służenia pomocą młodszym i słabszym,
-
-4)  przestrzegania ustalonych zasad bezpieczeństwa w przedszkolu i poza nim,
-
-5)  dbania o estetykę i higienę własnego wyglądu i otoczenia na miarę swoich możliwości,
-
-6)  respektowania poleceń nauczyciela i innych osób uczestniczących w procesie edukacji,
-
-7)  szanowania zabawek, gier i książek i odkładania je na wyznaczone miejsca.
+3. Opłaty za pobyt dziecka w przedszkolu pobierane są z góry, do 5-ego każdego miesiąca.

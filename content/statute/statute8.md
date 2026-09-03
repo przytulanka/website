@@ -1,86 +1,39 @@
 ---
 type: statuteItem
-title: Rozdział VIII. Rodzice
+title: § 31-32. Przyjęcie dziecka i skreślenie z listy wychowanków
 color: violet
 ---
-§ 32
+**§ 31**
 
-1.  Rodzice i nauczyciele zobowiązani są do współdziałania ze sobą w celu skutecznego oddziaływania wychowawczego na dziecko i określania drogi jego indywidualnego rozwoju.
+1. O przyjęciu dziecka do przedszkola decyduje dyrektor.
 
-2.  Rodzice (prawni opiekunowie) mają prawo do:
+2. Dzieci mogą być przyjmowane do przedszkola w ciągu całego roku szkolnego, jeżeli przedszkole dysponuje wolnymi miejscami.
 
-1)  zapoznania się z zadaniami realizowanymi poszczególnych grupach w toku codziennej pracy wychowawczo-edukacyjnej wynikającymi z podstawy programowej i planów pracy w danej grupie,
+3. Wpis dziecka na listę odbywa się na podstawie zgłoszenia oraz dokonania wpłaty wpisowego. Warunkiem wpisu na listę jest odbycie rozmowy dyrektora z rodzicami (opiekunami) dziecka, a w razie potrzeby także spotkanie z dzieckiem.
 
-2)  uzyskiwania na bieżąco rzetelnej informacji na temat dziecka, jego rozwoju i zachowania,
+4. W dniu przyjęcia dziecka do przedszkola rodzic (opiekun prawny) zobowiązany jest do:
 
-3)  uzyskania informacji o stanie gotowości szkolnej swojego dziecka, aby mogli je w osiąganiu tej gotowości, odpowiednio do potrzeb, wspomagać,
+    1) zapoznania się ze statutem i regulaminem przedszkola,
 
-4)  uzyskiwania od nauczycieli porad i wskazówek w rozpoznawaniu przyczyn trudności wychowawczych oraz doborze metod udzielania dziecku pomocy psychologiczno - pedagogicznej,
-
-5)  uzyskiwaniu porad i wskazówek w rozpoznawaniu i wspieraniu uzdolnień dziecka,
-
-6)  udziału w zajęciach otwartych z dziećmi, zebraniach z nauczycielami,
-
-7)  wyrażania i przekazywania nauczycielowi i dyrektorowi własnych wniosków i uwag o pracy przedszkola.
-
-3.  Rodzice są zobowiązani do:
-
-1)  przestrzegania postanowień niniejszego statutu, regulaminu przedszkola i obowiązujących procedur,
-
-2)  respektowania uchwał i postanowień dyrektora przedszkola,
-
-3)  informowania o przyczynach nieobecności dziecka w przedszkolu niezwłocznego powiadamiania o chorobach zakaźnych, zatruciach pokarmowych,
-
-4)  informowania o wszystkich istotnych okolicznościach dotyczących dziecka, które mogą mieć znaczenie dla sposobu realizowania wychowania przedszkolnego,
-
-5)  zgłaszania wszelkich niedyspozycji dziecka i wszelkich niepokojących objawów w jego zachowaniu, mających wpływ na funkcjonowanie w grupie,
-
-6)  przyprowadzania do przedszkola dzieci zdrowych, bez oznak stanu chorobowego,
-
-7)  zaopatrzenia dziecka w niezbędne przedmioty, przybory i pomoce (odzież zapasową, przybory do pielęgnacji jamy ustnej, strój do ćwiczeń gimnastycznych),
-
-8)  respektowania zasad dotyczących przyprowadzania i odbierania dziecka z przedszkola,
-
-9)  ze względów bezpieczeństwa informowania dyrektora o zmianach dotyczących praw rodzicielskich odnośnie swojego dziecka,
-
-10) ze względów bezpieczeństwa zgłaszania wychowawcy zmiany adresu zamieszkania i telefonu kontaktowego w celu zapewnienia możliwości skutecznego kontaktu,
-
-11) terminowego uiszczania opłat za pobyt dziecka w przedszkolu,
-
-12) pisemnego poinformowania z miesięcznym wyprzedzeniem o zamiarze rezygnacji z przedszkola.
-
-13) współdziałania z nauczycielami w celu skutecznego oddziaływania wychowawczego na dziecko i określania drogi jego indywidualnego rozwoju.
-
-14) zapewnienia dziecku możliwości udziału w ewentualnych zdalnych zajęciach organizowanych przez przedszkole w trybie wskazanym w § 17 niniejszego Statutu.
-
-4.  Rodzice (opiekunowie prawni) dziecka podlegającego obowiązkowi rocznego przygotowania przedszkolnego są zobowiązani:
-
-1)  zapewnić regularne uczęszczanie dziecka na zajęcia,
-
-2)  zaopatrzyć dziecko w niezbędne przedmioty, przybory i pomoce,
-
-3)  wspierać nauczycieli w celu osiągnięcia gotowości szkolnej dziecka.
-
-4)  zapewnić dziecku możliwość udziału w ewentualnych zdalnych zajęciach organizowanych przez przedszkole w trybie wskazanym w § 18 ust. 6 Statutu.
+    2) zawarcia umowy z przedszkolem, która określa zobowiązania stron.
 
 
+**§ 32**
 
-§ 33
+1. Skreślenie z listy wychowanków przedszkola następuje w razie rozwiązania umowy dotyczącej opieki dydaktyczno-wychowawczej w związku z wypowiedzeniem dokonanym przez rodziców (prawnych opiekunów) dziecka, przy czym okres wypowiedzenia wynosi miesiąc.
 
-1.  Współpraca przedszkola z rodzicami oparta jest na wzajemnych uzgodnieniach i obejmuje następujące formy:
+2. Dyrektor może podjąć decyzję o skreśleniu dziecka z listy dzieci uczęszczających do przedszkola w następujących przypadkach:
 
-1)  konsultacje indywidualne z inicjatywy nauczyciela lub rodziców (prawnych opiekunów) z dyrektorem, nauczycielami, specjalistami,
+    1) zalegania z odpłatnością za przedszkole powyżej jednego okresu płatniczego,
 
-2)  zebrania grupowe,
+    2) nieobecności dziecka dłuższej niż 30 dni i braku usprawiedliwienia tej nieobecności,
 
-3)  warsztaty dla rodziców,
+    3) w przypadku zatajenia przez rodzica informacji o stanie zdrowia dziecka, uniemożliwiającym pracę wychowawczą i kształcenie w przedszkolu,
 
-4)  imprezy środowiskowe,
+    4) stwarzania przez dziecko sytuacji zagrażających zdrowiu i bezpieczeństwu własnemu i innych dzieci oraz braku współpracy z rodzicami zmierzającej do rozwiązania problemu, mimo zastosowania przyjętego w przedszkolu trybu postępowania (np. podjęcia terapii lub gdy wykorzystane zostały wszelkie możliwości zmiany tej sytuacji)
 
-5)  udział rodziców (prawnych opiekunów) w uroczystościach przedszkolnych i imprezach integrujących przedszkole z domem rodzinnym i środowiskiem,
+    5) powtarzających się, agresywnych zachowań rodziców (opiekunów prawnych) dziecka w przedszkolu, łamiących normy współżycia społecznego i zasady zachowania w instytucji publicznej.
 
-6)  kąciki dla rodziców, kąciki plastyczne, informacje grupowe,
+3. Rodzice mogą w terminie 14 dni od doręczenia decyzji odwołać się do Kuratora Oświaty nadzorującego placówkę.
 
-7)  strona www i facebook,
-
-8)  inne wzajemnie ustalone.
+4. W przypadku dziecka objętego obowiązkiem rocznego przygotowania przedszkolnego, dyrektor informuje pisemnie dyrektora szkoły, w obwodzie której mieszka dziecko o skreśleniu dziecka z listy wychowanków.

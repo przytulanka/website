@@ -1,220 +1,284 @@
 ---
 type: statuteItem
-title: Rozdział IV. Organizacja przedszkola
+title: § 14-24. Kadra przedszkola i jej zadania
 color: violet
 ---
-§ 14
+**§ 14**
 
-1.  Przedszkole jest placówką niepubliczną przeznaczoną dla dzieci w wieku od trzech do siedmiu lat, objętych w świetle ustaw oświatowych wychowaniem przedszkolnym, realizującą programy wychowania przedszkolnego uwzględniające podstawę programową wychowania przedszkolnego, zatrudniającą nauczycieli mających kwalifikacje określone dla nauczycieli przedszkoli publicznych. W szczególnie uzasadnionych przypadkach Dyrektor może przyjąć
+1. Kadrę przedszkola stanowią:
 
-do Przedszkola dziecko, które ukończyło 2,5 roku.
+    1) dyrektor przedszkola - właściciel,
 
-2.  Przedszkole świadczy usługi w oparciu o zasadę powszechnej dostępności.
+    2) zastępca dyrektora ds. pedagogicznych,
 
-                                                                         
+    3) nauczyciele w tym specjaliści,
 
-§ 15
+    4) personel pomocniczy w zależności od potrzeb.
 
-1.  Przedszkole przewidziane jest dla 40 dzieci zgrupowanych w 3 oddziałach.
+2. Pracownicy na wszystkich stanowiskach dbają o klimat i dobre imię placówki, przestrzegają zasad współżycia społecznego, są współodpowiedzialni za realizację zadań przedszkola.
 
-2.  Podstawową jednostką organizacyjną przedszkola jest grupa złożona z dzieci o zbliżonym wieku,
+3. Wszyscy pracownicy są zobowiązani do przestrzegania zasad i przepisów BHP i p. pożarowych.
 
-z uwzględnieniem ich potrzeb, zainteresowań, uzdolnień.
+4. Zasady zatrudnienia pracowników są zgodne z kodeksem pracy.
 
-3.  Liczba dzieci w oddziale nie może przekroczyć 16 dzieci.
+5. Liczbę zatrudnionych nauczycieli i innych pracowników określa corocznie dyrektor.
 
-4.  W okresie wakacji letnich, a także dużej absencji dzieci lub absencji nauczyciela dopuszczalne jest tworzenie innego składu grup przedszkolnych.
+6. Prawa i obowiązki pracowników określają odrębne przepisy i umowy zawarte z personelem przedszkola.
 
-5.  Podczas schodzenia i rozchodzenia się dzieci z przedszkola grupy mogą być łączone.
+7. W przedszkolu dopuszcza się możliwość pracy wolontariuszy oraz możliwość odbywania praktyk nauczycielskich przez studentów kierunków pedagogicznych.
 
-6.  Grupa jest powierzona opiece jednej nauczycielki, której w sprawowaniu opieki pomaga personel pomocniczy wyznaczony przez dyrektora przedszkola.
 
-                                                           
+**§ 15**
 
-§ 16
+1. Dyrektor - właściciel jest kierownikiem zakładu pracy dla zatrudnionych w przedszkolu nauczycieli i pracowników nie będących nauczycielami.
 
-1.  Przedszkole działa cały rok, od poniedziałku do piątku w godzinach od 7:30 do 17:00 z wyłączeniem dni ustawowo wolnych od pracy.
+2. Dyrektor realizuje następujące zadania
 
-2.  Dzienny czas pracy przedszkola może być zmieniony w każdym roku szkolnym.
+    1) zapewnia wychowankom warunki harmonijnego rozwoju psychofizycznego poprzez aktywne działania prozdrowotne,
 
-3.  W przedszkolu obowiązuję następujące terminy przerw:
+    2) kieruje bieżącą działalnością placówki oraz reprezentuje ją na zewnątrz,
 
-1)  miesięczna przerwa wakacyjna
+    3) organizuje administracyjną, finansową i gospodarczą obsługę placówki,
 
-2)  dni wyznaczone przez dyrektora.
+    4) dysponuje i rozporządza środkami finansowymi przedszkola,
 
-                                                           
+    5) zawiera umowy z rodzicami dzieci o świadczeniu usług edukacyjnych przedszkola,
 
-§ 17
+    6) decyduje w sprawach przyjmowania dzieci do przedszkola i skreślania ich z listy w przypadkach określonych w niniejszym statucie,
 
-1.  Szczegółową organizację wychowania i opieki w danym roku szkolnym określa dyrektor.                          
+    7) kieruje polityką kadrową przedszkola, zatrudnia i zwalnia nauczycieli oraz innych pracowników przedszkola,
 
-2.  Dzienny czas pracy przedszkola ustalony jest przez dyrektora w oparciu o potrzeby rodziców wynikające z kart zgłoszenia dziecka do przedszkola.
+    8) kontroluje pracę personelu przedszkola i dyscyplinę pracy,
 
-3.  Realizacja podstawy programowej wychowania przedszkolnego odbywa się nie krócej niż 5 godzin dziennie.
+    9) ustala ramowy rozkład dnia z zachowaniem zasad ochrony zdrowia i higieny pracy oraz oczekiwań rodziców (prawnych opiekunów),
 
-4.  Organizację pracy w ciągu dnia określa ramowy rozkład dnia opracowany przez dyrektora z uwzględnieniem określonych w podstawie warunków i sposobów realizacji.
+    10) ponosi pełną odpowiedzialność za przestrzeganie obowiązujących przepisów dotyczacych bezpieczeństwa i higieny pracy pracowników i wychowanków oraz przestrzeganie przepisów dotyczących organizacji pracy przedszkola,
 
-5.  W szczególnych przypadkach dyrektor może zmienić organizację dnia (np. organizacja wyjścia poza teren przedszkola, wycieczki, uroczystości).
+    11) dopuszcza do użytku w przedszkolu programy wychowania przedszkolnego przedstawione przez nauczycieli,
 
-6.  W przypadku zawieszenia zajęć z powodu zaistnienia określonych przepisami okoliczności przedszkole będzie świadczyć usługi edukacyjne za pośrednictwem środków komunikacji elektronicznej i organizować zajęcia z wykorzystaniem metod i technik kształcenia na odległość.
+    12) organizuje pomoc psychologiczno- pedagogiczną zgodnie z odrębnymi przepisami,
 
-7.  Zajęcia mogą być zawieszone z powodu zaistnienia następujących okoliczności:
+    13) organizuje wczesne wspomaganie dziecka zgodnie z odrębnymi przepisami.
 
-1)  zagrożenia bezpieczeństwa dzieci w związku z organizacją i przebiegiem imprez ogólnopolskich lub międzynarodowych,
+    14) wykonuje inne zadania wynikające z przepisów szczegółowych.
 
-2)  temperatury zewnętrznej lub w pomieszczeniach, w których są prowadzone zajęcia z uczniami, zagrażającej zdrowiu dzieci,
+3. Dyrektor przedszkola ponosi odpowiedzialność za właściwe prowadzenie i przechowywanie dokumentacji przebiegu nauczania, działalności wychowawczej i opiekuńczej, awansu zawodowego nauczycieli oraz za wydawanie przez przedszkole dokumentów zgodnych z posiadaną dokumentacją.
 
-3)  zagrożenia związanego z sytuacją epidemiologiczną,
+4. Dyrektor przedszkola zobowiązany jest:
 
-4)  innego nadzwyczajnego zdarzenia zagrażającego bezpieczeństwu lub zdrowiu dzieci.
+    1) zawiadomić dyrektora szkoły podstawowej, w obwodzie której dziecko mieszka, o spełnianiu przez nie obowiązku rocznego przygotowania przedszkolnego w przedszkolu,
 
-8.  W takiej sytuacji dyrektor określi szczegółowe zasady świadczenia usług edukacyjnych przez przedszkole i udziału w tych zajęciach przez dzieci, mając na względzie w szczególności dostęp wśród dzieci do sprzętu umożliwiającego odbiór treści edukacyjnych oferowanych przez przedszkole.
+    2) kontrolować realizację obowiązku rocznego przygotowania przedszkolnego przez dzieci w przedszkolu.
 
 
+**§ 16**
 
-§ 18
+1. Zastępca dyrektora ds.pedagogicznych realizuje następujące zadania:
 
-1.  W przedszkolu mogą być organizowane zajęcia dodatkowe w ramach czesnego, wykraczające poza zakres podstawy programowej wychowania przedszkolnego.
+    1) odpowiada za realizację zadań przedszkola i sprawuje nadzór nad prawidłowym przebiegiem procesu dydaktyczno-wychowawczego,
 
-2.  Dzieci, na wniosek rodziców (prawnych opiekunów), mogą również uczestniczyć w fakultatywnych zajęciach dodatkowych (zajęcia taneczne, muzyczne, artystyczne, judo itp.), wykraczających poza zakres podstawy programowej. Zajęcia te są opłacane przez rodziców.
+    2) nadzoruje pracę nauczycieli i prowadzenie przez nich dokumentacji pedagogicznej zgodnie z przepisami prawa oświatowego,
 
-3.  Organizacja i terminy zajęć dodatkowych ustalane są przez dyrektora placówki.
+    3) opracowuje wspólnie z dyrektorem dokumenty programowe i organizacyjne przedszkola,
 
+    4) gromadzi informacje o pracy nauczycieli w celu dokonania oceny ich pracy,
 
+    5) prowadzi procedury związane z awansem zawodowym nauczycieli, przygotowuje dokumentację, organizuje egzaminy,
 
-§ 19
+    6) wykonuje inne zadania zalecone przez dyrektora, a wynikajace z bieżącej działalności placówki.
 
-Czas trwania zajęć dydaktyczno-wychowawczych z dziećmi, w tym również zajęć dodatkowych uzależniony jest od indywidualnych możliwości i potrzeb dzieci oraz realizowanego programu,
 
-i wynosi:
+**§ 17**
 
-1)  15- 20 minut dla dzieci w wieku 3-4 lat,
+1. Nauczyciele prowadzą pracę wychowawczo-dydaktyczną i opiekuńczą, są odpowiedzialni za jakość i wyniki tej pracy oraz bezpieczeństwo powierzonych im dzieci.
 
-2)  30 minut dla dzieci w wieku 5-6 lat.
+2. Nauczyciele także w szczególności:
 
+    1) planując i prowadząc pracę dydaktyczno-wychowawczą i opiekuńczą w powierzonej grupie dbają o jakość wykonywanej pracy, osiągają w stopniu optymalnym cele przedszkola ustalone w statucie i programie pracy przedszkola,
 
+    2) ponoszą odpowiedzialność za życie, zdrowie i bezpieczeństwo dzieci podczas pobytu w przedszkolu i poza jego terenem w czasie wycieczek i spacerów
 
-§ 20
+    3) wspierają swoją postawą i działaniami pedagogicznymi rozwój psychofizyczny dzieci, ich zdolności i zainteresowania,
 
-1.  Osobą odpowiedzialną za dziecko w czasie jego pobytu w przedszkolu jest nauczyciel prowadzący zajęcia dydaktyczne oraz pozostały personel w zakresie swojego działania.
+    4) diagnozują i prowadzą obserwację pedagogiczną mającą na celu poznanie i zabezpieczenie potrzeb rozwojowych dzieci, dokumentują ją i na tej podstawie planują dalszą pracę z dzieckiem,
 
-2.  W czasie zajęć dodatkowych prowadzonych przez specjalistów za bezpieczeństwo dzieci odpowiadają osoby prowadzące zajęcia.
+    5) przygotowują informacje o gotowości dzieci do podjęcia nauki w szkole podstawowej,
 
-3.  Obowiązkiem nauczyciela jest udzielenie natychmiastowej pomocy dziecku w sytuacji,
+    6) planują własny rozwój zawodowy, poszerzają swój zakres kompetencji, biorą udział w różnych formach doskonalenia zawodowego organizowanego przez przedszkole i przez instytucje wspomagające przedszkole, stosują twórcze i nowoczesne metody nauczania i wychowania,
 
-gdy ta pomoc jest niezbędna.
+    7) prowadzą prawidłowo, zgodnie z obowiązującymi przepisami, dokumentację pedagogiczną, w tym dziennik zajęć, dokumentację obserwacji pedagogicznej,
 
-4.  Obowiązkiem nauczyciela jest powiadomienie dyrektora oraz rodziców (prawnych opiekunów)
+    8) informują dyrektora, zastępcę dyrektora do spraw pedagogicznych i rodziców o efektach swej pracy dydaktyczno-wychowawczej i opiekuńczej,
 
-o zaistniałym wypadku lub zaobserwowanych niepokojących symptomach chorobowych.
+    9) dbają o warsztat pracy przez gromadzenie pomocy naukowych oraz wykazuje troskę o estetykę pomieszczeń,
 
-5.  W wypadkach nagłych wszystkie działania pracowników przedszkola, bez względu na zakres ich czynności służbowych, w pierwszej kolejności skierowane są na zapewnienie bezpieczeństwa dzieciom
+    10) otaczają indywidualną opieką każdego wychowanka i utrzymują kontakt z ich rodzicami w celu:
 
-6.  W przedszkolu nie mogą być stosowane wobec wychowanków żadne zabiegi lekarskie poza udzielaniem pierwszej pomocy w nagłych wypadkach, nie podaje się też dzieciom środków farmakologicznych.
+        - a) poznania i ustalenia potrzeb rozwojowych ich dzieci,
 
-7.  W sytuacjach nagłych, gdy stan zdrowia dziecka wymaga natychmiastowej interwencji lekarskiej nauczyciel lub dyrektor przedszkola zobowiązani są do podjęcia działań pomocy przedmedycznej w zakresie posiadanych umiejętności oraz wezwania karetki pogotowia ratunkowego. Jednocześnie, obowiązkiem tych osób jest zawiadomienie rodziców
+        - b) ustalenia formy pomocy w działaniach wychowawczych wobec dzieci,
 
-lub opiekunów prawnych.
+        - c) włączenie ich w działalność przedszkola,
 
+    12) współpracują ze specjalistami świadczącymi pomoc psychologiczno-pedagogiczną oraz medyczną w przychodniach i poradni psychologiczno-pedagogicznej,
 
+    13) organizują spotkania z rodzicami, co najmniej 2 razy w roku, na których informują zebranych o realizowanych treściach programowych w danej grupie, oraz przekazują informacje dotyczące rozwoju i zachowania dzieci powierzonych ich opiece,
 
-§ 21
+    14) inicjują i organizują imprezy o charakterze dydaktycznym, wychowawczym, kulturalnym, rekreacyjno- sportowym,
 
-1.  W celu zapewnienia prawidłowej realizacji zadań opiekuńczych, w szczególności wspierania prawidłowego rozwoju wychowanków przedszkole organizuje żywienie.
+    15) wykonują inne czynności polecone przez dyrektora, wynikające z organizacji pracy w przedszkolu, realizują zadania zlecone przez dyrektora wynikające z bieżącej działalności przedszkola.
 
-2.  W zależności od długości pobytu i warunków ustalonych z rodzicami (opiekunami prawnymi) przedszkole zapewnia wychowankom posiłki w formie cateringu.:
 
-1)  obiad,
+**§ 18**
 
-2)  podwieczorek.
+Nauczyciele i specjaliści w przedszkolu, w tym w zakresie pomocy psychologiczno-pedagogicznej:
 
-3.  Przedszkole zapewnia wyżywienie dla dzieci z różnymi alergiami pokarmowymi. Obowiązkiem rodzica jest dostarczenie pełnej listy produktów uczulających dziecko.
+1) rozpoznają indywidualne potrzeby rozwojowe i edukacyjne oraz możliwości psychofizycznych dzieci;
 
+2) określają mocne stron, predyspozycje, zainteresowania i uzdolnienia wychowanków;
 
+3) rozpoznają przyczyny niepowodzeń edukacyjnych lub trudności w funkcjonowaniu dzieci, w tym bariery i ograniczenia utrudniające im funkcjonowanie i uczestnictwo w życiu przedszkola;
 
-§ 22
+4) podejmują działania sprzyjające rozwojowi kompetencji oraz potencjału wychowanków w celu podnoszenia efektywności uczenia się i poprawy ich funkcjonowania;
 
-1.  Przedszkole stosuje szczególne środki ochrony małoletnich określone
+5) współpracują z poradnią w procesie diagnostycznym i postdiagnostycznym, w szczególności w zakresie oceny funkcjonowania dzieci, barier i ograniczeń w środowisku utrudniających funkcjonowanie dzieci i ich uczestnictwo w życiu przedszkola oraz efektów działań podejmowanych w celu poprawy ich funkcjonowania oraz planowania dalszych działań.
 
-w „Standardach ochrony małoletnich i Polityce ochrony dzieci” obowiązujących od 25 marca 2024 r.
 
-2.  Do Polityki ochrony dzieci obowiązującej w przedszkolu stosują się wszystkie osoby zatrudnione w placówce, stażyści, praktykanci, wolontariusze.
+**§ 19**
 
-3.  Polityka w swoim zakresie odnosi się:
+Zatrudnieni w przedszkolu nauczyciele posiadający kwalifikacje z zakresu pedagogiki specjalnej w celu współorganizowania kształcenia uczniów niepełnosprawnych:
 
-1)    do dzieci, które znajdują się pod opieką osoby pełnoletniej;
+1) prowadzą wspólnie z innymi nauczycielami zajęcia edukacyjne oraz wspólnie z innymi nauczycielami i specjalistami realizują zintegrowane działania i zajęcia określone w IPE-T;
 
-2)  do osób pełnoletnich, które sprawują pieczę nad dzieckiem.
+2) prowadzą wspólnie z innymi nauczycielami i specjalistami pracę wychowawczą z uczniami niepełnosprawnymi;
 
-4.  Pracownicy przedszkola posiadają wiedzę i w ramach wykonywanych obowiązków zwracają
+3) uczestniczą, w miarę potrzeb, w zajęciach edukacyjnych prowadzonych przez innych nauczycieli oraz w zintegrowanych działaniach i zajęciach, określonych w IPE-T, realizowanych przez nauczycieli i specjalistów;
 
-        uwagę na czynniki ryzyka i objawy krzywdzenia dzieci.
+4) udzielają pomocy nauczycielom prowadzącym zajęcia edukacyjne oraz nauczycielom i specjalistom realizującym zintegrowane działania i zajęcia, określone w IPE-T, w doborze form i metod pracy z uczniami niepełnosprawnymi;
 
-5.  W celu zapewnienia dzieciom bezpieczeństwa, w czasie przebywania w przedszkolu, ustala się       ogólne zasady postępowania kadry pedagogicznej i pracowników niepedagogicznych zatrudnionych w przedszkolu:
+5) prowadzą inne zajęcia odpowiednie ze względu na indywidualne potrzeby rozwojowe i edukacyjne oraz możliwości psychofizyczne dzieci, w szczególności zajęcia rewalidacyjne.
 
-1)  systematyczne wpajanie dzieciom zasad bezpieczeństwa,
 
-2)  odliczanie dzieci przed wyjściem poza budynek przedszkola oraz przed i po powrocie do przedszkola,
+**§ 20**
 
-3)  reagowanie na wszelkie sytuacje, sygnały lub znamiona przestępstwa, mogące stanowić zagrożenie dla zdrowia lub życia dzieci i zgłaszanie o tym dyrektorowi przedszkola,
+Do zadań pedagoga i psychologa zatrudnionego w przedszkolu, w tym w zakresie pomocy psychologiczno-pedagogicznej, należy w szczególności:
 
-4)  natychmiastowe reagowanie na osoby postronne przebywające na terenie przedszkola, zwrócenie się o podanie celu przybycia, udzielenie informacji zgodnie z posiadanymi kompetencjami, a w razie potrzeby zawiadomienie dyrektora przedszkola – osoby postronnej nie pozostawia się samej na terenie przedszkola bez nadzoru personelu przedszkola,
+1) prowadzenie badań i działań diagnostycznych dzieci, w tym diagnozowanie indywidualnych potrzeb rozwojowych i edukacyjnych oraz możliwości psychofizycznych wychowanków w celu określenia ich mocnych stron, predyspozycji, zainteresowań i uzdolnień oraz przyczyn niepowodzeń edukacyjnych lub trudności w funkcjonowaniu, w tym barier i ograniczeń utrudniających funkcjonowanie dziecka i jego uczestnictwo w życiu przedszkola;
 
-5.   Zabrania się pozostawiania dzieci bez opieki nauczyciela – w sytuacji koniecznej należy zapewnić odpowiednie zastępstwo.
+2) diagnozowanie sytuacji wychowawczych w przedszkolu w celu rozwiązywania problemów wychowawczych stanowiących barierę i ograniczających aktywne i pełne uczestnictwo dziecka w życiu przedszkola;
 
-7.  Określone są zasady przyprowadzania i odbierania dzieci z przedszkola:
+3) udzielanie wychowankom pomocy psychologiczno-pedagogicznej w formach odpowiednich do rozpoznanych potrzeb;
 
-1)  opiekę nad dziećmi przy przyprowadzaniu i odbieraniu z przedszkola sprawują rodzice (prawni opiekunowie) lub osoby pisemnie przez nich upoważnione zapewniające dziecku pełne bezpieczeństwo,
+4) podejmowanie działań z zakresu profilaktyki uzależnień i innych problemów dzieci;
 
-2)  przedszkole nie wydaje dziecka osobom niepełnoletnim, poza upoważnionym przez rodziców rodzeństwem, które ma co najmniej 10 lat, na podstawie pisemnego oświadczenia,
+5) minimalizowanie skutków zaburzeń rozwojowych, zapobieganie zaburzeniom zachowania oraz inicjowanie różnych form pomocy w środowisku przedszkolnym dzieci;
 
-3)  osoba upoważniona ma obowiązek przedstawienia dowodu tożsamości,
+6) inicjowanie i prowadzenie działań mediacyjnych i interwencyjnych w sytuacjach kryzysowych;
 
-4)  rodzice (prawni opiekunowie) przyjmują odpowiedzialność prawną za bezpieczeństwo dziecka odbieranego z przedszkola przez upoważnioną przez nich osobę,
+7) pomoc rodzicom i nauczycielom w rozpoznawaniu i rozwijaniu indywidualnych możliwości, predyspozycji i uzdolnień dzieci;
 
-5)  osoby nietrzeźwe lub będące pod pływem środków psychoaktywnych nie mogą odbierać dzieci z przedszkola,
+8) wspieranie nauczycieli i innych specjalistów w:
 
-6)  do przedszkola mogą uczęszczać wyłącznie dzieci zdrowe - personel może odmówić przyjęcia dziecka z widocznymi objawami chorobowymi,
+    - a) rozpoznawaniu indywidualnych potrzeb rozwojowych i edukacyjnych oraz możliwości psychofizycznych dzieci w celu określenia ich mocnych stron, predyspozycji, zainteresowań i uzdolnień oraz przyczyn niepowodzeń edukacyjnych lub trudności w funkcjonowaniu, w tym barier i ograniczeń utrudniających funkcjonowanie dziecka i jego uczestnictwo w życiu przedszkola,
 
-7)  nauczyciel oddziału ma obowiązek zgłosić rodzicom (prawnym opiekunom) stan dziecka wskazujący na chorobę,
+    - b) udzielaniu pomocy psychologiczno-pedagogicznej.
 
-8)  dzieci mogą być przyprowadzane do przedszkola do 900 lub w szczególnych wypadkach,
 
-w każdym innym czasie po uprzednim wcześniejszym zgłoszeniu osobiście, bądź telefonicznie późniejszego przyprowadzenia dziecka do przedszkola,
+**§ 21**
 
-9)  dzieci należy odebrać z przedszkola do godz. 1700.
+Do zadań pedagoga specjalnego zatrudnionego w przedszkolu, w tym w zakresie pomocy psychologiczno-pedagogicznej, należy w szczególności:
 
-8.  Zastrzeżenia rodziców dotyczące ograniczeń odbioru dziecka przez drugiego rodzica muszą być uzasadnione stosownymi orzeczeniami sądowymi.
+1) współpraca z nauczycielami lub innymi specjalistami, rodzicami oraz dziećmi w:
 
+    - a) rekomendowaniu dyrektorowi przedszkola do realizacji działań w zakresie zapewnienia aktywnego i pełnego uczestnictwa wychowanków w życiu przedszkola oraz dostępności osobom ze szczególnymi potrzebami,
 
+    - b) prowadzeniu badań i działań diagnostycznych związanych z rozpoznawaniem indywidualnych potrzeb rozwojowych i edukacyjnych oraz możliwości psychofizycznych wychowanków w celu określenia mocnych stron, predyspozycji, zainteresowań i uzdolnień dzieci oraz przyczyn niepowodzeń edukacyjnych lub trudności w funkcjonowaniu dzieci, w tym barier i ograniczeń utrudniających funkcjonowanie wychowanka i jego uczestnictwo w życiu przedszkola,
 
-§ 23
+    - c) rozwiązywaniu problemów dydaktycznych i wychowawczych wychowanków,
 
-1.  Odpłatność za przedszkole obejmuje usługi świadczone przez placówkę, związane z wychowaniem, opieką i nauczaniem, (w tym zajęcia dodatkowe objęte ofertą), ubezpieczeniem dzieci oraz ich wyżywieniem.
+    - d) określaniu niezbędnych do nauki warunków, sprzętu specjalistycznego i środków dydaktycznych, w tym wykorzystujących technologie informacyjno-komunikacyjne, odpowiednich ze względu na indywidualne potrzeby rozwojowe i edukacyjne oraz możliwości psychofizyczne dzieci;
 
-2.  Wysokość opłat za pobyt dziecka w przedszkolu ustala dyrektor, szczegółowo określając ją w umowie z rodzicami. O zmianie wysokości opłaty dyrektor ma prawo poinformować rodziców
+2) współpraca z zespołem w zakresie opracowania i realizacji indywidualnego programu edukacyjno-terapeutycznego dziecka posiadającego orzeczenie o potrzebie kształcenia specjalnego, w tym zapewnienia mu pomocy psychologiczno-pedagogicznej;
 
-z miesięcznym wyprzedzeniem.
+3) wspieranie nauczycieli i innych specjalistów w:
 
-3.  Za godziny opieki wykraczające poza godziny pracy Przedszkola naliczana jest dodatkowa opłata.
+    - a) rozpoznawaniu przyczyn niepowodzeń edukacyjnych dzieci lub trudności w ich funkcjonowaniu, w tym barier i ograniczeń utrudniających funkcjonowanie wychowanka i jego uczestnictwo w życiu przedszkola,
 
-4.  Opłaty za pobyt dziecka w przedszkolu pobierane są z góry, do 5-ego każdego miesiąca.
+    - b) udzielaniu pomocy psychologiczno-pedagogicznej w bezpośredniej pracy z dzieckiem,
 
+    - c) dostosowaniu sposobów i metod pracy do indywidualnych potrzeb rozwojowych i edukacyjnych wychowanka oraz jego możliwości psychofizycznych,
 
+    - d) doborze metod, form kształcenia i środków dydaktycznych do potrzeb dzieci;
 
-§ 24
+4) udzielanie pomocy psychologiczno-pedagogicznej dzieciom, ich rodzicom i nauczycielom;
 
-1.  Do realizacji celów statutowych przedszkole posiada:
+5) współpraca w zakresie pomocy psychologiczno-pedagogicznej, w zależności od potrzeb, z innymi podmiotami funkcjonującymi na tym polu;
 
-1)  sale zajęć dla poszczególnych grup,
+6) przedstawianie radzie pedagogicznej propozycji w zakresie doskonalenia zawodowego nauczycieli przedszkola w zakresie zadań określonych dla pedagoga specjalnego.
 
-2)  łazienki dla dzieci i personelu,
 
-3)  szatnię,
+**§ 22**
 
-4)  zaplecze kuchenne,
+Do zadań logopedy zatrudnionego w przedszkolu, w tym w zakresie pomocy psychologiczno-pedagogicznej, należy w szczególności:
 
-5)  pomieszczenia administracyjno-gospodarcze.
+1) diagnozowanie logopedyczne, w tym prowadzenie badań przesiewowych w celu ustalenia stanu mowy oraz poziomu rozwoju językowego dzieci;
 
-2.  Dzieci mają możliwość codziennego korzystania z placu zabaw z odpowiednio dobranymi urządzeniami dostosowanymi do ich wieku.
+2) prowadzenie zajęć logopedycznych dla wychowanków oraz porad i konsultacji dla rodziców i nauczycieli w zakresie stymulacji rozwoju mowy dzieci i eliminowania jej zaburzeń;
+
+3) podejmowanie działań profilaktycznych zapobiegających powstawaniu zaburzeń komunikacji językowej we współpracy z rodzicami wychowanków;
+
+4) wspieranie nauczycieli i innych specjalistów w:
+
+    - a) rozpoznawaniu indywidualnych potrzeb rozwojowych i edukacyjnych oraz możliwości psychofizycznych dzieci w celu określenia ich mocnych stron, predyspozycji, zainteresowań i uzdolnień oraz przyczyn niepowodzeń edukacyjnych lub trudności w funkcjonowaniu, w tym barier i ograniczeń utrudniających funkcjonowanie dziecka i jego uczestnictwo w życiu przedszkola,
+
+    - b) udzielaniu pomocy psychologiczno-pedagogicznej.
+
+
+**§ 23**
+
+Do zadań terapeuty pedagogicznego zatrudnionego w przedszkolu, w tym w zakresie pomocy psychologiczno-pedagogicznej, należy w szczególności:
+
+1) prowadzenie badań diagnostycznych dzieci z zaburzeniami i odchyleniami rozwojowymi lub specyficznymi trudnościami w uczeniu się w celu rozpoznawania trudności oraz monitorowania efektów oddziaływań terapeutycznych;
+
+2) rozpoznawanie przyczyn utrudniających dzieciom aktywne i pełne uczestnictwo w życiu przedszkola;
+
+3) prowadzenie zajęć korekcyjno-kompensacyjnych oraz innych zajęć o charakterze terapeutycznym;
+
+4) podejmowanie działań profilaktycznych zapobiegających niepowodzeniom edukacyjnym dzieci, we współpracy z rodzicami uczniów;
+
+5) wspieranie nauczycieli i innych specjalistów w:
+
+    - a) rozpoznawaniu indywidualnych potrzeb rozwojowych i edukacyjnych oraz możliwości psychofizycznych wychowanków w celu określenia ich mocnych stron, predyspozycji, zainteresowań i uzdolnień oraz przyczyn niepowodzeń edukacyjnych lub trudności w funkcjonowaniu, w tym barier i ograniczeń utrudniających funkcjonowanie dziecka i jego uczestnictwo w życiu przedszkola,
+
+    - b) udzielaniu pomocy psychologiczno-pedagogicznej.
+
+
+**§ 24**
+
+1. W przedszkolu zatrudnia się personel pomocniczy, w tym pomoce nauczyciela.
+
+2. Ich zadaniem jest zapewnienie sprawnego działania przedszkola, utrzymanie obiektu i jego otoczenia w ładzie i czystości.
+
+3. Pomoce nauczyciela współpracują z nauczycielami w zakresie opieki i wychowania dzieci.
+
+4. Szczegółowy zakres obowiązków tych pracowników ustala organ prowadzący przedszkola.
+
+5. Do obowiązków pomocy nauczyciela należy w szczególności:
+
+    1) pełnienie czynności opiekuńczych i obsługowych w stosunku do wychowanków,
+
+    2) pomaganie nauczycielowi oddziału w przygotowaniu pomocy i rekwizytów do zajęć zabaw, ćwiczeń i gier,
+
+    3) czynne uczestnictwo w zajęciach i zabawach z dziećmi prowadzonych przez nauczyciela,
+
+    4) opieka nad dziećmi i organizowanie im zabaw i zajęć w sali lub na placu zabaw w czasie wolnym od zajęć dydaktycznych,
+
+    5) utrzymanie czystości, ładu i porządku w przydzielonych pomieszczeniach,
+
+    6) utrzymywanie w należytym stanie zabawek i pomocy /mycie, naprawy/,
+
+    7) przygotowywanie stołów do posiłków, podawanie posiłków, sprzątanie po nich,
+
+    8) dbanie o czystość sprzętu i zabawek na placu zabaw,
+
+    9) wykonywanie innych czynności poleconych przez dyrektora, wynikających z organizacji pracy placówki.
